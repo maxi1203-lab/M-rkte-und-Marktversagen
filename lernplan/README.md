@@ -1,10 +1,19 @@
 # 6-Wochen-Lernplan — Märkte und Marktversagen
 
-**Start:** 15.04.2026 &nbsp;·&nbsp; **Klausur (geschätzt):** ca. Ende Mai 2026
+**Start:** 15.04.2026 (nach nicht bestandener Klausur) &nbsp;·&nbsp; **Wiederholungsklausur:** ca. Ende Mai 2026
 **Prüferin:** A. Gantner (Univ. Innsbruck, IWW)
 
-> An die **tatsächliche VO-Struktur** angepasst (9 Einheiten, 14 HÜ) —
-> Schwerpunkt liegt auf **Spieltheorie** (VL 2–5 = 4 von 9 Einheiten).
+> **Ausgangslage:** Klausur 15.04.2026 nicht bestanden. Die 10 tatsächlich
+> geprüften Kernthemen sind dokumentiert in
+> [`fehleranalyse-klausur-april-2026.md`](fehleranalyse-klausur-april-2026.md)
+> (basierend auf [`../zusammenfassung/extern/mikrooekonomie-kernzusammenfassung.pdf`](../zusammenfassung/extern/mikrooekonomie-kernzusammenfassung.pdf)).
+>
+> Dieser 6-Wochen-Plan ist an die **tatsächliche VO-Struktur** angepasst
+> (9 Einheiten, 14 HÜ) und **priorisiert die in der gefailten Klausur
+> tatsächlich geprüften Themen** (Spieltheorie-Block + Monopol + Risiko +
+> Externalitäten). Sobald die Fehleranalyse konkretisiert ist, werden
+> Wochenschwerpunkte feingetunt.
+>
 > Siehe auch [`doppelcheck-workflow.md`](doppelcheck-workflow.md).
 
 ## Die 9 VO-Einheiten (aus den Transkripten)
