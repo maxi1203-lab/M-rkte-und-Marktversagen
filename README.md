@@ -80,6 +80,26 @@ Kurz, beschreibend, deutsch OK:
 
 ---
 
+## Doppel-Check-Workflow
+
+Kernstück für das Lernen: **Claude löst die Aufgabe selbst, vergleicht das
+mit deiner Handschrift, findet Abweichungen.** Details:
+[`lernplan/doppelcheck-workflow.md`](lernplan/doppelcheck-workflow.md).
+
+Auslöser pro Hausübung:
+
+```
+/hu-review 03
+```
+
+Drei Subagenten laufen (Solver → unabhängige Claude-Lösung,
+Scribe → Transkription deiner Handschrift, Reviewer → Diff). Danach
+zeigt Claude dir **zuerst nur die Abweichungs-Übersicht** und fragt, wo
+du einen gestuften Hinweis brauchst. Komplettlösung erst auf
+explizite Anforderung.
+
+---
+
 ## Workflow mit Claude Code
 
 ### 1. Neues Material hochladen

@@ -42,14 +42,39 @@ Sie definiert, **wie** Claude in diesem Repository arbeiten soll.
 
 ## Typische Aufgaben
 
-### A. Lösungs-Review
+### A. Lösungs-Review (Doppel-Check-Workflow)
 
-Input: eine `*-loesung.md` mit `Status: in-arbeit`.
-Claude:
-1. Liest Angabe + bisherige Lösung.
-2. Identifiziert **Fehler** (Rechenfehler, Konzeptfehler, fehlende Fälle).
-3. Gibt **gestufte Hinweise** (keine Komplettlösung, außer angefordert).
-4. Schlägt eine klarere Struktur vor (Annahmen → Modell → Lösung → Intuition).
+Für Hausübungen läuft der **Doppel-Check-Workflow** über drei Subagenten.
+Siehe `.claude/agents/` und `.claude/commands/hu-review.md`.
+
+Kurzversion:
+
+1. **Solver-Agent** (`.claude/agents/solver.md`): rechnet die Angabe
+   unabhängig durch, ohne Handschrift zu lesen.
+2. **Scribe-Agent** (`.claude/agents/scribe.md`): transkribiert die
+   handschriftliche Lösung, ohne selbst zu rechnen.
+3. **Reviewer-Agent** (`.claude/agents/reviewer.md`): vergleicht beide
+   Lösungen, klassifiziert Abweichungen, schreibt stufige Hinweise.
+4. **Coach-Claude** (du im Hauptchat): präsentiert dem User zuerst nur
+   die Abweichungs-Übersicht, dann gestuft Hinweise, erst zuletzt die
+   Komplettlösung — **nur auf explizite Anforderung**.
+
+Auslöser: `/hu-review NN` (siehe `.claude/commands/hu-review.md`).
+
+Output-Struktur pro HÜ:
+
+```
+hausuebungen/hausuebung-NN/
+├── angabe.pdf / angabe-textversion.txt
+├── loesung-handschrift.pdf
+├── loesung-handschrift-transkript.md  ← Scribe
+├── loesung-claude-unabhaengig.md      ← Solver
+├── review.md                           ← Reviewer
+└── lernblatt.md                        ← Coach (manuell nach Doppel-Check)
+```
+
+Harte Regel: **Solver darf die Handschrift nicht sehen**, sonst ist die
+Unabhängigkeit gebrochen und beide Fehler schlagen zusammen durch.
 
 ### B. Angabe-Rekonstruktion
 
@@ -133,6 +158,11 @@ Beispiele:
 - **Grep / Glob** zur Suche im Repo.
 - PDFs (Folien, Angaben, Musterlösungen) können per Read gelesen werden
   (ggf. seitenweise bei >10 Seiten).
+- Handschriftliche PDFs (iPad/GoodNotes) können Claude nur als **Bilder**
+  lesen — Textextraktion mit `pdftotext` liefert Müll. Workflow:
+  `pdftoppm -r 120 file.pdf /tmp/xyz/p -png` → dann `Read` pro Seite.
+- Agent-Delegation für: unabhängige Lösung (`solver`), Transkription
+  (`scribe`), Doppel-Check (`reviewer`). Siehe `.claude/agents/`.
 - Keine `cat`, `sed`, `find` via Bash — dedizierte Tools benutzen.
 
 ---
