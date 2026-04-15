@@ -1,36 +1,63 @@
-# Inventar Hausübungen — Stand nach Zerlegung der `klausurvorbereitung.pdf`
+# Inventar Hausübungen
 
-| HÜ | Offizieller Titel (aus altem Repo) | Angabe-PDF | Angabe-Text | Eigene Lösung (handschrift) | Seiten im Original |
-|----|------------------------------------|:---:|:---:|:---:|:---:|
-| 01 | Vollständige Konkurrenz und Monopol | ✓ | ✓ | ✓ | S. 1 |
-| 02 | Monopol, Elastizitäten              | —  | ✓ | ✓ | S. 2 |
-| 03 | Preisdiskr. + Simultane Spiele      | —  | ✓ | ✓ | S. 3 |
-| 04 | Simultane Spiele                    | —  | ✓ | ✓ | S. 4 |
-| 05 | Oligopol                            | —  | ✓ | ✓ | S. 5 |
-| 06 | Oligopol II                         | —  | ✓ | ✓ | S. 6 |
-| 07 | Dynamische Spiele                   | —  | ✓ | ✓ | S. 7 |
-| 08 | Stackelberg + Wh-Spiele             | —  | ✓ | ✓ | S. 8 |
-| 09 | Wh-Spiele + Kartelle                | —  | ✓ | ✓ | S. 9–10 |
-| 10 | Entscheidung unter Risiko           | —  | ✓ | ✓ | S. 11–12 |
-| 11 | Risiko + Lemons Market              | —  | ✓ | ✓ | S. 13 |
-| 12 | Asym. Info + Öffentliche Güter      | —  | ✓ | —  | — |
-| 13 | Öffentliche Güter                   | —  | ✓ | —  | — |
-| 14 | Externalitäten                      | —  | ✓ | —  | — |
+## Zwei Semester parallel
 
-## Anmerkung zum Mapping HÜ-Nummer ↔ Handschrift-Seite
+Dieses Repo enthält **zwei parallele Sätze Hausübungen** mit teils identischen
+Themen, aber **unterschiedlichen Zahlen / Aufgabenstellungen**:
 
-Die handschriftliche `klausurvorbereitung.pdf` nummeriert **Hausübung 1–11**.
-Das Matching zur offiziellen Nummerierung (HW01–HW14) ist per Topic-Heuristik
-vorgenommen — teilweise passen Themen nicht 1:1 (z.B. S. 4 "Hausübung 4"
-enthält Cournot-artige Aufgaben, obwohl HW04 offiziell "Simultane Spiele"
-heißt). **Bitte beim ersten Durchgang stichprobenartig prüfen**, ob
-`loesung-handschrift.pdf` tatsächlich die zur `angabe-textversion.txt`
-passende Lösung enthält. Bei Mismatch: Datei in den richtigen Ordner
-verschieben.
+- **`angabe-altsemester.pdf`** — älteres Semester; hierzu existieren deine
+  handschriftlichen Lösungen (`loesung-handschrift.pdf`).
+- **`angabe-aktuell.pdf`** — aktuelles Semester; noch keine Lösungen. Dies
+  ist der Fokus für die anstehende Klausur.
 
-Die Seiten 14–16 des Originals = Lösung zur Probeklausur 21.02.2024, liegen
-in `probeklausuren/probeklausur-01/loesung-handschrift.pdf`.
-Seiten 17–24 = weitere Altklausur-Ausarbeitungen, liegen in
-`probeklausuren/altklausuren/klausurtraining-handschrift.pdf`.
+Vorteil: Du kannst jedes Thema **zweimal** lösen — einmal mit Abgleich zu
+deiner Handschrift (Doppel-Check mit `reviewer`), einmal als frischer
+Solver-Lauf für die aktuellen Zahlen. Abweichungen zwischen den beiden
+Angaben zeigen, welche Varianten die Prüferin gerne einsetzt.
 
-Das ungeteilte Original liegt als Backup in `archiv/klausurvorbereitung-komplett.pdf`.
+## Übersicht
+
+| HÜ | Thema (aus altsemester-Titel) | altsemester-Angabe | aktuell-Angabe | Handschrift | Offiz. Lösung |
+|----|-------------------------------|:---:|:---:|:---:|:---:|
+| 01 | Vollständige Konkurrenz + Monopol | ✓ | ✓ | ✓ | — |
+| 02 | Monopol + Elastizitäten            | ✓ | ✓ | ✓ | — |
+| 03 | Preisdiskr. + Simultane Spiele     | ✓ | ✓ | ✓ | — |
+| 04 | Simultane Spiele                   | ✓ | ✓ | ✓ | — |
+| 05 | Oligopol                           | ✓ | ✓ | ✓ | — |
+| 06 | Oligopol II                        | ✓ | ✓ | ✓ | — |
+| 07 | Dynamische Spiele                  | ✓ | ✓ | ✓ | — |
+| 08 | Stackelberg + Wh-Spiele            | ✓ | ✓ | ✓ | — |
+| 09 | Wh-Spiele + Kartelle               | ✓ | ✓ | ✓ | — |
+| 10 | Entscheidung unter Risiko          | ✓ | ✓ | ✓ | — |
+| 11 | Risiko + Lemons                    | ✓ | ✓ | ✓ | — |
+| 12 | AsymInfo + Öff. Güter              | ✓ | ✓ | —  | — |
+| 13 | Öffentliche Güter                  | ✓ | ✓ | —  | — |
+| 14 | Externalitäten                     | ✓ | —  | —  | — |
+
+## Workflow pro HÜ
+
+Siehe [`../lernplan/doppelcheck-workflow.md`](../lernplan/doppelcheck-workflow.md).
+
+### Standard (altsemester mit Handschrift)
+
+```
+/hu-review NN           # benutzt angabe-altsemester.pdf + loesung-handschrift.pdf
+```
+
+### Aktuelles Semester (frisch)
+
+```
+/hu-review NN --current  # benutzt angabe-aktuell.pdf, ohne Handschrift-Abgleich
+```
+
+(Flag wird bei Bedarf in `.claude/commands/hu-review.md` ergänzt.)
+
+## Zum Mapping Handschrift ↔ HÜ-Nummer
+
+Die handschriftliche `klausurvorbereitung.pdf` nummerierte **Hausübung 1–11**
+und deckt nicht alle 14 offiziellen HÜ ab. Die Zuordnung wurde per
+Topic-Heuristik vorgenommen und ist möglicherweise **nicht 1:1**.
+Bei der ersten Nutzung des Doppel-Check-Workflows stichprobenartig prüfen,
+ob `loesung-handschrift.pdf` in `hausuebung-NN/` tatsächlich zur
+`angabe-altsemester.pdf` im gleichen Ordner gehört. Bei Mismatch:
+`loesung-handschrift.pdf` in den passenden Ordner verschieben.
