@@ -2,6 +2,8 @@
 
 > Datum: 15.04.2026
 > Status: nicht bestanden, Wiederholung in ca. 6 Wochen
+> **Selbstdiagnose:** *"Konnte eigentlich überhaupt nix"* → breitflächiger
+> Neustart bei den Grundlagen statt chirurgischer Fokus auf 2–3 Themen.
 > Eigene Zusammenfassung der Klausur-relevanten Themen:
 > [`../zusammenfassung/extern/mikrooekonomie-kernzusammenfassung.pdf`](../zusammenfassung/extern/mikrooekonomie-kernzusammenfassung.pdf)
 
@@ -38,18 +40,38 @@ Durchgang ausfüllen (einmal pro Thema: *sicher* / *unsicher* / *unklar*;
 Prio *hoch* / *mittel* / *niedrig*). Dann wissen wir, welche 3–4 Themen
 in Woche 1 priorisiert werden.
 
-## Erster Verdacht (ohne Schreibproben der Klausur)
+## Strategie-Interpretation "konnte nix"
 
-Aus der Gewichtung in der Kernzusammenfassung **und** dem, was in der
-Probeprüfung 21.02.2024 geprüft wurde, wäre Spieltheorie + Risiko + Monopol
-besonders relevant:
+Das ist weniger ein "welches Thema priorisieren" und mehr ein
+**"Grundlagen-Reset"**. Konkrete Konsequenzen:
 
-- **Sehr sicher Klausur-Stoff**: Nash-GG, dominante Strategien, Cournot,
-  Monopol-MR=MC, Elastizität, Sicherheitsäquivalent, Externalität.
-- **Weniger sichtbar aber drin**: Lemons-Markt, öffentliche Güter
-  Trittbrettfahrer.
-- **Typisches Prüfungsformat** (aus Probeprüfung): 6 Single-Choice
-  (je 4 Pkt) + 3 offene Aufgaben (je 8–10 Pkt) = 75 Min / 50 Pkt.
+- **Keine Abkürzungen bei Kapitel-Zusammenfassungen.** Jedes der 9 Kapitel
+  wird gelesen, nicht nur 3–4.
+- **HÜ-Durchläufe mit Solver+Scribe+Reviewer** auch dort, wo das Thema
+  "eigentlich klar" wirkt — oft stolpert man gerade dort. Reihenfolge
+  nach VO-Einheit (1 → 9), nicht nach Schwierigkeit.
+- **Erste Probeklausur SPÄT** (Woche 5), nicht in Woche 3 — erst wenn
+  genug Stoff steht. Vorher nur Einzelaufgaben.
+- **Zwei Durchgänge pro HÜ**: erst mit der altsemester-Angabe
+  (Handschrift-Abgleich), dann mit der aktuell-Angabe (frischer Solver).
+- **Formelzettel erstellen** (`zusammenfassung/formelsammlung/`) — bei
+  "nix gekonnt" fehlt oft der abrufbare Werkzeugkasten, nicht das
+  Verständnis.
+
+### Typisches Prüfungsformat (aus Probeprüfung 21.02.2024)
+
+- 75 Min / 50 Punkte
+- **Teil 1 — 6 Single Choice** (je 4 Pkt, 24 Pkt gesamt):
+  Monopol-Gewinn, Erwartungsnutzen, konstante Preiselastizität,
+  dominante Strategien, Preisdiskriminierung 1. Grades, Sicherheitsäquivalent.
+- **Teil 2 — 3 offene Aufgaben** (26 Pkt): Cournot + Kollusion,
+  simultan vs. sequentiell, Windkraft-Hotel-Externalität.
+
+### Klausur-thematische Verteilung (SC + offen)
+
+Aus dem obigen Muster: **Monopol + Risiko + Spieltheorie + Externalität** sind
+die vier Säulen. Öff. Güter und Asym. Info eher SC-relevant. Das heißt:
+**diese vier müssen 100% sitzen**, bevor wir die anderen zwei vertiefen.
 
 ## Fragenkatalog für die Retrospektive (wenn du magst)
 
