@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klausur-Trainer · Märkte & Marktversagen</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700&family=IBM+Plex+Mono:wght@400;500&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf8f5;--fg:#1a1a1a;--accent:#c0392b;--card:#fff;--border:#e0dcd5;--muted:#8a8477;--code:#f4f0eb;--green:#27ae60;--blue:#2980b9;--reveal:#fffde7;--var:#f3e8ff;--vb:#c9a5e8}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;font-size:15.5px}.w{max-width:800px;margin:0 auto;padding:20px 18px 100px}header{text-align:center;padding:40px 0 28px;border-bottom:2px solid var(--fg)}header h1{font-family:'Crimson Pro',serif;font-size:2.2rem;font-weight:600;letter-spacing:-1px}header .sub{color:var(--muted);font-family:'IBM Plex Mono',monospace;font-size:.72rem;margin-top:4px}header .ct{margin-top:10px;font-size:.82rem;color:#666}header .ct b{color:var(--accent)}nav{position:sticky;top:0;background:var(--bg);z-index:100;padding:10px 0;border-bottom:1px solid var(--border);margin-bottom:28px}.pills{display:flex;gap:5px;overflow-x:auto;scrollbar-width:none}.pills::-webkit-scrollbar{display:none}.pill{padding:5px 12px;border-radius:18px;border:1px solid var(--border);background:var(--card);font-size:.68rem;font-family:'IBM Plex Mono',monospace;cursor:pointer;white-space:nowrap;transition:all .2s;color:var(--fg);text-decoration:none}.pill:hover,.pill.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}.sec{margin-bottom:44px;scroll-margin-top:90px}.sec h2{font-family:'Crimson Pro',serif;font-size:1.55rem;font-weight:600;color:var(--accent);margin-bottom:2px}.tag{font-family:'IBM Plex Mono',monospace;font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:14px;display:block}.rc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;margin:14px 0}.rc h3{font-size:.95rem;font-weight:700;margin-bottom:8px}.rc ol{padding-left:22px}.rc li{margin-bottom:6px;font-size:.9rem}.fm{background:var(--code);border-left:3px solid var(--accent);padding:10px 14px;border-radius:0 8px 8px 0;font-family:'IBM Plex Mono',monospace;font-size:.82rem;margin:10px 0;overflow-x:auto;line-height:1.8}.ex{background:#f0f7ff;border:1px solid #c8ddf0;border-radius:10px;padding:18px 20px;margin:12px 0}.ex h4{font-size:.88rem;font-weight:700;color:var(--blue);margin-bottom:4px}.src{font-family:'IBM Plex Mono',monospace;font-size:.6rem;color:var(--muted);margin-bottom:8px}.ex p,.vr p{font-size:.9rem;margin-bottom:4px}.vr{background:var(--var);border:1px solid var(--vb);border-radius:10px;padding:18px 20px;margin:12px 0}.vr h4{font-size:.88rem;font-weight:700;color:#7c3aed;margin-bottom:4px}.vr h4::before{content:"🔄 "}.btn{background:none;border:2px solid var(--green);color:var(--green);padding:6px 16px;border-radius:7px;cursor:pointer;font-family:'IBM Plex Sans',sans-serif;font-weight:600;font-size:.8rem;margin-top:8px;transition:all .2s}.btn:hover{background:var(--green);color:#fff}.sol{background:var(--reveal);border:1px solid #e8e0a0;border-radius:8px;padding:16px;margin-top:10px;display:none;line-height:1.75;font-size:.9rem}.sol.open{display:block;animation:fi .3s ease}.s{margin-bottom:10px;padding-left:14px;border-left:2px solid var(--green)}.s b{color:var(--green)}.vs{background:#f5f0ff;border:1px solid var(--vb)}.vs .s{border-left-color:#7c3aed}.vs .s b{color:#7c3aed}@keyframes fi{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}.tip{background:#fff3e0;border-left:3px solid #e67e22;padding:8px 14px;border-radius:0 8px 8px 0;margin:10px 0;font-size:.85rem}.tip::before{content:"💡 "}.badge{display:inline-block;background:var(--accent);color:#fff;font-family:'IBM Plex Mono',monospace;font-size:.55rem;padding:2px 7px;border-radius:3px;text-transform:uppercase;letter-spacing:.5px;vertical-align:middle}@media(max-width:600px){header h1{font-size:1.7rem}.fm{font-size:.75rem}body{font-size:14.5px}}
+</style>
+</head>
+<body>
+<div class="w">
+<header>
+<h1>Kompletter Klausur-Trainer</h1>
+<div class="sub">Märkte & Marktversagen · Uni Innsbruck · Prof. Gärtner</div>
+<div class="ct">Alle <b>~50 Aufgaben</b> aus 14 HÜs + Probeklausur · mit Lösungswegen + <b>🔄 Variationen</b></div>
+</header>
+<nav><div class="pills">
+<a class="pill" href="#t1">①Monopol</a><a class="pill" href="#t2">②Elastizität</a><a class="pill" href="#t3">③Preisdiskrim.</a><a class="pill" href="#t4">④Matrizen</a><a class="pill" href="#t5">⑤Cournot</a><a class="pill" href="#t6">⑥Bertrand</a><a class="pill" href="#t7">⑦Spielbäume</a><a class="pill" href="#t8">⑧Stackelberg</a><a class="pill" href="#t9">⑨Wdh.Spiele</a><a class="pill" href="#t10">⑩Risiko</a><a class="pill" href="#t11">⑪Lemons</a><a class="pill" href="#t12">⑫Signaling</a><a class="pill" href="#t13">⑬Öff.Güter</a><a class="pill" href="#t14">⑭External.</a>
+</div></nav>
+
+<!-- Die Datei wird zu lang für eine einzelne Nachricht. Hier ist der vollständige Inhalt -->
+<!-- Ich generiere die komplette Datei mit allen Aufgaben -->
+
+<div id="content"></div>
+</div>
+
+<script>
+function T(b){const s=b.nextElementSibling;s.classList.toggle('open');b.textContent=s.classList.contains('open')?'Verbergen':'Lösung'}
+document.querySelectorAll('.pill').forEach(p=>p.addEventListener('click',function(){document.querySelectorAll('.pill').forEach(x=>x.classList.remove('on'));this.classList.add('on')}));
+
+// All exercises data
+const data = [
+// ═══ TYPE 1: MONOPOL ═══
+{type:1,title:"① Monopol-Gewinnmaximierung",tag:"HÜ 1.2 · HÜ 2.1 · Klausur 1.1, 1.3",
+recipe:`<ol><li><b>Inverse Nachfrage:</b> Q(P) → nach P umstellen → P(Q)</li><li><b>TR = P(Q)·Q</b>, dann <b>MR = dTR/dQ</b></li><li><b>MC = dTC/dQ</b></li><li><b>MR = MC</b> → Q* auflösen</li><li>Q* in P(Q) → P*</li><li><b>π = P*·Q* − TC(Q*)</b></li></ol>`,
+formula:`P(Q) = a − bQ → MR = a − 2bQ | MR = MC → Q* → P* → π`,
+exercises:[
+{title:"Klausur 1.1",src:"Probeklausur · 4P",badge:1,
+text:`Q = 250 − 0.5P, TC = 50Q + 5.5Q². Max. Monopolgewinn?<br><i>a) 6750  b) 7070  c) 7500  d) 7750</i>`,
+sol:`<div class="s"><b>1.</b> P = 500 − 2Q</div><div class="s"><b>2.</b> MR = 500 − 4Q, MC = 50 + 11Q</div><div class="s"><b>3.</b> 500−4Q = 50+11Q → 15Q = 450 → <b>Q* = 30</b></div><div class="s"><b>4.</b> P* = 440. π = 13200 − 1500 − 4950 = <b>6750 ✓ (a)</b></div>`},
+{title:"Klausur 1.3",src:"Probeklausur · 4P",badge:1,
+text:`Q = 400P⁻², TC = 0.625Q². Gewinnmax. Menge?<br><i>a) 0  b) 2  c) 4  d) 8</i>`,
+sol:`<div class="s"><b>1.</b> P = 20Q⁻⁰·⁵. TR = 20Q⁰·⁵. MR = 10Q⁻⁰·⁵</div><div class="s"><b>2.</b> MC = 1.25Q</div><div class="s"><b>3.</b> 10/√Q = 1.25Q → Q^(3/2) = 8 → <b>Q* = 4 ✓ (c)</b></div>`},
+{title:"HÜ 2.1: Monopol + Fixkosten",src:"Hausübung 2",
+text:`Q(P) = 20−P, Fixkosten F, MC = 2. (a) Max. Gewinn? (b) Für welche F aktiv? (c) Steilere Nachfrage Q=20−2P?`,
+sol:`<div class="s"><b>(a)</b> P=20−Q. MR=20−2Q=MC=2 → Q*=9, P*=11. π = <b>81−F</b></div><div class="s"><b>(b)</b> Aktiv wenn <b>F ≤ 81</b></div><div class="s"><b>(c)</b> P=10−Q/2. MR=10−Q=2 → Q*=8, P*=6. π = <b>32−F</b> (weniger!)</div>`},
+{title:"HÜ 1.2: Presto Smoothies",src:"Hausübung 1",
+text:`P = 60−0.005Q, TC = 1.000.000+5Q+0.0005Q². Gewinnmax?`,
+sol:`<div class="s"><b>MR=MC:</b> 60−0.01Q = 5+0.001Q → Q*=5000, P*=35</div><div class="s"><b>π</b> = 175.000 − 1.037.500 = <b>−862.500</b> (Verlust wegen hoher Fixkosten!)</div>`},
+{title:"Variation",src:"🔄 Andere Zahlen",isVar:1,
+text:`Q = 300−P, TC = 40Q+3Q². Max. Gewinn?`,
+sol:`<div class="s">P=300−Q. MR=300−2Q. MC=40+6Q.</div><div class="s">300−2Q=40+6Q → 8Q=260 → Q*=32.5, P*=267.5</div><div class="s">π = 8693.75−1300−3168.75 = <b>4225</b></div>`},
+{title:"Variation",src:"🔄 Andere Zahlen",isVar:1,
+text:`Q(P)=30−P, Fixkosten F, MC=4. Gewinn? Für welche F aktiv?`,
+sol:`<div class="s">P=30−Q. MR=30−2Q=MC=4 → Q*=13, P*=17. π=<b>169−F</b>. Aktiv: <b>F≤169</b></div>`}
+]},
+
+// ═══ TYPE 2: ELASTIZITÄT ═══
+{type:2,title:"② Elastizität & Markup",tag:"HÜ 2.2–2.5",
+formula:`ε = (dQ/dP)·(P/Q) | Markup = 1/|ε| | P* = MC/(1−1/|ε|) | Erlösmax bei |ε|=1`,
+exercises:[
+{title:"HÜ 2.2: Wodka",src:"Hausübung 2",
+text:`Preis 300→350 NOK, Konsum 525→475 Liter. ε?`,
+sol:`<div class="s">ΔQ/Q = −50/525. ΔP/P = 50/300. ε = −0.0952/0.1667 ≈ <b>−0.571</b> (unelastisch)</div>`},
+{title:"HÜ 2.3: Elastizitäten",src:"Hausübung 2",
+text:`(a) Q=600−2P+2I, P=50, I=500. (b) Q=P⁻¹·³·I⁰·⁵`,
+sol:`<div class="s"><b>(a)</b> dQ/dP=−2. Q=1500. ε=−2·50/1500 = <b>−1/15</b></div><div class="s"><b>(b)</b> ε = <b>−1.3</b> (konstant! Exponent = Elastizität bei Potenzfunktion)</div>`},
+{title:"HÜ 2.4: Erlösmax",src:"Hausübung 2",
+text:`Q=380−19P. Erlösmax. Preis? |ε|=1 bei welchem P?`,
+sol:`<div class="s">P=20−Q/19. MR=20−2Q/19=0 → Q=190, <b>P=10</b>, TR=1900</div><div class="s">|ε|=1: 19P=380−19P → <b>P=10</b> → Erlösmax. ist IMMER bei |ε|=1!</div>`},
+{title:"HÜ 2.5: Markup-Tabelle",src:"Hausübung 2",
+text:`Optimaler Markup für ε = −1.2, −1.4, −1.8, −2.5, −5, −11, −21?`,
+sol:`<div class="s">−1.2→<b>83%</b> | −1.4→<b>71%</b> | −1.8→<b>56%</b> | −2.5→<b>40%</b> | −5→<b>20%</b> | −11→<b>9%</b> | −21→<b>4.8%</b></div><div class="s">Je elastischer → kleiner Markup. Logisch: Konsumenten reagieren stark!</div>`},
+{title:"Variation",src:"🔄",isVar:1,
+text:`Q=500−25P. Erlösmax. Preis? Markup bei MC=8?`,
+sol:`<div class="s">P=20−Q/25. MR=20−2Q/25=0 → Q=250, P=10. ε bei P=10: −25·10/250=−1 ✓</div><div class="s">P*=MC/(1−1/|ε|). Bei P=10: ε=−1, Markup=100%. Aber bei MC=8: P*=8/(1−1/|ε|). Brauche ε am Optimum: MR=MC → 20−2Q/25=8 → Q=150, P=14. ε=−25·14/150=−2.33. Markup=1/2.33=<b>43%</b></div>`}
+]},
+
+// ═══ TYPE 3: PREISDISKRIMINIERUNG ═══
+{type:3,title:"③ Preisdiskriminierung",tag:"HÜ 3.1 · Klausur 1.5",
+exercises:[
+{title:"HÜ 3.1: Kino",src:"Hausübung 3",
+text:`900 Studis (ZB=5€), 100 Profs (ZB=10€), MC=3€. (a) P=8? (b) Gewinnmax. Einheitspreis? (c) PD 3. Grades?`,
+sol:`<div class="s"><b>(a)</b> P=8: nur 100 Profs. π=500. CS=200.</div><div class="s"><b>(b)</b> P=5: alle 1000. π=(5−3)·1000=<b>2000</b>. P=10: π=700. → P*=5!</div><div class="s"><b>(c)</b> PD: 900·(5−3)+100·(10−3) = 1800+700 = <b>2500</b></div>`},
+{title:"Klausur 1.5: PD 1. Grades",src:"Probeklausur",badge:1,
+text:`Bei PD 1. Grades: Produzentenrente = ?`,
+sol:`<div class="s">PD 1. Grades: Monopolist schöpft ALLE CS ab. PS = gesamte Fläche unter P(Q) über MC = Dreieck ½·Basis·Höhe. Aus dem Graphen ablesen!</div>`},
+{title:"Variation",src:"🔄",isVar:1,
+text:`500 Studis (ZB=8€), 200 Profs (ZB=15€), MC=4€. Vergleich?`,
+sol:`<div class="s">P=8: alle 700. π=4·700=<b>2800</b>. P=15: nur 200. π=11·200=<b>2200</b>. PD: 500·4+200·11=<b>4200</b></div>`}
+]},
+
+// ═══ TYPE 4: SPIELMATRIZEN ═══
+{type:4,title:"④ Simultane Spiele: Matrix",tag:"HÜ 3.2–3.5 · HÜ 4.1–4.4 · Klausur 1.4, 2.2a",
+recipe:`<ol><li>Dominante Strategien suchen</li><li>Dominierte Strategien eliminieren</li><li>Beste Antworten markieren: <b>pro Spalte</b> Sp.1, <b>pro Zeile</b> Sp.2</li><li>Nash-GGW = Zelle mit beiden Markierungen</li></ol>`,
+exercises:[
+{title:"Klausur 1.4",src:"Probeklausur",badge:1,
+text:`A: erhöhen/senken. B: eintreten/nicht. (5,50)(200,0)/(20,−50)(50,0). Dominante Strategien?`,
+sol:`<div class="s"><b>A:</b> B eintritt→senken(20>5). B nicht→erhöhen(200>50). <b>KEINE dom. Strat.</b></div><div class="s"><b>B:</b> A erhöht→eintreten(50>0). A senkt→nicht(0>−50). <b>KEINE dom. Strat.</b></div><div class="s"><b>Antwort: (e) Keiner</b></div>`},
+{title:"Klausur 2.2a",src:"Probeklausur",badge:1,
+text:`F1/F2: niedrig/hoch. (50,70)(20,100)/(70,30)(30,50). Nash?`,
+sol:`<div class="s">F1: hoch dominant (70>50, 30>20). F2: hoch dominant (100>70, 50>30).</div><div class="s"><b>Nash: (hoch,hoch)=(30,50)</b>. Gefangenendilemma-Struktur.</div>`},
+{title:"HÜ 3.2: Stern vs. Spiegel",src:"Hausübung 3",
+text:`Krankheit/Budget. (35,35)(70,30)/(30,70)(15,15).`,
+sol:`<div class="s">Krankheit dominant für beide. <b>GGW: (Krankheit,Krankheit)=(35,35)</b></div>`},
+{title:"HÜ 3.5: Doping",src:"Hausübung 3",
+text:`Doping/Kein. (−1,−1)(2,−2)/(−2,2)(1,1).`,
+sol:`<div class="s">Doping dominant (−1>−2, 2>1). <b>GGW: (Doping,Doping)=(−1,−1)</b>. Gefangenendilemma!</div>`},
+{title:"HÜ 4.2: Iterativ 3×3",src:"Hausübung 4",
+text:`F1: 1.00/1.35/1.65. F2: 0.95/1.30/1.55. (3,6)(7,1)(6,4)/(5,1)(8,2)(9,3)/(6,0)(6,2)(8,5).`,
+sol:`<div class="s">F2: 1.30 dominiert von 1.55 (4>1, 3>2, 5>2). Eliminiere 1.30.</div><div class="s">Reduziert: F1: 1.00 dominiert von 1.35 (5>3, 9>6). Eliminiere 1.00.</div><div class="s">Nash im reduzierten Spiel: <b>(1.65, 1.55)=(8,5)</b></div>`},
+{title:"HÜ 4.4: Alte Dame",src:"Hausübung 4",
+text:`Helfen kostet 1, Erfolg=3. Matrix + Nash?`,
+sol:`<div class="s">Matrix: (2,2)(2,3)/(3,2)(0,0). Nash: <b>(H,NH)=(2,3) und (NH,H)=(3,2)</b> — zwei asymmetrische GGW.</div>`},
+{title:"Variation",src:"🔄",isVar:1,
+text:`Matrix: (4,3)(2,1)/(6,2)(3,5). Nash-GGW?`,
+sol:`<div class="s">Sp.1 BA: Spalte L→max(4,6)=U. Spalte R→max(2,3)=U. → U dominant für Sp.1.</div><div class="s">Sp.2 BA: Zeile U→max(2,5)=R. <b>Nash: (U,R)=(3,5)</b></div>`}
+]},
+
+// ═══ TYPE 5: COURNOT ═══
+{type:5,title:"⑤ Cournot-Duopol",tag:"HÜ 5.1–5.3 · Klausur 2.1 — WICHTIGSTER TYP!",
+recipe:`<ol><li>Π_i = P(Q)·q_i − C_i(q_i), Q=q₁+q₂</li><li>FOC: ∂Π/∂q_i = 0 (q_j konstant!)</li><li>→ Reaktionsfunktion q_i*(q_j)</li><li>Beide RF lösen → GGW</li><li>Kollusion: Monopolmenge/2, prüfen ob GGW</li></ol>`,
+formula:`RF: q_i*=(a−c)/(2b)−q_j/2 | GGW: q_i*=(a−c)/(3b) | Kollusion: q_i^K=(a−c)/(4b)`,
+exercises:[
+{title:"Klausur 2.1: Cournot komplett",src:"Probeklausur · 10P!!",badge:1,
+text:`P=20−2Q, C_i=4q_i. (a) RF+GGW (b) Kollusion (c) Grafik + Stabilität`,
+sol:`<div class="s"><b>(a)</b> Π₁=(20−2q₁−2q₂)q₁−4q₁. FOC: 16−4q₁−2q₂=0 → <b>q₁*=4−0.5q₂</b></div><div class="s">GGW: q=4−0.5(4−0.5q) → 0.75q=2 → <b>q*=8/3≈2.67</b>. P*≈9.33. π≈<b>14.22</b></div><div class="s"><b>(b)</b> Monopol: 20−4Q=4 → Q^M=4, q^K=2. P=12. π^K=<b>16</b></div><div class="s"><b>(c)</b> q₁*(2)=3>2 → Abweichungsanreiz! <b>Kollusion ist KEIN GGW.</b></div>`},
+{title:"HÜ 5.2: Cournot + Steuer",src:"Hausübung 5",
+text:`P=65−2Q, MC₁=5, MC₂=15 (nach Steuer). GGW?`,
+sol:`<div class="s">RF₁: q₁=15−q₂/2. RF₂: q₂=12.5−q₁/2.</div><div class="s">q₁=15−(12.5−q₁/2)/2 → 0.75q₁=8.75 → <b>q₁≈11.67, q₂≈6.67</b></div>`},
+{title:"HÜ 5.3: Cournot + Fixkosten",src:"Hausübung 5",
+text:`P=48−4Q, TC_i=8q_i+5. GGW?`,
+sol:`<div class="s">RF: q_i*=5−q_j/2. GGW: 1.5q=5 → <b>q*=10/3≈3.33</b>. P≈21.33. π≈<b>39.44</b></div><div class="s">Kollusion: Q^M=5, q^K=2.5. π^K=<b>45</b> (besser, aber instabil!)</div>`},
+{title:"Variation",src:"🔄",isVar:1,
+text:`P=30−Q, C_i=6q_i. GGW + Kollusion?`,
+sol:`<div class="s">RF: q_i*=12−q_j/2. GGW: q*=8, P=14, π=<b>64</b></div><div class="s">Kollusion: Q^M=12, q^K=6, P=18, π^K=<b>72</b>. Abweichung: q*(6)=9>6!</div>`}
+]},
+
+// ═══ TYPE 6: BERTRAND ═══
+{type:6,title:"⑥ Bertrand",tag:"HÜ 6.1–6.2",
+formula:`Homogen: P*=MC | Differenziert: max Π_i nach p_i → RF p_i*(p_j) → GGW`,
+exercises:[
+{title:"HÜ 6.1: Bertrand homogen",src:"Hausübung 6",
+text:`P=14−Q, MC=2. Kollusionspreis vs. Bertrand-GGW?`,
+sol:`<div class="s">Kollusion: Q^M=6, P=8, π_je=18. Bertrand: <b>P*=MC=2, π=0</b> (Paradoxon!)</div>`},
+{title:"HÜ 6.2: Bertrand differenziert",src:"Hausübung 6",
+text:`Q_A=100−2p_A+p_B, MC_A=10. Q_B=100−2p_B+p_A, MC_B=15.`,
+sol:`<div class="s">RF_A: p_A*=30+p_B/4. RF_B: p_B*=32.5+p_A/4.</div><div class="s">Lösen: <b>p_A≈40.67, p_B≈42.67</b></div>`},
+{title:"Variation",src:"🔄",isVar:1,
+text:`Q_A=80−3p_A+p_B, MC=5 für beide. GGW-Preise?`,
+sol:`<div class="s">Π_A=(p_A−5)(80−3p_A+p_B). FOC: 80−6p_A+p_B+15=0 → p_A=(95+p_B)/6.</div><div class="s">Symmetrie: p=(95+p)/6 → 5p=95 → <b>p*=19</b></div>`}
+]},
+
+// ═══ TYPE 7: SPIELBÄUME ═══
+{type:7,title:"⑦ Dynamische Spiele & Rückwärtsinduktion",tag:"HÜ 6.3 · HÜ 7 · Klausur 2.2b",
+recipe:`<ol><li>Spielbaum zeichnen</li><li>Strategien benennen (vollständiger Plan!)</li><li>RI: am Ende anfangen, beste Antwort, zurückrechnen</li><li>Für Nash vs. SPNE: Normalform → Matrix</li></ol>`,
+exercises:[
+{title:"Klausur 2.2b",src:"Probeklausur · 5P",badge:1,
+text:`F1 wählt erst niedrig/hoch, F2 sieht das. (50,70)(20,100)/(70,30)(30,50). SPNE?`,
+sol:`<div class="s">RI: F1=niedrig → F2 wählt hoch (100>70). F1=hoch → F2 wählt hoch (50>30).</div><div class="s">F1: niedrig→20, hoch→30 → hoch. <b>SPNE: {hoch, (hoch,hoch)} = (30,50)</b></div>`},
+{title:"HÜ 7.3: Nash vs. SPNE",src:"Hausübung 7",
+text:`S1: Oben/Unten. Oben→S2: a(0,0)/b(1,−1). Unten→(3,−3).`,
+sol:`<div class="s">Normal: (O,a)=(0,0), (O,b)=(1,−1), (U,a)=(3,−3), (U,b)=(3,−3)</div><div class="s">Nash: {U,a} und {U,b}. SPNE: RI → S2 wählt b. S1: O→1 vs U→3 → U. <b>SPNE: {U,b}</b></div>`}
+]},
+
+// ═══ TYPE 8: STACKELBERG ═══
+{type:8,title:"⑧ Stackelberg",tag:"HÜ 8.1–8.2",
+formula:`Stufe 2: Folger-RF wie Cournot | Stufe 1: RF in Π₁ einsetzen, max nach q₁`,
+exercises:[
+{title:"HÜ 8.1",src:"Hausübung 8",
+text:`P=200−2Q, MC=20. Stackelberg-GGW?`,
+sol:`<div class="s">Folger: q₂*=45−q₁/2. Führer: Π₁=(90−q₁)q₁. q₁*=45, q₂*=22.5.</div><div class="s">P=65. π₁=<b>2025</b>, π₂=<b>1012.5</b></div>`},
+{title:"Variation",src:"🔄",isVar:1,
+text:`P=100−Q, MC=10. Stackelberg-GGW?`,
+sol:`<div class="s">q₂*=45−q₁/2. Π₁=(45−q₁/2)q₁. q₁*=45, q₂*=22.5. P=32.5. π₁=<b>1012.5</b>, π₂=<b>506.25</b></div>`}
+]},
+
+// ═══ TYPE 9: WIEDERHOLTE SPIELE ═══
+{type:9,title:"⑨ Wiederholte Spiele & Kartelle",tag:"HÜ 8.3 · HÜ 9.1–9.3",
+formula:`δ_krit ≥ (D−C)/(D−P) | Koop: C/(1−δ) | Abw: D + δP/(1−δ)`,
+exercises:[
+{title:"HÜ 8.3: Fischer endlich",src:"Hausübung 8",
+text:`(57,57)(72,20)/(20,72)(64,64). 4 Jahre. GGW?`,
+sol:`<div class="s">hoch dominant. RI: jedes Jahr (57,57). Gesamt: <b>4·57=228</b></div>`},
+{title:"HÜ 9.2: Tankstellen-Kartell",src:"Hausübung 9",
+text:`Bertrand: P=14−Q, MC=2. Kartellpreis=8. Trigger. Min δ?`,
+sol:`<div class="s">Koop: π=18/Periode. Abw: π=36 einmalig. 18/(1−δ)≥36 → <b>δ≥1/2</b></div>`},
+{title:"HÜ 9.2c: N Tankstellen",src:"Hausübung 9",
+text:`N≥2 Tankstellen, gleiche Aufteilung. δ_krit(N)?`,
+sol:`<div class="s">(π_M/N)/(1−δ) ≥ π_M → <b>δ ≥ (N−1)/N</b>. Mehr Firmen → schwieriger!</div>`},
+{title:"HÜ 9.3: Fischer unendlich",src:"Hausübung 9",
+text:`Fischer δ=0.6. Trigger-Strategie. Kooperation lohnt sich?`,
+sol:`<div class="s">V_koop=64/0.4=160. V_abw=72+0.6·57/0.4=157.5. <b>160>157.5 → Kooperation lohnt!</b></div><div class="s">δ_krit=(72−64)/(72−57)=8/15≈0.533 < 0.6 ✓</div>`}
+]},
+
+// ═══ TYPE 10: RISIKO ═══
+{type:10,title:"⑩ Risiko",tag:"HÜ 10–11 · Klausur 1.2, 1.6 — KLAUSUR-KLASSIKER",
+recipe:`<ol><li>E[L] = Σ p_i·x_i</li><li>E[u(L)] = Σ p_i·u(x_i)</li><li>CE: u(CE) = E[u(L)] → auflösen</li><li>RP = E[L] − CE</li></ol>`,
+exercises:[
+{title:"Klausur 1.6",src:"Probeklausur · 4P",badge:1,
+text:`U(w)=10w⁰·⁵. 0.4→25€, 0.6→100€. CE?`,
+sol:`<div class="s">E[U]=0.4·50+0.6·100=80. CE: 10√CE=80 → <b>CE=64 ✓ (a)</b></div>`},
+{title:"Klausur 1.2",src:"Probeklausur · 4P",badge:1,
+text:`Indifferent: 100 sicher ↔ [0.6→0, 0.4→200]. U(0)=20, U(200)=220. U(100)?`,
+sol:`<div class="s">U(100) = E[U(L)] = 0.6·20+0.4·220 = 12+88 = <b>100 ✓ (c)</b></div>`},
+{title:"HÜ 10.1: Nico",src:"Hausübung 10+11",
+text:`u=√x. 90%→10000, 10%→100. E[L], E[u], CE, RP? Bürojob 8500?`,
+sol:`<div class="s">E[L]=9010. E[u]=91. CE=8281. RP=729. u(8500)≈92.2>91 → <b>Bürojob!</b></div>`},
+{title:"HÜ 10.2: Betty",src:"Hausübung 10",
+text:`Sicher 100€ vs. [75%→300, 25%→−500]. Betty wählt Lotterie. Risikoeinstellung?`,
+sol:`<div class="s">E[L]=100 = sichere Zahlung. Wählt trotzdem Lotterie → <b>risikofreudig</b></div>`},
+{title:"HÜ 11.1: Versicherung",src:"Hausübung 11",
+text:`Nico: Versicherung zahlt 9900 bei Verletzung. Max. Preis V?`,
+sol:`<div class="s">Mit Vers.: immer 10000−V. u(10000−V)≥91 → 10000−V≥8281 → <b>V≤1719</b></div>`},
+{title:"Variation",src:"🔄",isVar:1,
+text:`u=√x. 80%→16000, 20%→400. CE? Job 12000?`,
+sol:`<div class="s">E[u]=0.8·126.5+0.2·20=105.2. CE=105.2²≈11067. u(12000)≈109.5>105.2 → <b>Job!</b></div>`}
+]},
+
+// ═══ TYPE 11: LEMONS ═══
+{type:11,title:"⑪ Lemons-Markt",tag:"HÜ 11.2 · HÜ 12.1",
+exercises:[
+{title:"HÜ 11.2",src:"Hausübung 11",
+text:`10 gute (Res=700) + 10 schlechte (Res=200). Käufer: gut=1200, schlecht=400.`,
+sol:`<div class="s">P<200: 0. 200≤P<700: 10 Lemons. P≥700: alle 20.</div><div class="s">EW bei alle: 0.5·1200+0.5·400=800>700 → alle angeboten → <b>GGW bei P∈[700,800]</b></div>`},
+{title:"HÜ 12.1: Roststadt",src:"Hausübung 12",
+text:`100 gute (Res=1100) + 100 schlechte (Res=300). Käufer: gut=2100, schlecht=400.`,
+sol:`<div class="s">Alle angeboten → EW=1250>1100 → möglich. Aber nur Lemons → EW=400>300 → auch GGW!</div><div class="s"><b>Antwort c) nur Lemons für 400€</b> ist das robustere GGW.</div>`}
+]},
+
+// ═══ TYPE 12: SIGNALING ═══
+{type:12,title:"⑫ Signaling (Spence)",tag:"HÜ 12.2",
+formula:`U-Typ: Lohn_low > Lohn_high − K_U·n | F-Typ: Lohn_high − K_F·n > Lohn_low`,
+exercises:[
+{title:"HÜ 12.2",src:"Hausübung 12",
+text:`Lohn F=70k, U=50k. Kosten F=2k, U=3k. n=5 anreizkompatibel?`,
+sol:`<div class="s">U: n>20k/3k=6.67 → n≥7. F: n<20k/2k=10 → n≤9. → <b>7≤n≤9. n=5 NICHT ok!</b></div>`},
+{title:"Variation",src:"🔄",isVar:1,
+text:`Lohn F=90k, U=60k. Kosten F=4k, U=7k. n*?`,
+sol:`<div class="s">U: n>30k/7k=4.29 → n≥5. F: n<30k/4k=7.5 → n≤7. <b>5≤n≤7</b></div>`}
+]},
+
+// ═══ TYPE 13: ÖFFENTLICHE GÜTER ═══
+{type:13,title:"⑬ Öffentliche Güter",tag:"HÜ 12.3 · HÜ 13.1–13.3",
+formula:`Nash: jeder max. eigenen Nutzen | Samuelson: Σ MRS = MC | Privat < Optimal`,
+exercises:[
+{title:"HÜ 13.1: Anna & Bastian",src:"Hausübung 13",
+text:`u=ln(x)+ln(Z), Z=z_A+z_B, w=100. Nash vs. Optimum?`,
+sol:`<div class="s"><b>Nash:</b> z*=100/3≈33.3, Z=66.7</div><div class="s"><b>Optimum:</b> z_opt=50, Z_opt=100. <b>Unterbereitstellung!</b></div>`},
+{title:"HÜ 13.2: Eishalle",src:"Hausübung 13",
+text:`500 Einwohner, U=B−64/Y, p_Y=5. Privat vs. Samuelson?`,
+sol:`<div class="s">Privat: MRS=64/Y²=5 → Y²=12.8 → Y≈3.6 m²</div><div class="s">Samuelson: 500·64/Y²=5 → Y²=6400 → <b>Y_opt=80 m²!</b></div>`},
+{title:"Variation",src:"🔄",isVar:1,
+text:`u=2ln(x)+ln(Z), w=120. Nash?`,
+sol:`<div class="s">FOC: −2/(120−z)+1/(z+z_j)=0. RF: z=(120−2z_j)/4... Symmetrie: <b>z*=24, Z=48</b></div>`}
+]},
+
+// ═══ TYPE 14: EXTERNALITÄTEN ═══
+{type:14,title:"⑭ Externalitäten",tag:"HÜ 14 · Klausur 2.3",
+recipe:`<ol><li>Ohne Intern.: jeder max. eigenen Gewinn</li><li>Fusion: Gesamtgewinn max. → berücksichtigt ext. Kosten</li><li>Pigou-Steuer = externer Grenzschaden</li></ol>`,
+exercises:[
+{title:"Klausur 2.3: Windkraft",src:"Probeklausur · 8P",badge:1,
+text:`π_W=44r−2r², π_H=64g−2g²−2rg. (a) Fusion (b) Schadenszahlung`,
+sol:`<div class="s"><b>(a)</b> FOC r: 44−4r−2g=0. FOC g: 64−4g−2r=0. Lösung: <b>r=4, g=14</b></div><div class="s"><b>(b)</b> Windkraft zahlt 2rg: FOC r gleich. Aber Hotel: max 64g−2g² → g=16≠14. <b>r=3, g=16. Nicht optimal!</b></div>`},
+{title:"HÜ 14: Stahl & Fischerei",src:"Hausübung 14",
+text:`C_S=100S², P_S=20000, E=200S. C_F=50F²+E, P_F=10200.`,
+sol:`<div class="s"><b>Ohne:</b> S=100, F=102. π_S=1Mio, π_F=490.600</div><div class="s"><b>Fusion:</b> FOC S: 20000−200S−200=0 → S=99. Weniger Emissionen!</div>`},
+{title:"Variation",src:"🔄",isVar:1,
+text:`π_A=60r−3r², π_B=80g−4g²−2rg. Fusion?`,
+sol:`<div class="s">FOC r: 60−6r−2g=0 → r=(60−2g)/6. FOC g: 80−8g−2r=0.</div><div class="s">r=(60−2g)/6 in 2. Gl.: 80−8g−(60−2g)/3=0 → 240−24g−60+2g=0 → 22g=180 → <b>g≈8.18, r≈7.27</b></div>`}
+]}
+];
+
+// Render all sections
+const c = document.getElementById('content');
+data.forEach(d => {
+  let h = `<div class="sec" id="t${d.type}"><h2>${d.title}</h2><span class="tag">${d.tag}</span>`;
+  if(d.recipe) h += `<div class="rc"><h3>🧮 Rezept</h3>${d.recipe}</div>`;
+  if(d.formula) h += `<div class="fm">${d.formula}</div>`;
+  d.exercises.forEach(e => {
+    const isV = e.isVar;
+    const cls = isV ? 'vr' : 'ex';
+    h += `<div class="${cls}"><h4>${e.title} ${e.badge?'<span class="badge">Probeklausur</span>':''}</h4>`;
+    if(e.src) h += `<div class="src">${e.src}</div>`;
+    h += `<p>${e.text}</p>`;
+    h += `<button class="btn" onclick="T(this)">Lösung</button>`;
+    h += `<div class="sol ${isV?'vs':''}">${e.sol}</div></div>`;
+  });
+  h += `</div>`;
+  c.innerHTML += h;
+});
+
+// Scroll spy
+const SS=document.querySelectorAll('.sec'),PP=document.querySelectorAll('.pill');
+window.addEventListener('scroll',()=>{let cur='';SS.forEach(s=>{if(scrollY>=s.offsetTop-100)cur=s.id});PP.forEach(p=>{p.classList.remove('on');if(p.getAttribute('href')==='#'+cur)p.classList.add('on')})});
+</script>
+</body>
+</html>

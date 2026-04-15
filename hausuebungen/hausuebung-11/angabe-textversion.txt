@@ -1,0 +1,40 @@
+                      PS Märkte und Marktversagen
+               Hausübung 8: Risiko und Lemons Market
+
+
+1. Hier geht es weiter mit der Aufgabe zum Fussballtalent Nico (aus der letzten
+   Woche): Wenn er sich zum Ende der Saison nicht verletzt, erhält er einen Profi-
+   Vertrag in der Regionalliga, der 10.000 Euro wert ist. Wenn er sich verletzt,
+   muss er Zeitungen austragen, was nur 100 Euro wert ist. Die Wahrscheinlichkeit,
+   sich zu verletzen, ist 10%; mit 90% Wahrscheinlichkeit übersteht er die Saison
+   unbeschadet.
+
+   (a) Wie hoch ist die Risikoprämie für Nico?
+   (b) Angenommen, er könnte zum Preis V eine Versicherung kaufen, die ihm im
+       Falle einer Verletzung 9900 Euro bezahlt, wie hoch dürfte V maximal sein,
+       so dass Nico die Versicherung gerade noch kauft?
+
+2. Betrachten Sie den Lemons-Markt, den wir in der VO diskutiert haben. Die Reser-
+   vationspreise der Gebrauchtwagenbesitzer sind 700 für einen gutes Auto und 200
+   für ein schlechtes. Die Besitzer kennen die Qualität ihres Autos, sie kann aber
+   nicht von einem Käufer zum Kaufzeitpunkt verifiziert werden. Jeder weiss, dass
+   es 10 gute und 10 schlechte Gebrauchtwagen insgesamt gibt.
+
+   (a) Wie sieht das Angebot für Gebrauchtwagen auf diesem Markt aus? Zeichnen
+       Sie die Angebotsfunktion.
+   (b) Angenommen, es gibt nur einen möglichen Käufer: der einzige Gebrauchtwa-
+       genhändler im Ort, der einen guten Gebrauchtwagen für 1200 Euro weiter-
+       verkaufen kann und einen schlechten für 400. Wenn er einen einheitlichen
+       Preis setzen muss, zu dem er alle ihm angebotenen Autos ankauft, welchen
+       Preis würde er setzen, um seinen Gewinn zu maximieren?
+   (c) Angenommen, es gibt in diesem Markt nun 25 potenielle Käufer, diese würden
+       bis zu 1200 Euro für einen guten Gebrauchtwagen bezahlen würden, und
+       bis zu 400 Euro für einen schlechten (=Lemon). Wieviel würde ein Käufer
+       höchstens für einen Gebrauchtwagen (von unbekannter Qualität) bezahlen?
+       Würden dann alle Gebrauchtwagen angeboten werden?
+
+
+
+
+                                       1
+

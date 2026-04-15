@@ -1,0 +1,55 @@
+                          PS Märkte und Marktversagen
+                    Hausübung 2: Monopol, Elastizitäten
+
+
+1. Ein Monopolist hat eine Marktnachfrage Q(P ) = 20−P . Seine Fixkosten betragen
+   F Euro, und jede Einheit des Produkts, das er produziert, kostet 2 Euro.
+
+   (a) Stellen Sie die Gewinnfunktion des Monopolisten auf (Gewinn in Abhängigkeit
+       von Q und F). Was ist der maximale Gewinn des Monopolisten? (Er hängt
+       immer noch von F ab!)
+   (b) Für welche Werte von F wird der Monopolist weiter auf diesem Markt aktiv
+       sein, und für welche Werte von F wird er austreten?
+   (c) Was ist die optimale Preis-Mengen-Kombination und der Gewinn, wenn die
+       Marktnachfrage steiler wird: Q(P ) = 20 − 2P ? Stellen Sie die beiden Situa-
+       tionen graphisch dar.
+
+2. In Norwegen erhöht sich der Preis von Wodka von 300 auf 350 Norwegische Kronen.
+   Wenn alle anderen Bedingungen unverändert sind, und der Konsum von Wodka
+   von 525 auf 475 Liter pro Jahr fällt, wie gross ist dann die Preiselastizität der
+   Nachfrage nach Wodka?
+
+3. Bestimmen Sie die Preiselastizität der Nachfrage für folgende Nachfragekurven:
+   [Beachten Sie, dass man hier bei der Berechnung der Elastizität die marginalen
+   Änderungen verwendet]
+
+   (a) Q = 600 − 2P + 2I für P = 50, I = 500.
+   (b) Q = P −1.3 I 0.5
+
+4. Angenommen, die Marktnachfrage eines Monopolisten ist Q = 380 − 19P .
+
+   (a) Bei welchem Preis wird der Erlös maximiert? Wie viele Einheiten werden bei
+       diesem Preis nachgefragt, und wie hoch ist der Erlös?
+   (b) Bei welchem Preis ist die Preiselastizität der Nachfrage gleich −1?
+
+
+
+
+                                        1
+5. Wie ändert sich der optimale Markup eines Monopolisten, wenn der Betrag der
+   Preiselastizität der Nachfrage steigt? Berechnen Sie den optimalen Markup für die
+   folgenden Werte:
+    Preiselastizität der Nachfrage   Optimaler Markup (in %)
+                   -1.2
+                   -1.4
+                   -1.8
+                   -2.5
+                   -5.0
+                  -11.0
+                  -21.0
+
+
+
+
+                                        2
+

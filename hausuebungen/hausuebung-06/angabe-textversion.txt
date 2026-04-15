@@ -1,0 +1,55 @@
+                         PS Märkte und Marktversagen
+
+                          Hausübung 5:
+  Betrand-Wettbewerb und Produktdifferenzierung, Dynamische Spiele
+
+
+1. Bertrand-Wettbewerb: Betrachten Sie einen Markt mit zwei Unternehmen, A und B,
+   die ein homogenes Gut anbieten. Die Nachfrage nach diesem Gut ist durch die Funktion
+   P (Q) = 14 − Q gegeben, wobei Q = qA + qB ist und qA , qB die von den Unternehmen
+   produzierten Mengen sind. Die marginalen Kosten pro Einheit sind 2 für beide Un-
+   ternehmen.
+
+   (a) Angenommen, die beiden Unternehmen verhalten sich zusammen wie ein Mo-
+       nopolist und maximieren die Summe ihrer Gewinne. Was ist dann der optimale
+       Preis?
+   (b) Nehmen Sie an, dass die Unternehmen die Preise gleichzeitig festlegen. Wenn
+       sie unterschiedliche Preise wählen, so bedient das Unternehmen, welches den
+       niedrigeren Preis festgelegt hat, den gesamten Markt. Wenn sie denselben Preis
+       gewählt haben, teilen sie sich den Markt gleichmässig auf. Nehmen Sie an, die
+       Interaktion ist nur einmalig. Welchen Preis legen beide Unternehmen im Gle-
+       ichgewicht fest und warum?
+
+2. Bertrand-Wettbewerb mit Produktdifferenzierung: Auf einem anderen Markt gibt es
+   zwei Unternehmen A und B, die unterschiedliche Marken von Softdrinks produzieren.
+   Für Firma A ist die Nachfrage nach dem von ihr produzierten Softdrink A gegeben
+   durch QA = 100−2pA +pB und konstante Grenzkosten cA = 10, während die Nachfrage
+   für den Softdrink von Firma B durch QB = 100 − 2pB + pA gegeben ist, und Firma B
+   Grenzkosten von c2 = 15 hat. Es gibt keine Fixkosten.
+
+   (a) Zeigen Sie mit Hilfe der Kreuzpeiselastizität ηij , dass die beiden Softdrinks Sub-
+       stitute sind.
+   (b) Leiten Sie die Reaktionsfunktionen der beiden Firmen her und stellen Sie diese
+       grafisch dar. Berechnen Sie die Gleichgewichtspreise für die beiden Softdrinks und
+       die Gewinne im Gleichgewicht.
+
+3. (Dynamisches Spiel)
+
+   (a) Betrachten Sie das folgende sequentielle Spiel: Zuerst wählt Spieler 1 zwischen
+       Oben und Unten. Spieler 2 sieht die Entscheidung von Spieler 1 und kann dann
+       jeweils zwischen a und b wählen. Stellen Sie den Spielbaum dar (ohne Auszahlun-
+       gen) und benennen Sie die Strategien von Spieler 1 und die von Spieler 2.
+
+
+                                          1
+(b) Nun ist das Spiel etwas verändert: Zuerst wählt Spieler 1 zwischen Oben und
+    Unten. Spieler 2 sieht die Entscheidung von Spieler 1. Wenn Spieler 1 Oben
+    gewählt hat, kann Spieler 2 zwischen a und b wählen. Wenn Spieler 1 Unten
+    gewählt hat, dann ist das Spiel zu Ende. Stellen Sie den Spielbaum dar (ohne
+    Auszahlungen) und benennen Sie die Strategien von Spieler 1 und von Spieler 2.
+
+
+
+
+                                     2
+

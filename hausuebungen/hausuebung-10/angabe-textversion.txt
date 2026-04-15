@@ -1,0 +1,36 @@
+                            PS Märkte und Marktversagen
+
+                      Hausübung 10: Entscheidung unter Risiko
+
+
+
+1. Nico ist ein grosses Fussballtalent. Wenn er sich zum Ende der Saison nicht verletzt, erhält
+   er einen Profi-Vertrag in der Regionalliga, der 10.000 Euro wert ist. Wenn er sich verletzt,
+   muss er Zeitungen austragen, was nur 100 Euro wert ist. Die Wahrscheinlichkeit, sich zu
+   verletzen, ist 10%; mit 90% Wahrscheinlichkeit übersteht er die Saison unbeschadet.
+
+    (a) Wie hoch ist der Erwartungswert der Lotterie, die Nicos Aussichten beschreibt, und
+        wie hoch ist sein Erwartungsnutzen dieser Lotterie, wenn seine vNM-Nutzenfunktion
+               √
+        u(x) = x ist?
+   (b) Angenommen, es wird ihm ein sicherer Bürojob als Alternative angeboten. Dieser
+       Job würde ihm 8500 Euro einbringen. Würde er mit der gegebenen Nutzenfunktion
+             √
+       u(x) = x lieber die Fussballkarriere vorantreiben oder den sicheren Job annehmen?
+    (c) Wie hoch ist das Sicherheitsäquivalent für Nico zu dieser Lotterie?
+
+2. Betty steht vor folgender Entscheidung: Sie kann eine sichere Auszahlung von 100 Euro
+   erhalten, oder eine Lotterie wählen, die ihr mit 75% einen Gewinn von 300 einbringt, und
+   mit 25% einen Verlust von 500. Wenn sie sich für die Lotterie entscheidet, was sagt das
+   über ihre Risikoeinstellung aus?
+
+3. Hubert muss sich zwischen einer sicheren Auszahlung von 1000 und einer Lotterie entschei-
+   den. Die Lotterie bringt mit 30% einen Gewinn von 4000 und mit 70% einen Gewinn
+   von 0. Hubert entscheidet sich für die Lotterie. Was können wir daraus über seine
+   Risikoeinstellung schliessen?
+
+
+
+
+                                             1
+

@@ -1,0 +1,28 @@
+                        PS Märkte und Marktversagen
+                          Hausübung : Externalitäten
+
+Diese Hausübung ist freiwillig und als Übung zum Thema Externalitäten
+gedacht. Sie zählt nicht mehr zu den Hausübungs-Punkten im PS.
+
+  1. Ein flussaufwärts gelegenes Stahlunternehmen produziert eine Menge Stahl S zu
+     Kosten CS = 100S 2 . Stahl wird auf einem Markt mit vollkommener Konkurrenz zu
+     einem Preis von 20 000 verkauft. Bei der Stahlproduktion werden pro Einheit pro-
+     duzierten Stahls 200 Einheiten Emissionen (E) in den Fluss geleitet. Flussabwärts
+     liegt eine Fischerei, die eine Fischzucht betreibt und folgende Kostenfunktion für
+     die Produktion von Fischen (F) aufweist: CF = 50F 2 + E. Die Fische werden auf
+     einem Markt mit vollständigem Wettbewerb für einen Preis von 10 200 verkauft.
+
+     (a) Bestimmen Sie die Gleichgewichtsmenge an Stahl, die Externalität für die
+         Fischerei, und die Gleichgewichtsmenge an Fischen sowie die zugehörigen
+         Gewinne des Stahlunternehmens und der Fischerei.
+     (b) Wie verändert sich das Marktergebnis, wenn die beiden Unternehmen fu-
+         sionieren und ihre Kosten der Summe der individuellen Kosten der beiden
+         Unternehmen entspricht? Was passiert mit der Externalität durch die Fu-
+         sion der beiden Unternehmen? Wie hoch ist der Gewinn des fusionierten
+         Unternehmens?
+
+
+
+
+                                          1
+

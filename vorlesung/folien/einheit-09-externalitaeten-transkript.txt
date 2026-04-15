@@ -1,0 +1,548 @@
+ Märkte und Marktversagen
+       Externalitäten
+
+
+                Anita Gantner
+
+Institut für Wirtschaftstheorie, -politik und -geschichte
+                  Universität Innsbruck
+
+
+                IWW-Bachelor
+
+
+
+
+                                                            1/22
+                                     Einführung
+
+
+
+Einführung: Beispiel
+
+
+    Seit etlichen Jahren werden SUV immer beliebter.
+    Gleichzeitig sterben in den USA immer mehr Fußgänger im Straßenverkehr:
+    2009-2020 stieg die Opferzahl der getöteten Fußgänger um 51 Prozent (über
+    6500 getötete Fußgänger).
+    Studie des Insurance Institute for Highway Safety findet:
+        SUV sind häufiger in Abbiegeunfälle verwickelt als kleinere Autos.
+        - Möglicher Grund: Der vordere Dachträger (A-Säule) bei SUV teils so massiv gestaltet,
+        dass er das Sichtfeld des Fahrers stark einschränkt.
+        Ausserhalb von Kreuzungen: Risiko, einen Fußgänger anzufahren, im SUV um 61%
+        höher als in einem kleineren Auto.
+        - Möglicher Grund: Motorhaube ist sehr hoch über Strassenebene.
+
+    Der Verbrauch von SUVs ist 15-50% höher als bei kleineren Autos
+ → Nutzung (Konsum) von großen Autos wie SUVs verursacht eine
+   Umweltexternalität und eine Sicherheitsexternalität.
+
+
+                                                                                             2/22
+                                      Einführung
+
+
+
+Definition: Externalität
+
+
+
+    Eine Externalität tritt auf, wenn Nutzen oder Produktionsmöglichkeit eines
+    Wirtschaftssubjekts direkt vom Verhalten anderer beeinflusst wird, ohne dass
+    hierfür Kosten getragen oder Entschädigungen gezahlt werden.
+        Beispiel für eine Externalität: Eine Stahlfabrik verschmutzt einen FLuss, der auch für
+        Freizeitaktivitäten zugänglich ist.
+        Kein Beispiel für eine Externalität: Eine Stahlfabrik verbraucht viel Strom und dadurch
+        erhöht sich der Strompreis für andere Kunden.
+
+
+    Externalitäten sind ein wichtiges Beispiel für Marktversagen.
+
+    Das Marktgleichgewicht ist ineffizient, d.h. das Erste Wohlfahrtstheorem gilt
+    nicht, wenn Externalitäten vorhanden sind.
+
+
+
+
+                                                                                                  3/22
+                                                        Einführung
+                                 Positive und negative Externalitäten        Theorie der Externalitäten
+
+
+Beispiel: Kohlendioxid-Emissionen
+         Externalitäten: Beispiel Klimawandel
+
+                                               Carbon dioxide in the atmosphere (1750-2010)
+
+                          0.7                                                                                    400
+                                               Deviation from 1961-1990 average
+                                               temperature (left axis)
+                          0.5                                                                                    380
+                                               CO2, parts per million (right axis)
+                          0.3                                                                                    360
+
+
+                          0.1                                                                                    340
+
+
+                         -0.1                                                                                    320
+
+
+                         -0.3                                                                                    300
+
+
+                         -0.5                                                                                    280
+
+
+                         -0.7                                                                                    260
+                             1750       1775     1800   1825   1850   1875   1900    1925   1950   1975   2000
+                    Source: CORE Econ
+
+
+
+
+               Morath / Struwe
+Vgl. 1.5-Grad Ziel: Begrenzung des Anstiegs2.()der
+                                                Marktversagen                Sommer 2023
+                                                    globalen Durschschnittstemperatur    auf6 1.5
+                                                                                              / 54
+                                                                                                   Grad
+im Vergleich zum vorindustriellen Niveau (Mittelwert der Jahre 1850 bis 1900).
+
+                                                                                                                       4/22
+                                       Einführung
+
+
+
+Externalitäten: Beispiele und Fragen
+
+Beispiele:
+    Klimawandel als eines der wichtigsten internationalen Probleme
+          CO2 -Emissionen tragen zur globalen Erwärmung bei
+          Hohe (länderspezifische) Kosten des Klimawandels (Intensität der Niederschläge,
+          Anstieg der Meeresspiegel, Biosphäre, Gesundheit, Migration)
+          Hohe Kosten zur Reduzierung der Treibhausgase
+
+    Umweltverschmutzung (direkte Externalität : Einwirkung auf die Gesundheit und
+    Lebensqualität, indirekte Externalität langfristig durch höhere Kosten im
+    Gesundheitssektor
+    Rauchen: ähnliche direkte und indirekte Externalitäten
+
+Fragen:
+
+    Theorie: Wie kann man Externalitäten am besten korrigieren und näher an das
+    soziale Optimum gelangen?
+    Empirie: Wie kann man das Ausmass von Externalitäten messen?
+
+                                                                                            5/22
+                               Arten von Externalitäten
+
+
+
+Unterscheidung von Externalitäten
+
+
+Unterscheidung zwischen
+
+    Externalität durch Produktion und Externalität durch Konsum
+    Positive und negative Externalitäten
+
+Beispiele:
+    Negative Externalitäten:
+         P/K: Unternehmen verschmutzt ein Wohngebiet
+         P/P: Unternehmen verschmutzt Gewässer mit Fischerei
+         K/P: privater Verkehr erhöht Transportzeiten und -kosten für Firmen
+         K/K: Rauchen
+
+    Positive Externalitäten
+         P/P: Investition in F&E
+         K/K: schöne private Gärten
+         K/P: Investition in Humankapital
+
+
+
+                                                                               6/22
+                             Arten von Externalitäten
+
+
+
+
+Ökonomische Konzepte zur Identifizierung von Externalitäten:
+
+    Bei Externalität durch Produktion
+         private Grenzkosten (PMC): direkte Kosten des Produzenten, um eine zusätzliche
+         Einheit eines Guts zu produzieren.
+         Grenzschaden (marginal damage, MD): alle zusätzlichen Kosten, die anderen durch
+         die Produktion des Guts auferlegt werden, die aber nicht vom Produzenten getragen
+         werden
+         soziale Grenzkosten (social marginal cost, SMC = PMC+MD):
+         private Grenzkosten plus Grenzschaden.
+    Bei Externalität durch Konsum:
+         privater Grenznutzen (private marginal benefit, PMB): direkter Nutzen des
+         Konsumenten vom Konsum einer zusätzlichen Einheit eines Guts
+         Grenzschaden (marginal damage, MD): alle zusätzlichen Schäden, die anderen durch
+         den Konsum des Guts auferlegt werden, die aber nicht vom Konsumenten getragen
+         werden
+         sozialer Grenznutzen (social marginal benefit, SMB):
+         privater Grenznutzen minus Grenzschaden.
+
+
+
+
+                                                                                             7/22
+                        Externality   Theory
+                               Arten von Externalitäten
+
+
+
+Positive Externalität der Produktion: Beispiel Ölförderung
+                          Positive Externalities
+
+
+
+
+Ausgaben eines Produzenten für Ölförderung haben positive Externalität für andere Firmen. Soziale
+Grenzkosten sind niedriger als private Grenzkosten, und sozial optimale Menge (Q2 ) ist höher als
+                    Public Finance and Public Policy Jonathan Gruber Third Edition Copyright © 2010 Worth Publishers
+Gleichgewichtsmenge im vollständigen Wettbewerb (Q1 ). Zu geringe Produktion in Höhe von Q2 − Q1 ,
+Wohlfahrtsverlust entspricht Fläche ABC
+                                                                                                                       8/22
+                Positive und negative
+                                 Arten Externalitäten
+                                       von Externalitäten   Theorie der Externalitäten
+
+
+ Negative Externalität der Produktion: Beispiel Stahl
+Negative  Externalität der Produktion: Beispiel Stahl
+
+
+
+
+         Source: Gruber (2019), p.122
+
+                                                                                         9/22
+                 Positive und negative Externalitäten
+                                   Arten von Externalitäten
+                                                              Theorie der Externalitäten
+
+
+ Negative Externalität
+Negative  Externalität des des
+                           Konsums: BeispielBeispiel
+                               Konsums:      Rauchen Rauchen
+
+
+
+
+         Source: Gruber (2019), p.124
+
+                                                                                           10/22
+               Modell: Marktgleichgewicht mit Externalitäten
+
+
+
+Einfaches Modell mit Externalitäten
+
+
+
+   Ein Markt im vollständigen Wettbewerb.
+   Der repäsentative Produzent produziert Gut x mit Kosten c (x ).
+   Gut x wird zum Preis p verkauft.
+   Die Produktion von x Einheiten generiert S (x ) = x Einheiten an
+   Umweltverschmutzung.
+   Der repäsentative Konsument ist mit Einkommen m ausgestattet und hat folgende
+   Nutzenfunktion über Gut x und Numeraire y (z.B. Geld):
+
+                                            U = u (x ) + y − d · S (x )
+
+   wobei d der Schaden jeder zusätzlich produzierten Einheit auf die Umwelt ist
+   (marginal damage).
+
+
+
+
+                                                                                  11/22
+                 Modell: Marktgleichgewicht mit Externalitäten
+
+
+
+Marktgleichgewicht
+
+   Das Unternehmen wählt x so, dass sein Gewinn maximiert wird:
+                                                max π (x ) = px − c (x )
+                                                   x
+   und die optimale Menge x ist gegeben durch die FOC:
+                                                           c 0 (x ) = p
+   Der Konsument wählt x so, dass er seinen Nutzen unter der Budgetrestriktion
+   maximiert, wobei die produzierte Menge x̄ als gegeben betrachtet wird:
+                          max U (x ) = u (x ) + y − d · x̄ s.t. px + y = m
+                            x
+   Nebenbedingung nach y auflösen, in Nutzenfunktion einsetzen:
+                                     max U (x ) = u (x ) + m − px − d · x̄
+                                        x
+   (d · x̄ wird als gegeben betrachtet, geht nicht in Optimalitätsbedingung ein.)
+   Die Nachfrage nach Gut x ist durch die FOC gegeben:
+                                                           u 0 (x ) = p
+   Im Marktgleichgewicht ist dann u 0 (x eq ) = peq = c 0 (x eq ).
+                                                                                    12/22
+                 Modell: Marktgleichgewicht mit Externalitäten
+
+
+
+Soziales Optimum
+
+   Für die Gesamtwohlfahrt werden Nutzen des Konsumenten und Gewinn des
+   Produzenten addiert:
+
+            W = u (x ) + m − px − d · x + px − c (x ) = u (x ) + m − c (x ) − d · x
+
+   Wenn man die Gesamtwohlfahrt maximiert, ist die sozial effiziente Menge x durch
+   die FOC gegeben:
+              dW
+                 = u 0 (x eff ) − c 0 (x eff ) − d ≡ 0 ⇐⇒ u 0 (x eff ) = c 0 (x eff ) + d,
+              dx
+   während das Marktgleichgewicht durch u 0 (x eq ) = c 0 (x eq ) gegeben ist.
+   Weil die Grenzkosten positiv sind (c 0 (x ) > 0), ist c 0 (x eff ) < c 0 (x eq ).
+   Das heisst, die sozial effiziente Menge ist kleiner als die Gleichgewichtsmenge:
+   x eff < x eq ; das Marktgleichgewicht führt zur Überproduktion von Gut x.
+   Der effiziente Output wäre durch p = SMC (social marginal cost) gegeben, nicht
+   durch p = MC (private Grenzkosten).
+
+                                                                                             13/22
+                           Modell: Marktgleichgewicht mit Externalitäten
+
+
+
+Effiziente      Menge und Gleichgewichtsmenge
+    Public Economics - Lecture 4: Public goods and externalities
+       Externalities
+         A simple model with externalities
+
+
+
+                       p
+                                                                            Private marginal cost
+                                         Social marginal cost
+
+
+                     p̄
+                   p_eff
+
+
+                    p
+                   p_eq
+                       ú
+
+
+                                                                                Marginal damage
+
+
+
+
+                                                                           Private marginal benefit
+
+
+                       0                            x̄
+                                                   x_eff            xú
+                                                                    x_eq                      x
+
+
+                                                                                                      57 / 90
+
+                                                                                                                14/22
+                   Lösungen zum Umgang mit Externalitäten
+
+
+
+Negative Externalitäten: Lösungen
+
+Möglichkeiten zur Internalisierung der Externalitäten:
+    Durch Regulierung:, d.h. man limitiert Produktionsmengen. Dies ist ein Eingriff in
+    den Marktmechanismus und erfordert Geld und Überwachung. Sinnvoll, wenn die
+    Externalität reduziert werden soll, unabhängig von den Kosten der Reduktion.
+    Durch Zuordnung von Eigentumsrechten (property rights) wird das öffentliche
+    Gut in ein privates umgewandelt. Dann können die betroffenen Parteien
+    (Verhandlungs-)lösungen finden können, um die Externalität zu internalisieren.
+    (Coase-Theorem, siehe nächste Seite)
+    Durch Ausgabe von handelbaren Zertifikaten an Verursacher, die die Menge der
+    Externalitäten insgesamt steuert; z.B. Emissionszertifikate werden an Firmen
+    vergeben, die diese Zertifikate dann untereinander handeln können, aber
+    Gesamtmenge an Emissionen bleibt konstant.
+    Durch Besteuerung der negativen Externalität (Pigou-Steuer, siehe Slides unten),
+    so dass private und soziale Kosten gleich sind. Das schränkt die staatliche
+    Intervention ein und lässt die Verursacher der Externalität für die sozialen Kosten
+    aufkommen, die sie anderen auferlegen.
+                                                                                      15/22
+                     Lösungen zum Umgang mit Externalitäten
+
+
+
+Korrektur von Externalitäten: Coase Theorem
+
+Marktlösung, um externe Effekte zu internalisieren:
+     Coase Theorem (Ronald Coase, 1960): Wenn die Eigentumsrechte (property rights) klar
+     definiert sind, kann ohne staatliches Eingreifen eine sozial effiziente Allokation der
+     Ressourcen erreicht werden.
+     Die effiziente Lösung hängt nicht davon ab, bei wem die Eigentumsrechte liegen. Jedoch hat
+     die Zuweisung, wer wen kompensiert, distributive Implikationen für die beiden Parteien.
+     Beispiel: Wenn ein Fluss durch eine Fabrik verschmutzt wird:
+          Wenn die Anwohner die Eigentumsrechte (Recht auf sauberes Wasser im Fluss)
+          besitzt, wird der Produzent d für jede Einheit der Verschmutzung im Gleichgewicht
+          bezahlen (durch Verhandlungen ins Gleichgewicht).
+          Grenzkosten der Produktion sind dann c 0 (x ) + d, was zur effizienten
+          Produktionsmenge x eff führt.
+          Wenn der Produzent die Eigentumsrechte (Verschmutzungsrechte) besitzt, werden die
+          Anwohner dafür bezahlen, dass weniger verschmutzt wird: u 0 (x ) = p + d.
+     Coase-Theorem verbindet die externen Effekte mit dem Preismechanismus: Angebot und
+     Nachfrage führen zu einem effizienten Ergebnis zu niedrigsten Kosten.
+
+
+                                                                                              16/22
+                  Lösungen zum Umgang mit Externalitäten
+
+
+
+Coase-Theorem: Kritikpunkte
+
+
+Schwierigkeiten in der Anwendung: Eigentumsrechte und Verhandlungslösungen
+können problematisch sein.
+
+    Zuweisung des Schadens: Identifzierung des Verursachers muss eindeutig
+    möglich sein.
+    Bestimmung des Grenzschadens: Anreiz der betroffenen Marktseite, den
+    Schaden zu übertreiben.
+    Problematik individuellen vs. kollektiven Handelns bei der Verhandlung: Mehrere
+    Fischer als eine Verhandlungspartei kann Probleme darstellen.
+        Falls Eigentumsrechte bei Fischern: Vetorechte können Verhandlungen blockieren;
+        Interessenskonflikte bei Untergruppen.
+        Falls Eigentumsrechte bei Produzent: Trittbrettfahrerproblem der Fischer kann
+        Interesse der Fischer nicht genügend berücksichtigen.
+
+    Transaktionskosten (höher je mehr Beteiligte) und Informationskosten (Vorteil auf
+    Kosten der weniger informierten Seite) verursachen Probleme der Anwendung.
+
+
+                                                                                          17/22
+                 Lösungen zum Umgang mit Externalitäten
+
+
+
+Staatliche Intervention: Pigou-Steuer
+
+
+
+   Arthur-Cecil Pigou (1920): Steuer t auf die Produktion des Guts auferlegen, das
+   Externalitäten verursacht
+   t = Grenzschaden d, so dass die effiziente Menge x eff produziert wird und die
+   Gesamtwohlfahrt maximiert wird.
+   Besteuerung der Quelle negativer Externalitäten: Tabak-Steuer, CO2 -Steuer
+   (Schweden 124 Euro/Tonne, Schweiz: 84 Euro, Finnland: 62 Euro, Österreich: 32
+   Euro, Portugal: 7 Euro, Lettland: 5 Euro, Estland: 1,8 Euro)
+   Subventionierung der Quelle positiver Externalitäten: Steuerliche Förderung von
+   Forschung und Entwicklung
+   Schwierigkeit der Anwendung: Grenzschadenfunktion muss bekannt und messbar
+   sein (Schaden muss nicht linear sein).
+
+
+
+
+                                                                                     18/22
+                          Lösungen zum Umgang mit Externalitäten
+
+
+
+Besteuerung bei negativen            Externalitäten
+                 Positive und negative Externalitäten Staatliche Maßnahmen
+
+
+
+         Besteuerung bei negativen Externalitäten
+
+
+
+
+                      Source: Gruber (2019), p.132
+
+
+
+                 Morath / Struwe                          2.
+                                                           () Marktversagen   Sommer 2023   16 / 54
+
+
+                                                                                                      19/22
+                  Lösungen zum Umgang mit Externalitäten
+
+
+
+Positive Externalitäten: Lösungen
+
+
+
+
+Zwei Möglichkeiten für den Staat bei positiven Externalitäten und Unterpdroduktion:
+
+    Pflicht: Schulbesuch (d.h. Ausbildung) ist Pflicht. Frage ist, wieviel Schulbildung
+    genau Pflicht sein sollte, d.h. die Externalität ist nicht genau bekannt, und die
+    sozial effiziente Menge daher auch nicht bestimmbar.
+    Subventionen: Sie reduzieren den Preis für die Konsumenten und sollten daher
+    die Nachfrage auf das sozial optimale Niveau anheben. Es müssen aber die
+    Kosten der staatlichen Intervention mit dem Nutzen aus der verbesserten Effizienz
+    abgewogen werden.
+
+
+
+
+                                                                                          20/22
+                         Lösungen zum Umgang mit Externalitäten
+
+
+
+SubventionierungPositive
+                 bei und positiven         Externalitäten
+                          negative Externalitäten Staatliche Maßnahmen
+
+
+
+       Subventionierung bei positiven Externalitäten
+
+                   Price of
+                    R&D
+
+
+
+
+                                                                           Quantity of
+                    Source: Gruber (2019), p.134                             R&D
+
+
+               Morath / Struwe                         2.
+                                                        () Marktversagen       Sommer 2023   17 / 54
+
+
+                                                                                                       21/22
+                 Lösungen zum Umgang mit Externalitäten
+
+
+
+Richtige Wahl des Politikinstruments
+
+
+
+
+   Besteuerung als Preisinstrument, Produktion durch Unternehmen mit niedrigsten
+   Grenzkosten
+   Bisher: Annahme der Äquivalenz zwischen Preisinstrument und
+   Mengenregulierung, d.h. Staat könnte zu produzierende Menge direkt vorgeben
+   Unterschied zwischen Preis- und Mengeninstrument?
+       Unternehmen können unterschiedliche Grenzkosten haben
+       Unsicherheit über die Grenzkosten der Unternehmen
+       Dann ist Wirkung nicht zielgenau.
+       Regulierung basierend auf erwarteten Kosten; Wohlfahrtsverlust falls tatsächliche
+       Kosten von erwarteten abweichen
+
+
+
+
+                                                                                           22/22
+

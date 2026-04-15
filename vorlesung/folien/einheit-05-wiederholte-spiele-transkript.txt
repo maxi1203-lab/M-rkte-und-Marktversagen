@@ -1,0 +1,615 @@
+         Märkte und Marktversagen
+Wiederholte Spiele: Theorie und Anwendungen
+
+
+                        Anita Gantner
+
+        Institut für Wirtschaftstheorie, -politik und -geschichte
+                          Universität Innsbruck
+
+
+                        IWW-Bachelor
+
+
+
+
+                                                                    1/25
+                                Wiederholte Spiele
+
+
+
+Wiederholte Spiele
+
+
+
+   Eine wichtige Klasse von dynamischen Spielen sind wiederholte Spiele.
+   In wiederholten Spielen wird dasselbe Stufenspiel in mehreren (oder unendlich
+   vielen) Perioden gespielt.
+   Wiederholte Spiele eignen sich, um Koordination und Kooperation zu analysieren.
+   Beispiele:
+       Das unkooperative Ergebnis im Gefangenendilemma ist unbefriedigend. Beide Spieler
+       könnten durch Kooperation besser gestellt werden.
+       Auch im Oligopol haben wir gesehen: Kollusion ist besser für alle, jedoch gibt es einen
+       individuellen Anreiz zum Abweichen.
+       Wenn man ein Spiel nun wiederholt spielt, könnten Versprechungen und Drohungen
+       zum gewünschten Ergebnis der Kooperation führen.
+
+   In der nicht-kooperativen Spieltheorie nimmt man an, dass ein Ergebnis sich von
+   selbst durchsetzt, denn bindende Verträge sind nicht möglich.
+
+
+
+                                                                                                 2/25
+                              Wiederholte Spiele
+
+
+
+Preis-Dilemma: Einmaliges Spiel
+
+
+   Apple und Samsung haben als direkte Konkurrenten die Wahl, hohe oder niedrige
+   Preise für Handys zu setzen:
+                                                        Sony
+                                                   niedrig hoch
+                                        niedrig     2, 2   4, 1
+                          Apple
+                                         hoch       1, 4   3, 3
+
+   Das Gleichgewicht in dominanten Strategien ist (Niedrig, niedrig).
+   Das Gleichgewicht wird Pareto-dominiert durch (Hoch, hoch): Für beide Firmen
+   wären hohe Preise besser, aber jeder hat einen Anreiz, auf niedrigen Preis
+   abzuweichen, wenn der andere den hohen Preis wählt.
+   Gefangenendilemma: erklärt das Scheitern von Kooperation (z.B.
+   Kartellverhalten, Abrüstung, Klimaverhalten).
+
+
+
+                                                                                   3/25
+                               Wiederholte Spiele
+
+
+
+Preis-Dilemma: Wiederholtes Spiel
+
+
+
+   Angenommen, die beiden Firmen befinden sich jeden Monat bei der Preissetzung in dieser
+   Situation des Preis-Dilemmas.
+   Sie treffen für ein Jahr ein Abkommen zur Kooperation: beide wählen in jedem Monat den
+   hohen Preis, damit beide höhere Gewinne machen.
+   Werden die Spieler sich an dieses Abkommen halten?
+   Wir beschreiben diese neue Situation als wiederholtes Spiel, in dem das beschriebene
+   Stufenspiel wiederholt gespielt wird.
+   Beide Firmen wählen in jedem Monat zwischen zwei Aktionen: hoher Preis oder niedriger
+   Preis.
+   Am Ende jeden Monats sehen die Spieler die Gewinne für den vergangenen Monat.
+   Dann wird erneut eine Aktion für den neuen Monat gewählt.
+   Die Gesamtauszahlung ist die Summe aller monatlichen Gewinne.
+
+
+
+
+                                                                                            4/25
+                                   Wiederholte Spiele
+
+
+
+Preis-Dilemma: Wiederholtes Spiel
+
+
+Unterschied zwischen Aktion und Strategie:
+     Eine Aktion ist die Wahl zwischen hohem und niedrigem Preis in jedem Monat, d.h. zu
+     jedem Zeitpunkt, in dem ein Spieler entscheiden muss.
+     Eine Strategie im wiederholten Spiel ist ein vollständiger Verhaltensplan, der für jeden
+     möglichen Entscheidungsknoten im gesamten (wiederholten) Spiel eine Aktion vorgeben
+     muss.
+     Eine Strategie kann einfach vorschreiben: “Spiele niedriger Preis in jeder Periode,
+     unabhängig davon, was der andere Spieler tut.”
+     Sie kann aber auch auf das Verhalten der Spieler in der Vergangenheit reagieren, d.h. sie
+     kann in jedem Monat eine Funktion des bisherigen Spielverlaufs sein.
+     Beispiel: "Wähle hohen Preis in t=1. Nur wenn beide hohen Preis in t=1 gewählt haben,
+     wähle wieder hohen Preis in t=2. Ansonsten wähle niedrigen Preis in t=2. In t=3 wähle...“
+     Dadurch können Versprechungen und Drohungen formuliert werden.
+
+
+
+
+                                                                                                 5/25
+                              Endlich wiederholte Spiele
+
+
+
+Endlich wiederholte Spiele: Preisdilemma
+
+
+Rückwärtsinduktion: teilspielperfektes Gleichgewicht
+     t = T: Wenn wir uns das Spiel der letzten Periode T ansehen (kleinstes Teilspiel), gibt es
+    keine zukünftigen Perioden, und das Verhalten kann somit nicht mit glaubwürdigen
+    Drohungen oder Versprechungen für die Zukunft beeinflusst werden. Weil niedriger Preis die
+    dominante Strategie im Stufenspiel ist, wird jeder Spieler diese wählen.
+     t = T-1: Weil beide Spieler wissen, dass in der letzten Periode T das einzige
+    Nash-Gleichgewicht nicht kooperativ ist, kann man in der vorletzten Periode keine
+    glaubwürdigen Drohungen oder Versprechungen machen: es ist wie ein letztes Spiel.
+    t = T-2. . . Diese Argumentation geht weiter, bis man die erste Periode erreicht hat: in jeder
+    Periode wird das Nash-Glechgewicht des Stufenspiels gespielt; man kann kein
+    Gleichgewicht mit Kooperation erreichen.
+    Einziges Nash-Gleichgewicht ist, dass beide Firmen niedrigen Preis in jeder Periode setzen
+    und das Dilemma somit durch endliche Wiederholung nicht gelöst wird.
+    Wenn das Stufenspiel ein Gleichgewicht in dominanten Strategien hat, wird dies auch bei T
+    Wiederholungen gespielt; ein besseres Ergebnis für beide Spieler ist trotz Wiederholungen
+    nicht durchsetzbar.
+
+
+                                                                                                     6/25
+                          Endlich wiederholte Spiele
+
+
+
+Beispiel: Endlich wiederholtes Spiel
+
+
+
+Gegeben sei folgendes Stufenspiel (mehr als ein Nash-Gleichgewicht):
+
+                                                              Spieler 2
+                                                        D        C      R
+                                             D         1, 1     5, 0   0, 0
+                         Spieler 1           C         0, 5     4, 4   0, 0
+                                             R         0, 0     0, 0   3, 3
+
+    Was sind die Nash Gleichgewichte in reinen Strategien in diesem Stufenspiel?
+    Nehmen Sie an, dass dieses Stufenspiel zweimal nacheinander gespielt wird.
+    Können hier durch die Wiederholung höhere Auszahlungen als im Gleichgewicht
+    des Stufenspiels erreicht werden?
+
+
+
+
+                                                                                   7/25
+                         Endlich wiederholte Spiele
+
+
+
+Endlich wiederholtes Spiel
+
+
+
+
+   In diesem Spiel kann Kooperation (C,C) als Ergebnis in einem teilspielperfektem
+   Gleichgewicht stützen.
+   Betrachten wir folgendes Strategieprofil: Jeder Spieler wählt C in der ersten
+   Periode; wenn (C, C ) beobachtet wurde, wählt jeder Spieler R; ansonsten wählt
+   jeder D.
+   Zeigen Sie, dass dieses Strategieprofil ein teilspielperfektes Nash Gleichgewicht
+   darstellt.
+   Die Intuition ist, dass Kooperation durch die glaubhafte Androhung von Bestrafung
+   gestützt wird.
+
+
+
+
+                                                                                       8/25
+                        Unendlich wiederholte Spiele
+
+
+
+Unendlich wiederholte Spiele
+
+
+   Wenn der Endzeitpunkt des Spiels nicht bekannt ist, kann Rückwärtsinduktion
+   nicht angewandt werden.
+   Dann kann Kooperation im Gefangenendilemma funktionieren.
+   Jeder Spieler muss eine Strategie formulieren, die glaubwürdige Drohungen
+   enthält.
+   Drohung: “Wenn Gegner nicht kooperiert, dann bestrafe ich ihn mit einer Aktion,
+   die schädlich für seine Auszahlung ist.”
+   Versprechen: “Wenn Gegner kooperiert, dann belohne ich ihn mit einer Aktion, die
+   vorteilhaft für ihn ist.”
+   Kooperation funktioniert, wenn die Kosten durch Abweichen von der
+   Kooperation grösser sind als dessen Nutzen.
+   Abweichen des Gegners muss eine Strafphase auslösen (“trigger”).
+
+
+
+                                                                                     9/25
+                         Unendlich wiederholte Spiele
+
+
+
+Unendlich wiederholte Spiele
+
+
+   Alle Auszahlungen zu addieren macht in einem unendlich wiederholten Spiel
+   keinen Sinn. Daher führen wir einen Diskontfaktor ein.
+   Die Aktion von Spieler i in Periode t ist gegeben durch sit .
+   Der andere Spieler ist durch “-i” gekennzeichnet.
+   Der Gegenwartswert der Auszahlungen von Spieler i in Periode 0 ist
+
+                      ui (si0 , s−
+                                 0             1 1          2     2 2
+                                   i ) + δui (si , s−i ) + δ ui (si , s−i ) + ...
+
+   oder, mit anderer Notation,
+                                              ∞
+                                             ∑ δt ui (sit , s−t i ).
+                                             t =0
+   Der Diskontfaktor kann auf zwei Arten interpretiert werden: Entweder als Zinssatz
+   (er drückt dann aus, wie geduldig ein Spieler ist), oder als Wahrscheinlichkeit,
+   dass das Spiel sich um eine Periode verlängert.
+
+
+                                                                                    10/25
+                        Unendlich wiederholte Spiele
+
+
+
+Auszahlungen in unendlich wiederholten Spielen
+
+
+
+                                                                  ∞
+   Die unendliche Reihe 1 + δ + δ2 + δ3 + ... = ∑ δt hat für δ < 1 einen endlichen
+                                                              t =0
+   Wert :
+                                              ∞
+                                                              1
+                                              ∑ δt = 1 − δ .
+                                             t =0
+                                                        ∞
+   Die unendliche Reihe δ + δ2 + δ3 + ... = ∑ δt hat dann für δ < 1 den endlichen
+                                                       t =1
+   Wert:
+                                              ∞
+                                                              δ
+                                              ∑ δt = 1 − δ .
+                                             t =1
+   Wir können diese Gleichungen in der Berechnung der Auszahlungen im unendlich
+   wiederholten Spiel verwenden.
+
+
+
+
+                                                                                     11/25
+                        Unendlich wiederholte Spiele
+
+
+
+Kooperation im unendlich wiederholten Spiel
+
+
+
+
+   Nun können wir zeigen, wie Kooperation im unendlich wiederholten
+   Gefangenendilemma gestützt werden kann.
+                                                           Spieler 2
+                                                            D     C
+                                                       D   1, 1 5, 0
+                                  Spieler 1
+                                                       C   0, 5 4, 4
+
+   Wir überprüfen das folgende Resultat: Wenn der Diskontfaktor δ groß genug ist,
+   dann existiert ein teilspielperfektes Nash Gleichgewicht, in dem beide Spieler in
+   jeder Periode des Spiels C wählen.
+
+
+
+
+                                                                                       12/25
+                           Unendlich wiederholte Spiele
+
+
+
+Trigger-Strategie
+
+
+
+
+    Welche Strategien könnten zu kooperativem Verhalten führen? Wir betrachten
+    eine einfache Strategie (“Trigger-Stragegie”) für das unendlich wiederholte Spiel:
+    “Wähle C in Periode 1; wähle C in jeder nachfolgenden Periode so lange beide
+    Spieler bisher immer C gewählt haben; ansonsten wähle D.”
+    Angenommen, beide Spieler wählen diese Strategie. Dann kann Kooperation als
+    teilspielperfektes Gleichgewicht erreicht werden. Wieso?
+    Dazu müssen wir zwei Punkte zeigen:
+     1. Dass es optimal für einen Spieler ist, sich an diese Strategie in einer Periode zu halten,
+        wenn bisher beide Spieler immer C gewählt haben.
+     2. Dass es optimal für einen Spieler ist, sich an diese Strategie in einer Periode zu halten,
+        wenn bisher mindestens einmal ein Spieler D gewählt hat.
+
+
+
+
+                                                                                                 13/25
+                          Unendlich wiederholte Spiele
+
+
+
+Kooperation im unendlich wiederholten Spiel
+
+Punkt 1: Wenn bisher immer C von beiden Spielern gewählt wurde:
+    Wir müssen zeigen, dass kein Spieler einen Anreiz hat, von der Trigger-Strategie
+    abzuweichen.
+    Angenommen, Spieler 2 hält sich immer an die vorgeschlagene Strategie. Wenn
+    Spieler 1 nicht abweicht, so ist seine Auszahlung
+                                              ∞
+                                                          4
+                                             ∑ δt · 4 = 1 − δ .
+                                            t =0
+    Wenn Spieler 1 abweicht, ist seine maximale Auszahlung
+                                              ∞
+                                                               δ
+                                      5 + ∑ δt · 1 = 5 +          .
+                                            t =1
+                                                              1−δ
+    Der abweichende Spieler 1 erhält 5 in t = 1 und 1 in allen darauffolgenden
+    Perioden. Warum? Er muss davon ausgehen, dass Spieler 2 der Trigger-Strategie
+    folgt und damit in allen weiteren Perioden D wählt.
+    Die beste Antwort des abweichenden Spielers 1 ist dann ab t = 2 ebenfalls D zu
+                                      ∞
+    spielen, also erhält er dafür ∑ δt · 1 = 1 · 1−
+                                                  δ
+                                                    δ.
+                                     t =1
+                                                                                       14/25
+                         Unendlich wiederholte Spiele
+
+
+
+Kooperation im unendlich wiederholten Spiel
+
+
+    Spieler i wird also nicht abweichen, wenn
+                               4        δ        1
+                                  ≥ 5+     ⇐⇒ δ ≥ .
+                              1−δ      1−δ       4
+    Man kann also sagen, dass in allen Teilspielen, in denen kein Spieler bisher
+    abgewichen ist, immer diese Überlegung gilt. Wenn obige Bedingung für t = 1
+    gilt, dann gilt sie auch für jedes andere t.
+
+Punkt 2: Wenn bisher mindestens ein Spieler einmal D gewählt hat:
+
+    Wir müssen zeigen, dass kein Spieler dann einen Anreiz haben, von der
+    vorgeschlagenen Strategie abzuweichen.
+    Wenn ein Spieler bereits D gewählt hat, dann wird der andere gemäss seiner
+    Trigger-Strategie nie wieder C spielen, sondern immer D.
+    Die beste Antwort auf D in jedem Teilspiel ist dann auch wieder D.
+
+
+                                                                                   15/25
+                       Unendlich wiederholte Spiele
+
+
+
+Kooperation im unendlich wiederholten Spiel
+
+
+
+
+   Wir haben also gezeigt, dass Kooperation im unendlich wiederholten
+   Gefangenendilemma als teilspielperfektes Gleichgewicht erreicht werden kann.
+   Was könnten die Probleme der Trigger-Strategie sein?
+   Gibt es noch andere Strategien, die Kooperation stützen können?
+
+
+
+
+                                                                                  16/25
+                       Unendlich wiederholte Spiele
+
+
+
+Anwendung von wiederholten Spielen
+
+
+
+
+   Unternehmer haben kein Interesse an Wettbewerb. Sie wollen diesen so gut wie
+   möglich vermeiden.
+   Bisher war die Art des Wettbewerbs gegeben: Die Unternehmen konnten nichts
+   an ihrer Situation ändern.
+   Es gibt allerdings mehrere Möglichkeiten, Wettbewerb zu reduzieren und Gewinne
+   entsprechend zu vergrößern. Zwei Beispiele sind Kartellabsprachen und
+   Produktdifferenzierung.
+   Wir betrachten hier Kartellabsprachen, die als wiederholte Spiele behandelt
+   werden.
+
+
+
+
+                                                                                  17/25
+                        Unendlich wiederholte Spiele
+
+
+
+Kartellabsprachen
+
+
+
+   Wir haben gesehen, dass im (Mengen- oder Preis-) Wettbewerb die Gewinne der
+   Unternehmen immer niedriger sind als der Monopolgewinn.
+   Durch Preisabsprachen oder Kartellbildung können sich die Wettbewerber
+   besser stellen.
+   Wenn sie bindende Verträge schreiben könnten, würden sie sich zusammen als
+   Kartell wie ein Monopolist verhalten und die Monopolgewinne untereinander
+   aufteilen.
+   Dazu könnten sie im Mengenwettbewerb Quoten für jedes Kartellmitglied
+   bestimmen, oder im Preiswettbewerb Preise für alle festlegen.
+   Ein Kartell ist aber nur stabil, wenn es Abweichungen effektiv bestrafen kann.
+   Kartellverträge sind jedoch illegal und können von den Gerichten nicht
+   durchgesetzt werden.
+
+
+
+                                                                                    18/25
+                        Unendlich wiederholte Spiele
+
+
+
+Kartellabsprachen
+
+
+
+
+   Genügt es, Kartelle zu verbieten, oder können Firmen ihre Absprachen auch ohne
+   bindende Verträge durchsetzen?
+   Wir zeigen, dass Kartellverhalten als teilspielperfektes Nash Gleichgewicht
+   gestützt werden können.
+   Dazu verwenden wir wiederholte Spiele.
+   Weil das Ende der Interaktion zwischen Firmen nicht absehbar ist, verwenden wir
+   das Modell der unendlich wiederholte Spiele.
+
+
+
+
+                                                                                     19/25
+                         Unendlich wiederholte Spiele
+
+
+
+Kartellabsprachen
+
+
+
+   Wir betrachten den Bertrand-Wettbewerb zwischen zwei Unternehmen i ∈ {1, 2}
+   mit identischen Grenzkosten c > 0.
+   In jeder Periode t (von unendlich vielen) wählen beide simultan ihre Preise p1t , p2t .
+   Die Nachfrage nach dem Produkt von Unternehmen i in Periode t ist
+                                     
+                                             t     falls pit < p−
+                                                                t
+                                      qi (pi )
+                                                                 i
+                         t t           1
+                    Qi (pi , p−i ) =   2 qi (pit ) falls pit = p−
+                                                                t
+                                                                  i
+                                                                    .
+                                                           t    t
+                                     
+                                       0           falls pi > p−i
+                                     
+
+   Beide Unternehmen maximieren
+                                     ∞
+                                    ∑ δt −1 (pit − c )qi (pit , p−t i ).
+                                    t =1
+
+   Es sei pm der Monopolpreis und π m der Monopolgewinn.
+
+
+
+                                                                                             20/25
+                       Unendlich wiederholte Spiele
+
+
+
+Kartellabsprachen
+
+
+
+
+   Beachten Sie, dass das Nash-Gleichgewicht des Stufenspiels p1 = p2 = c ist
+   (also Nullgewinne).
+   Wir zeigen nun: Für δ ≥ 12 existiert im unendlich oft wiederholten Bertrand-Spiel
+   ein teilspielperfektes Nash Gleichgewicht, in dem jeder der beiden Anbieter in
+   jeder Periode den Monopol-Preis wählt pm und den halben Monopolgewinn erzielt.
+
+
+
+
+                                                                                   21/25
+                       Unendlich wiederholte Spiele
+
+
+
+Kartellabsprachen
+
+
+
+
+   Dazu verwenden wir die folgende Trigger-Strategie.
+   Wähle den Monopolpreis in Periode 1.
+   Wähle auch in jeder folgenden Periode den Monopolpreis, falls alle Unternehmen
+   in allen vorangegangenen Perioden ebenfalls den Monopolpreis gesetzt haben.
+   Andernfalls setze in allen folgenden Perioden den Preis gleich den Grenzkosten.
+
+
+
+
+                                                                                     22/25
+                        Unendlich wiederholte Spiele
+
+
+
+Kartellabsprachen
+
+
+   Nehmen wir an, dass sich Firma -i immer an diese Strategie hält. Wir prüfen die
+   einseitige Abweichung der anderen Firma.
+   Wenn sich auch Firma i an die Strategie hält, so ist ihre Auszahlung
+                                      ∞
+                                                  πm   1   πm
+                                     ∑ δ t −1 2 = 1 − δ 2 .
+                                    t =1
+
+   Wenn Unternehmen i abweicht, so ist seine Auszahlung maximal π m .
+   Eine Abweichung lohnt sich genau dann nicht, wenn
+
+                                  1 πm             1
+                                       ≥ π m ⇐⇒ δ ≥ .
+                                 1−δ 2             2
+   Wenn Abweichen sich in t=1 nicht lohnt, dann lohnt es sich auch nicht zu jedem
+   anderen Zeitpunkt, wenn bis dahin immer kooperiert wurde.
+   Daher liegt ein teilspielperfektes Nash Gleichgewicht vor, wenn beide
+   Unternehmen die Trigger-Strategie spielen und δ ≥ 12 ist.
+
+                                                                                     23/25
+                         Unendlich wiederholte Spiele
+
+
+
+Kartellabsprachen
+
+
+
+   Mit Hilfe der Spieltheorie lassen sich auch deutlich komplexere wiederholte
+   Oligopolspiele analysieren. Die wichtigsten allgemeinen Ergebnisse sind
+   folgendermaßen.
+   Ein Kartell ist umso schwerer zu stabilisieren, je größer die Anzahl der
+   Oligopolisten ist.
+   Kartelle können nicht funktionieren, wenn Marktzutritt leicht möglich ist.
+   Wenn Abweichungen vom Kartellverhalten nur ungenau beobachtet werden
+   können, ist es sehr viel schwerer, Abweichungen zu bestrafen.
+   Kartelle oder kollusives Verhalten funktionieren am besten auf Märkten für
+   homogene Güter mit wenigen Anbietern, hoher Markttransparenz und hohen
+   Marktzutrittsschranken.
+
+
+
+
+                                                                                 24/25
+                         Unendlich wiederholte Spiele
+
+
+
+Kartellabsprachen
+
+
+
+   In der Realität ist es oft schwierig, Kartelle aufzudecken.
+   Die Anzahl der Firmen in einem Markt ist kein Indiz dafür, ob Marktmacht vorliegt
+   oder nicht.
+   Ein hoher Marktpreis allein ist auch kein Beweis für ein Kartell, denn es kann ja
+   sein, dass die Kosten der Unternehmen im Markt ebenfalls hoch sind. Die
+   Kartellbehörde hat in der Regel wenig Kenntnis von der Kostenstruktur der
+   Unternehmen.
+   Preissteigerungen können z.B. auch auf variable Rohstoffpreise zurückzuführen
+   sein.
+   Ein Kartell wird daher meist durch den Nachweis expliziter Kommunikation
+   zwischen den Parteien aufgedeckt.
+
+
+
+
+                                                                                       25/25
+

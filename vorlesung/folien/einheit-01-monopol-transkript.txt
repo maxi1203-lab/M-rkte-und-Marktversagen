@@ -1,0 +1,821 @@
+ Märkte und Marktversagen
+                   Monopol
+
+
+   assoz. Prof. Dr. Anita Gantner
+
+Institut für Wirtschaftstheorie, -politik und -geschichte
+                Universität Innsbruck
+
+
+                IWW-Bachelor
+
+
+
+
+                                                            1/30
+                                 Marktstrukturen
+
+
+
+Warum ist Marktstruktur wichtig?
+
+
+
+   Was ist ein Markt?
+       Allokationsmechanismus, der für den Austausch von Güter und Dienstleistungen sorgt.
+       Es gibt physische Märkte (z.B. Supermarkt), virtuelle Märkte (z.B. Amazon), aber auch
+       illegale Märkte, Auktionsmärkte, Finanzmärkte.
+   Marktstruktur: Unterschiedliche Wettbewerbssituationen
+       Vollständige Konkurrenz: Firmen haben keine Marktmacht, sie sind „Preisnehmer“.
+       Ihre Entscheidungen basieren auf dem Marktpreis, auf den sie keinen Einfluss haben.
+       Unvollständige Konkurrenz: Firmen haben einen gewissen Grad and Marktmacht,
+       d.h. sie können mehr Einfluss auf Preise und Profite nehmen. Die meisten Märkte sind
+       unvollständig.
+       Monopol und Oligopol sind Märkte mit unvollständiger Konkurrenz.
+
+
+
+
+                                                                                               2/30
+                                Marktstrukturen
+
+
+
+Warum ist Marktstruktur wichtig?
+
+
+
+
+   Die Marktstruktur definiert die Marktmacht der Unternehmen.
+   Marktmacht beeinflusst
+       die Möglichkeiten zur Preisgestaltung und die Unternehmensgewinne
+       die Markteintritte neuer Unternehmen
+       die Anreize zu Forschung und Entwicklung neuer Produkte
+       die Wohlfahrt der Konsumenten (höhere Preise; weniger Leute kaufen)
+
+   Monopol: Es gibt nur einen Anbieter auf dem Markt. Er hat damit die grösste
+   Marktmacht.
+
+
+
+
+                                                                                 3/30
+                                   Monopol
+
+
+
+Monopol: Beispiele
+
+
+
+
+Beispiele für Monopole:
+
+    Windows: Quasi-Monopol für PC-Betriebssysteme
+
+    Microsoft Office: Dokumente schreibt man in Word, Budgetkalkulationen in Excel
+    und Präsentationen in Powerpoint;
+    Bsp.: Marktanteil MS Office in Deutschland: 85%.
+
+    Kanada, Norwegen: Branntweinmonopol auf Seiten des Staates.
+
+    Eisenbahnnetze oder die Versorgung mit Strom, Wasser oder Gas.
+
+
+
+
+                                                                                     4/30
+                                        Monopol
+
+
+
+Monopol
+
+
+   Monopol: ein Markt, in dem es nur einen Anbieter gibt.
+
+   Unwahrscheinlich, dass der Monopolist den Marktpreis als “gegeben” annimmt
+   (vgl. vollständiger Wettbewerb).
+
+   Er wird jenes Preis- und Outputniveau wählen, das seinen Gewinn maximiert.
+
+   Wo kann man Monopole finden?
+       einzigartiges Produkt durch Patente/Copyrights (Medikament)
+       sehr hohe Markteintrittskosten
+       durch Gesetzgeber geschützt (Post)
+       steigende Skalenerträge und Netzwerkeffekte (Google, Amazon)
+       durch Formation eines Kartells (z.B. OPEC)
+
+   Das Nachfrageverhalten der Konsumenten schränkt die Möglichkeiten ein: Der
+   Monopolist kann entweder Preis oder Menge wählen.
+
+
+                                                                                5/30
+                               Gewinnmaximierung
+
+
+
+Gewinnmaximierung im Monopol
+
+
+   Definition des Gewinns πi eines Unternehmens i ist definiert als Gesamterlös
+   (total revenue TR) minus Gesamtkosten (total cost TC):
+                               πi = TR − TC = P · qi − C(qi )
+       qi : Menge, die das Unternehmen i produziert und verkauft;
+       C(qi ): Kostenfunktion des Unternehmens;
+       P ist der Marktpreis für ein Produkt (gilt für alle Unternehmen, die dieses Produkt
+       verkaufen.
+
+   Angenommen, der Monopolist M will seinen Gewinn maximieren.
+       Da er der einzige Anbieter ist, gilt qM = Q (gesamte Marktmenge wird von ihm
+       produziert).
+       Seine Nachfrage ist Q(P); sie beschreibt, welche Menge Q für jeden möglichen Preis
+       P nachgefragt wirt.
+       Die inverse Nachfrage ist P(Q); sie beschreibt, welcher Preis für welche nachgefragte
+       Menge des Guts maximal verlangt werden kann: P = P(Q).
+
+                                                                                             6/30
+                              Gewinnmaximierung
+
+
+
+Gewinnmaximierung im Monopol
+
+
+   Der Monopolist M maximiert seine Gewinnfunktion:
+                                   πM = P(Q) · Q − C(Q)
+
+   Welche Menge Q ∗ (Outputniveau) maximiert diese Funktion?
+                          dπ(Q)   d [P(Q) · Q]   dC(Q)
+                                =              −       ≡0
+                           dQ         dQ          dQ
+
+       d[P(Q)·Q]
+          dQ
+                 ist der Grenzerlös (MR, marginal revenue);
+       dC(Q)
+        dQ
+             sind die Grenzkosten (MC, marginal cost).
+
+   Es wird also jenes Q gesucht, bei dem gilt:
+
+                               Grenzerlös = Grenzkosten
+
+                                            MR = MC.
+          [Notwendige Bedingung für Maximum / First-order condition (FOC)]
+
+                                                                             7/30
+                             Gewinnmaximierung
+
+
+
+Graphische Darstellung: Gewinnmaximum
+
+Beim optimalen Output-Niveau Q ∗ : Steigungen der Erlöskurve TR(Q) und der
+Kostenkurve C(Q) sind gleich gross: MR(Q ∗ ) = MC(Q ∗ ).
+
+
+
+             €
+
+
+
+
+                                                    C(Q)
+
+
+                                                   TR(Q) = P(Q)*Q
+
+                           Q*                                     Q
+
+
+                                                     P(Q)
+
+                                                                             8/30
+                             Gewinnmaximierung
+
+
+
+Was wissen wir über den Grenzerlös?
+
+
+   Grenzerlös (MR) beschreibt, wie sich der Erlös ändert, wenn Output-Niveau Q
+   (marginal) steigt:
+                    d [P(Q) · Q]            dP(Q)
+         MR(Q) =                 = P(Q) + Q                      Produktregel!
+                        dQ                   dQ
+   dP(Q)
+    dQ
+         ist ist die Steigung der inversen Marktnachfrage-Funktion P(Q).
+
+   Weil die Steigung der direkten Nachfrage negativ ist (law of demand: dQ(P)
+                                                                         dP
+                                                                              < 0),
+   ist auch die inverse Nachfrage negativ ( dP(Q)
+                                             dQ
+                                                  < 0).
+
+   Also ist MR(Q) < P(Q): MR(Q) = P(Q) + Q dP(qQ)
+                                             dQ
+                                                  < P(Q)
+
+   Monopol: P > MR; vollständige Konkurrenz: P = MR.
+   Beispiel:
+       inverse Nachfrage des Monopolisten: P(Q) = 4 − Q
+       Erlös: TR = P(Q)Q = 4Q − Q 2
+       Grenzerlös: MR = 4 − 2Q, während P = 4 − Q. Daher ist MR < P im Monopol.
+
+                                                                                      9/30
+                            Gewinnmaximierung
+
+
+
+Grenzerlös: graphische Darstelllung
+
+
+
+   Für lineare Nachfragefunktionen ist die Steigung der Grenzerlöskurve doppelt so
+   gross wie die der Nachfragekurve:
+
+                  P
+                        P(Q) = a - bQ
+                  a
+
+
+
+
+                                 a/2b              a/b   Q
+
+                                                MR(Q) = a – 2bQ
+
+
+                                                                                     10/30
+                              Gewinnmaximierung
+
+
+
+Grenzkosten
+
+   Grenzkosten beschreiben, wie sich die Gesamtkosten ändern, wenn das
+   Output-Niveau Q (marginal) steigt:
+                                                  dC(Q)
+                                       MC(Q) =
+                                                   dQ
+   Beispiel:
+          Gesamtkosten C(Q) = F + 3Q + 0.25Q 2
+          Grenzkosten MC = 3 + 0.5Q.
+      €
+                                    C(Q) = F + 3Q + 0.25Q2
+
+      F
+    €/Output-Einheit                   Q
+
+                                       MC(Q) = 3 + 0.5Q
+      3
+                                       Q
+
+                                                                         11/30
+                             Gewinnmaximierung
+
+
+
+Gewinnmaximierung: allgemeine lineare Nachfrage
+
+   Gegeben sei:
+       Nachfrage P(Q) = a − bQ
+       Kosten: C(Q) = F + 3Q + 0.25Q 2
+
+   Demnach ist MR = a − 2bQ und MC = 3 + 0.5Q
+   Da im Gewinnmaximum MR = MC gelten muss, ist hier
+
+                                    a − 2bQ = 3 + 0.5Q
+
+   Nach Q auflösen gibt uns die gewinnmaximierende Output-Menge:
+                                                  a−3
+                                        Q∗ =
+                                                 2b + 0.5
+   Wenn der Monopolist diese Menge Q* wählt, ist damit der Marktpreis (Einsetzen
+   von Q ∗ in indirekten Nachfrage P(Q)):
+                                                    a−3
+                                    P∗ = a − b
+                                                   2b + 0.5
+                                                                                   12/30
+                                     Gewinnmaximierung
+
+
+
+MR=MC: Graphische Darstellung
+
+
+       €/Output-Einheit
+
+
+                  a   P(Q) = a - bQ
+
+           ! "#
+ P*= a-b
+       $%&'.)
+                                                           MC(Q) = 3 + 0.5Q
+
+                  3
+
+
+                              ! "#
+                                                            Q
+                       Q*=
+                             $%&'.)
+                                                  MR(Q) = a – 2bQ
+
+
+
+                                                                              13/30
+                              Gewinnmaximierung
+
+
+
+Preissetzung und Elastizität
+
+
+   Preiselastizität der Nachfrage: Um wieviel Prozent ändert sich die Nachfrage,
+   wenn der Preis eines Gutes um x% steigt (sinkt)?
+
+   Marginale Betrachtung bei stetiger Nachfrage:
+                                       dQ/Q   dQ P
+                                ε=          =   ·  <0
+                                       dP/P   dP Q
+   Weil die Nachfrage eine negative Steigung hat, ist die Preiselastizität der
+   Nachfrage negativ. Oft wird nur ihr absoluter Wert |ε| dargestellt.
+
+   Optimale Preispolitik des Monopolisten kann durch Elastizität der Nachfrage
+   ausgedrückt werden.
+
+   Angenommen, die Marktnachfrage reagiert weniger stark auf Preisänderungen,
+   d.h. die Nachfrage-Elastizität ist weniger negativ. Was heisst das für den
+   Monopolpreis?
+
+                                                                                   14/30
+                             Gewinnmaximierung
+
+
+
+Preissetzung und Elastizität
+
+
+
+   Grenzerlös MR kann mit Hilfe der Elastizität ausgedrückt werden:
+                            dTR            d[P(Q) · Q]            dP(Q)
+                 MR(Q) =             =                 = P(Q) + Q
+                             dQ                dQ                  dQ
+                                                               
+                                                       Q dP(Q)
+                                     =     P(Q) 1 +
+                                                     P(Q) dQ
+
+   Weil die Preiselastizität der Nachfrage ε = QP · dQ
+                                                    dP
+                                                       ist der Grenzerlös
+                          1
+                           
+   MR(Q) = P(Q) 1 + ε
+
+   Da ε < 0, schreibt man auch
+                                                    
+                                                  1
+                                MR(Q) = P(Q) 1 −
+                                                 |ε|
+
+
+
+
+                                                                            15/30
+                                 Gewinnmaximierung
+
+
+
+Preissetzung und Elastizität
+
+Aus dem Zusammenhang von Elastizität und Grenzerlös folgt:
+ 1   Der Monopolist wählt immer eine Outputmenge, für welche die Nachfrage
+     elastisch ist, also wo |ε| > 1. Wieso?
+                         h        i
+                               1
+         Aus MR(Q) = P(Q) 1 − |ε|   kann man sehen, dass MR < 0 für |ε| < 1.
+         Das heisst, eine zusätzliche verkaufte Einheit reduziert den Erlös.
+         Also würde man diese Einheit nicht mehr verkaufen wollen.
+
+ 2   Wenn die Grenzkosten des Monopolisten MC sind, dann gilt im Gewinnmaximum:
+                                                    
+                                                  1
+                          MR(Q ∗ ) = P(Q ∗ ) 1 −       = MC
+                                                 |ε|
+     auflösen nach P(Q ∗ ) ergibt dann den optimalen Preis des Monopolisten in
+     Abhängigkeit der Nachfrageelastizität:
+                                                        MC
+                                          P(Q ∗ ) =        1
+                                                      1 − |ε|
+
+
+                                                                                 16/30
+                               Gewinnmaximierung
+
+
+
+Preissetzung und Elastizität: Beispiel
+
+
+Angenommen, ein Monopolist hat Grenzkosten MC.
+
+    Nachfrageelastizität in Situation A: εA = −3
+
+    Nachfrageelastizität in Situation B: εB = −2
+
+Wo kann der Monopolist den höheren Preis setzen (im Gewinnmaximum)?
+
+    Monopolpreis PA∗ = 1−1/3
+                        MC
+                             = 1.5MC
+
+    Monopolpreis PB∗ = 1−1/2
+                        MC
+                             = 2MC
+
+    Der optimale Preis in Situation B ist also höher.
+
+    Der Monopolist reduziert seine Menge Q in Situation B, so dass der Marktpreis
+    steigt.
+
+    Intuition: Die Nachfrage ist in Situation B weniger elastisch, reagiert also weniger
+    stark auf ein Ansteigen des Preises.
+
+
+                                                                                           17/30
+                                Marktmacht
+
+
+
+Markup des Monopolisten
+
+
+   Preissetzung durch Markup (Kostenaufschlag oder Preisaufschlag), d.h.
+   Aufschlag bezogen auf Kosten :
+                              Markup = Preis − Kosten
+
+   Welcher Markup ist optimal (gewinnmaximierend)?
+
+   Um wieviel übersteigt der Preis dann die Grenzkosten?
+
+   Aus der FOC für ein Gewinnmaximum haben wir
+                                               MC
+                                     P∗ =         1
+                                             1 − |ε|
+   was umgeformt werden kann zu
+                                    P ∗ − MC    1
+                                             =
+                                        P∗     |ε|
+   Der optimale Markup im Monopol ist also 1/|ε|.
+
+                                                                           18/30
+                                 Marktmacht
+
+
+
+Marktmacht im Monopol
+
+
+
+
+   Der Markup (Preisaufschlag) P−MC
+                                 P
+                                    wird auch Lerner-Index genannt.
+
+   Er variiert zwischen 0 (perfekter Wettbewerb) und 1 (Monopol mit
+   einheitselastischer Nachfrage).
+
+   Ein Monopolist setzt den optimalen Preis nie im unelastischen Bereich
+   0 < |ε| < 1, daher ist der Lerner-Index maximal 1.
+
+   Er beschreibt, wieviel Marktmacht eine Firma hat.
+
+   Nicht die Größe einer Firma entscheidet über ihre Marktmacht, sondern wie weit
+   sie den Preis ihres Produkts über die marginalen Kosten setzen kann.
+
+
+
+
+                                                                                    19/30
+                                  Marktmacht
+
+
+
+Ursachen von Marktmacht
+
+
+
+
+   Natürliche Monopole (Erdgas)
+
+   Wechselkosten (Vielfliegerprogramme, Netzwerkgüter wie Facebook)
+
+   Produktdifferenzierung
+
+   Absolute Kostenvorteile, Kontrolle über Inputgüter
+
+   Regulierung (Taxi-Lizenzen, Copyright)
+
+   Skalenerträge und Netzwerkeffekte (Kontrolle über neue Produkte)
+
+
+
+
+                                                                      20/30
+                                   Ineffizienz
+
+
+
+Ineffizienz im Monopol
+
+
+
+
+   Eine Situation ist (Pareto) effizient, wenn es keine Möglichkeit gibt, jemand besser
+   zu stellen, ohne jemand anderen schlechter zu stellen.
+
+   Ein Marktgleichgewicht ist effizient, wenn die höchstmöglichen Handelsgewinne
+   insgesamt erreicht werden.
+
+   Ein Marktgleichgewicht im vollständigen Wettbewerb ist Pareto effizient (Erstes
+   Wohlfahrtstheorem).
+
+   Ein Monopolist erzeugt weniger Output als bei vollständiger Konkurrenz und ist
+   daher Pareto-ineffizient.
+
+
+
+
+                                                                                      21/30
+                                        Ineffizienz
+
+
+
+Wohlfahrt im Monopol
+                  €/Output-Einheit
+
+
+
+                                     P(Q)
+
+                             CS
+                   P(Q*)
+                              PS                              MC(Q)
+
+
+
+
+                                            Q*                 Q
+
+                                                      MR(Q)
+
+
+   CS: Konsumentenrente (consumer surplus)
+   PS: Produzentenrente (producer surplus)
+   MC(Q ∗ + 1) < P(Q ∗ + 1), (kleinerer) Gewinn für Produzent möglich bei zusätzlich
+   produzierter Einheit.
+   Mehr Konsumenten könnten kaufen, wenn mehr produziert würde.
+                                                                                   22/30
+                                      Ineffizienz
+
+
+
+Wohlfahrtsverlust im Monopol
+
+Wie hoch ist der Wohlfahrtsverlust? - siehe rotes Dreieck (DWL)
+                   €/Output-Einheit
+
+
+
+                                   P(Q)
+
+                              CS
+                     P(Q*)                     DWL
+                              PS                                  MC(Q)
+                     P(Qe)
+
+
+
+                                          Q*         Qe            Q
+
+                                                          MR(Q)
+
+
+    DWL (deadweight loss) sind die nicht realisierten Gewinne auf dem Markt:
+    Wohlfahrtsverlust.
+    Monopolist produziert weniger als die effiziente Menge Q e , damit steigt der
+    Marktpreis über den effizienten Marktpreis.
+                                                                                    23/30
+                                 Regulierung
+
+
+
+Regulierung
+
+
+
+
+   Das Gleichgewicht im Monopol ist ineffzient. Es wären noch mehr Konsumenten
+   bereit, mindestens die Grenzkosten des Gutes zu bezahlen.
+
+   Es lohnt sich für den Monopolisten jedoch nicht, die Produktionsmenge zu
+   erhöhen, denn dann müsste er auch den Preis senken, um diese Menge
+   abzusetzen. Dies würde den Gewinn aus bisher produzierten Einheiten
+   reduzieren.
+
+   Monopolmacht ist also schädlich für die Wohlfahrt. Sollte also versucht werden,
+   durch Regulierung des Monopols (Verstaatlichung, Preisregulierung,
+   Mindestabsatz, etc.) die Wohlfahrt zu erhöhen?
+
+
+
+
+                                                                                     24/30
+                                                        Regulierung
+
+
+
+Regulierung
+
+   Eine Möglichkeit wäre, Preise direkt zu regulieren.
+   Insbesondere bei natürlichen Monopolen wurde diese Art der Regulierung angewandt. Die
+   Regierung erlaubt genau einer Firma, den Markt zu bedienen, diktiert jedoch die Preise.
+   Wohlfahrtsmaximierender Preis liegt unter Durchschnittskosten, da würde Firma Verlust
+   machen.
+   Was ist der richtige Preis? Typischerweise kennt der Regulator die Kostenstruktur der Firma
+   nicht genau.
+   Die Firma selbst hat kein Interesse daran, ihre Kostenstruktur offenzulegen.
+                  Cost curves of competitive firm                                     Cost curves in natural monopoly
+
+             AC , MC                                                        AC , MC
+                                                    Marginal Cost
+
+
+
+                                                             Average Cost                            P(Q) = a-b(Q)
+                                                                                                                             Welfare-max Q
+                                                                                                                             (regulation)
+
+
+                                                                                                                             Average Cost
+
+                                                                                                                             Marginal Cost
+
+                               Minimum Average Cost            Q                                                        Q*    Q
+
+                                                                                                                                             25/30
+                                  Regulierung
+
+
+
+Regulierung
+
+
+Es gibt auch gute Gründe, Marktmacht durch Patente und Handelsmarken zu
+schützen.
+
+    Beispiel: Pharma-Unternehmen, das ein Medikament gegen eine Krankheit
+    entwickeln kann.
+
+    Entwicklungskosten sind typischerweise sehr hoch, die Herstellung des
+    Medikaments jedoch sehr günstig, z.B. 10 Cent pro Einheit.
+
+    Bei perfektem Wettbewerb wäre der Preis = 10 Cent pro Einheit, so dass die
+    Firma keinen Gewinn erwirtschaften würde. Sie würde dann auf ihren
+    Entwicklungskosten sitzen bleiben. Die Innovation würde daher nicht stattfinden.
+
+    Um Investitionen in Forschung und Entwicklung zu ermutigen, muss Regulierung
+    manchmal intellektuelles Eigentum schützen, zumindest für einen begrenzten
+    Zeitrahmen.
+
+                                                                                       26/30
+                             Preisdiskriminierung
+
+
+
+Monopol-Verhalten
+
+
+   Auch auf Konkurrenzmärkten können Unternehmen zu einem gewissen Grad eine
+   Monopolstellung haben.
+
+   Beispiel: Es gibt ein beliebtes Restaurant in der Stadt. Wenn die Preise etwas
+   steigen, werden die meisten Leute weiter in dieses Restaurant gehen.
+
+   Wenn im Markt von Softdrinks der Preis von Coca-Cola ansteigt, werden die
+   meisten Konsumenten nicht aufhören, Coca-Cola zu trinken.
+
+   Die meisten Güter sind nicht homogen: Unternehmen versuchen, durch
+   Produktdifferenzierung ihre Marktmacht auszubauen.
+
+   Bisher haben wir angenommen, dass der Monopolist sein Produkt an alle
+   Konsumenten zum selben Preis verkaufen muss (Einheitspreise).
+
+   Mit komplexeren Preisstrategien kann die Marktmacht ausgenützt werden.
+
+
+                                                                                    27/30
+                               Preisdiskriminierung
+
+
+
+Preisdiskriminierung
+
+
+    Preisdiskriminierung: verschiedene Outputeinheiten werden zu verschiedenen
+    Preisen verkauft.
+
+    Motiv für dieses Preisverhalten ist das Erreichen einer höheren Produzentenrente
+    durch Ausnutzen der maximalen Zahlungsbereitschaft der Käufer, und nicht
+    aufgrund von Kostenunterschieden.
+
+    Beispiele:
+        Flug erster und zweiter Klasse
+        Haarschnitt Männer und Frauen
+        gebundene Bücher und Taschenbücher
+        Studentenpreis und Normalpreis
+        Mengenrabatte
+
+Wie kann der Monopolist seine Gewinne durch Preisdiskriminierung steigern?
+
+
+                                                                                   28/30
+                             Preisdiskriminierung
+
+
+
+Arten der Preisdiskriminierung
+
+
+
+Nach Pigou (1920) werden drei Arten von Preisdiskriminierung unterschieden:
+
+    Ersten Grades (perfekte Preisdiskiminierung): individueller Preis = individuelle
+    Zahlungsbereitschaft; der Monopolist verkauft verschiedene Mengeneinheiten zu
+    verschiedenen Preisen, können von Person zu Person verschieden sein.
+
+    Zweiten Grades (nicht-lineare Preissetzung): jeder, der dieselbe Menge kauft,
+    zahlt denselben Preis, Preise für unterschiedliche Mengen sind aber
+    unterschiedlich (z.B. Mengenrabatte).
+
+    Dritten Grades (gruppenspezifische Preise): für jede Einheit, die an eine
+    bestimmte Konsumentengruppe verkauft wird, wird derselbe Preis verlangt, Preise
+    für verschiedene Gruppen sind unterschiedlich (z.B. Studentenermässigung).
+
+
+
+
+                                                                                    29/30
+                                                  Preisdiskriminierung
+
+
+
+Arten der Preisdiskriminierung
+               FORMEN DER PREISDISKRIMINIERUNG
+                                      Konsumenten- Einheitspreis Beispiel
+                                      spezifisch?  abhängig von
+                                                   Menge?
+               PD ersten                         ja                      ja   in Reinform unrealistisch; gewinnt
+               Grades                                                         mit steigenden Konsumentendaten
+                                                                              an Bedeutung
+               PD zweiten                       nein                     ja   Mengenrabatt
+               Grades                                                         Mitgliedschaft Filmverleih
+                                                                              (Grundgebühr+Preis pro Einheit)
+               PD dritten                        ja                  nein     Studentendiscount
+               Grades                                                         Rentnerrabatt
+                                                                              ortsspezifische Preise
+
+             Es hängt
+Information des       von der Information
+                 Produzenten        überdes Produzenten
+                                          die           über die Zahlungsbereitschaft
+                                              Zahlungsbereitschaft          der Konsumenten
+                der Konsumenten ab, welche Art der Preisdiskriminierung möglich ist.
+            - PD ersten
+bestimmt, welche Art derGrades: erfordert vollständige Information
+                            Preisdiskriminierung            möglich ist.
+                - PD zweiten Grades: Info über Verteilung der Präferenzen nötig, Selbstselektion der
+               Konsumenten
+     PD ersten Grades: erfordert vollständige Information.
+
+
+
+
+                                                                                                                   30
+             - PD dritten Grades: es genügt die Möglichkeit einer Abgrenzung verschiedener
+                Managerial Economics, Monopol
+
+     PD zweitenGruppen
+                Grades: Information über Verteilung der Präferenzen nötig,
+     Selbstselektion der Konsumenten.
+     PD dritten Grades: es genügt die Möglichkeit einer Abgrenzung verschiedener
+     Gruppen
+                                                                                                                        30/30
+

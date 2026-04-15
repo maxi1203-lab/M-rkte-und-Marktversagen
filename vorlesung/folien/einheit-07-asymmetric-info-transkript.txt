@@ -1,0 +1,567 @@
+ Märkte und Marktversagen
+ Asymmetrische Information
+
+
+                Anita Gantner
+
+Institut für Wirtschaftstheorie, -politik und -geschichte
+                  Universität Innsbruck
+
+
+                IWW-Bachelor
+
+
+
+
+                                                            1/23
+                                    Einführung
+
+
+
+Einführung
+
+   Bisher haben wir Situationen betrachtet, in denen alle Beteiligten dieselbe
+   Information hatten.
+   Die Qualität des gehandelten Gutes und die Präferenzen der Teilnehmer waren
+   allen bekannt.
+   In der Realität ist das oft nicht der Fall. Häufig hat eine Partei bessere
+   Informationen als eine andere Partei.
+   Diese Ungleichheit der Informationsmenge nennt man asymmetrische
+   Information.
+   Die Informationsökonomik beschäftigt sich mit Interaktionen von Akteuren, wenn
+   sie unter asymmetischer Information stattfindet.
+   Wie werden Güter in solchen Situationen gehandelt, welche Probleme entstehen
+   hier, und wie können sie gelöst werden?
+   Informationsökonomie wird auch Vertragstheorie, Anreiztheorie oder
+   Prinzipal-Agenten-Theorie genannt, und wird z.B. in der Arbeitsökonomie,
+   Gesundheitsökonomie, Finance angewandt.
+                                                                                  2/23
+                                     Einführung
+
+
+
+Asymmetrische Information
+
+
+   Tritt auf, wenn eine Seite des Marktes mehr Information hat als die andere Seite.
+   Besser informierte Marktteilnehmer können ihre Information verbergen oder falsch
+   darstellen.
+   Beispiele:
+       Der Verkäufer kennt die Eigenschaften seines Produktes besser als der Käufer und
+       kann das Produkt besser darstellen, als es eigentlich ist
+       Der Arbeiter kennt seine Fähigkeiten besser als die Firma, die ihn einstellt; er wird
+       versuchen, sich bestmöglich darzustellen.
+       Der Arbeitnehmer kann sich bei der Arbeit mehr oder weniger anstrengen, das kann
+       nicht dauernd überprüft werden.
+
+   Strategisches Verhalten: besser informierte Agenten benutzen Asymmetrie zu
+   ihrem Vorteil auf Kosten jener, die weniger Information besitzen.
+   Wir betrachten Moral Hazard (moralisches Risiko) und Adverse Selektion
+   (negative Selektion), die auf unterschiedlichen Informationsasymmetrien beruhen.
+
+
+                                                                                               3/23
+                                     Einführung
+
+
+
+Moral Hazard
+
+   Charakteristik: Eine Seite des Marktes kann die Handlungen, die von der
+   anderen Seite unternommen werden, nicht beobachten (hidden action).
+   Die besser informierte Seite (Agent) nutzt ihren Vorteil aus, dass ihr Verhalten
+   durch die uninformierte Seite (Prinzipal) nicht beobachtet werden kann .
+   Beispiele:
+        Angestellter bemüht sich wenig, wenn er vom Arbeitgeber nicht überwacht werden
+        kann.
+        Versicherung: Leute die eine Brandschutzversicherung haben, verhalten sich weniger
+        vorsichtig als solche ohne Versicherung.
+
+   Moralisches Risiko: es steigt jener Teil des Risikos für ein unerwünschtes
+   Ergebnis, der durch den Handelnden selbst beeinflusst wird.
+   Um Moral Hazard-Verhalten zu vermeiden, kann man den informierten Agenten
+   besser überwachen (Monitoring), oder seine Entlohnung vom Ergebnis seiner
+   Bemühungen abhängig machen (Anreize setzen).
+   Monitoring: Brandschutzversicherung beschäftigt Inspektoren, die die Vorrichtungen grosser
+   Industriekunden beobachten, aber dieses Monitoring ist teuer.
+                                                                                                4/23
+                                    Einführung
+
+
+
+Adverse Selektion
+
+   “Negativauslese”, falsche Auswahl.
+   Charakteristik: eine Seite des Marktes kann die Eigenschaften der informierten
+   Akteure auf der anderen Marktseite nicht beobachten (hidden information).
+   Ergebnis: informierte Marktteilnehmer haben einen Nutzen aus dem Handel,
+   während uninformierte Teilnehmer es vorziehen würden, mit jemandem zu
+   handeln, der zufällig aus der Population gezogen wird, als mit jenen, die am Markt
+   zur Verfügung stehen.
+   Effekt: Marktversagen, Marktverschwinden
+   Beispiel: Risikolebensversicherung
+       Versicherung zahlt nur bei Todesfall in Versicherungszeitraum.
+       Wenn viele ältere kranke Leute sich versichern → hohe Preise.
+       Ergebnis: weniger gesunde Leute versichern sich.
+       Versicherte stellen ein grösseres Versicherungsrisiko dar als jemand, der zufällig aus
+       der Population ausgewählt wird
+       Konsequenz: Preise steigen, weil sie auf den Informationen der versicherten Leute der
+       Vergangenheit basieren.
+
+                                                                                                5/23
+                                   Einführung
+
+
+
+Marktversagen
+
+
+Akerlof (1970), Nobelpreis 2001: Lemons-Problem im Gebrauchtwagenmarkt zeigt,
+wie durch Unkenntnis über Produktqualität die Produkte hoher Qualität aus dem Markt
+gedrängt werden.
+
+    Produkt kann unterschiedliche Qualität haben (hoch, niedrig).
+    Käufer können Qualität des Produkts nicht beurteilen, bevor sie es kaufen.
+    Produzenten von Produkten niedriger Qualität verkaufen ihre Produkte eher (weil
+    sie sie auch für niedrige Preis anbieten können)
+    Produkte hoher Qualität müssen zu höherem Preis verkauft werden.
+    Auf einem Markt wird aber die schlechte Qualität immer angeboten, und wenn der
+    Marktpreis nicht hoch genug ist, werden Produkten hoher Qualität zu diesem Preis
+    nicht gehandelt.
+    Produkte niedriger Qualität können so jene hoher Qualität aus dem Markt drängen
+
+
+
+                                                                                      6/23
+                                Lemons-Markt
+
+
+
+Lemons-Markt: Beispiel
+
+
+   Wir betrachten einen Gebrauchtwagenmarkt.
+   Es gibt zwei Arten von Gebrauchtwagen: gute und schlechte (“Lemons”).
+   Käufer sind Händler, die Autos kaufen, um sie nachher wieder zu verkaufen. Sie
+   können gute und schlechte Autos vor dem Kauf nicht unterscheiden.
+   Verkäufer sind die Besitzer der Gebrauchtwagen. Sie wissen, ob ihr Auto ein
+   gutes oder schlechtes ist.
+   Besitzer verkaufen nicht unter Reservationsspreis.
+   Besitzer der guten Autos haben höheren Reservationspreis (1600) als Besiter der
+   Lemons (0).
+   Händler erfahren wahre Qualität der Autos nach Kauf.
+   Händler können Lemon für 500 verkaufen und gutes Auto für 3500 (sie müssen
+   ihren Kunden wahre Qualität mitteilen).
+
+
+
+                                                                                     7/23
+                               Lemons-Markt
+
+
+
+Lemons-Markt: Beschreibung bei einem Nachfrager
+
+
+
+   Angenommen, Sie sind der einzige Gebrauchtwagenhändler in der Stadt, alle
+   Besitzer werden an Sie verkaufen.
+   Sie werden alle Autos, die Sie ankaufen, wiederverkaufen: gute Autos für 3500
+   und Lemons für 500.
+   Ihr Gewinn: Gesamteinnahmen aus dem Wiederverkauf der Autos abzüglich
+   dessen, was Sie für die Autos bezahlt haben.
+   Sie müssen nun einen einheitlichen Preis setzen, zu dem Sie alle
+   Gebrauchtwagen ankaufen, die zu Ihnen gebracht werden.
+   Verkäufer (Autobesitzer) werden ihre Autos zum Verkauf zu Ihnen bringen, wenn
+   Ihr gesetzter Preis höher ist als ihr Reservationspreis.
+   Besitzer von guten Autos haben höheren Reservationspreis (1600) als Besitzer
+   von Lemons (0).
+
+
+
+                                                                                   8/23
+                                Lemons-Markt
+
+
+
+Ein Gebrauchtwagenhändler: Welchen Preis setzen?
+
+
+
+
+   Sie können die Qualität eines Autos zwar nicht vor dem Kauf identifizieren, aber
+   Sie erfahren etwas über die Verteilung der Qualität.
+   Situation 1: Angenommen, es gibt 6 gute Autos und 6 Lemons in der Stadt.
+   Situation 2: Angenommen, es gibt 4 gute Autos und 8 Lemons in der Stadt.
+   Welche Preise würden Sie als Gebauchtwagenhändler setzen, zu dem Sie alle
+   Gebrauchtwagen, die Ihnen angeboten werden, ankaufen:
+       in Situation 1?
+       in Situation 2?
+
+
+
+
+                                                                                      9/23
+                                Lemons-Markt
+
+
+
+Angebot und Nachfrage bei Wettbewerb
+
+
+
+
+   Anbieter kennen die Qualität ihrer Güter, daher kann die Angebotskurve bestimmt
+   werden.
+   Nachfrage ist schwieriger, denn die Qualität ist vor dem Kauf unbekannt.
+   Zahlungsbereitschaft der Nachfrager hängt von Durchschnittswert (also
+   durchschnittlicher Qualität) der zum Verkauf angebotenen Autos ab.
+   Durchschnittliche Qualität der Autos, die von den Anbietern am Markt angeboten
+   werden, hängt vom Preis ab.
+   Wir brauchen das Konzept der selbstbestätigenden Erwartungen (self-confirming
+   beliefs): wenn Leute solche Erwartungen haben, ist das Ergebnis ihrer
+   Handlungen konsistent mit diesen Erwartungen.
+
+
+
+
+                                                                                    10/23
+                                Lemons-Markt
+
+
+
+Erwartungen im Lemons-Markt
+
+   Käufer: 25 potentielle Käufer, die bis zu 1200 für ein gutes Auto bezahlen würden
+   und 400 für ein schlechtes.
+   Jeder Käufer kauft höchstens ein Auto.
+   Verkäufer: Autobesitzer haben Reservationspreis von 700 für gute Autos und 200
+   für Lemons.
+   Verteilung der Qualität: Es gibt 5 gute Autos und 15 schlechte (Lemons).
+   Angebotskurve: Unter 200 würde niemand ein Auto verkaufen. Zwischen 200
+   und 700 würden nur Lemons-Besitzer verkaufen, und über 700 würden alle
+   Besitzer ihr Auto verkaufen.
+   Nachfragekurve: Angenommen, die Käufer erwarten, dass alle 20 Autos auf dem
+   Markt angeboten werden. Dann ist 14 der Autos gut und 34 sind Lemons.
+   Erwartungswert eines gekauften Autos ist dann 41 · 1200 + 34 · 400 = 600.
+   Der Erwartungswert eines Autos ist der durschschnittliche Wert für die Käufer von
+   jenen Autos, die auf dem Markt angeboten werden.
+
+                                                                                   11/23
+                                                     Lemons-Markt
+
+
+
+Optimistische Erwartungen
+
+Wenn Nachfrager erwarten, dass alle Autos am Markt angeboten werden:
+
+                                                12                             S
+                                                10
+
+
+
+
+                            Preis in 100 Euro
+                                                8
+                                                6
+
+                                                4
+
+                                                2                              D
+
+                                                     0    5     10   15   20   25
+
+                                                              Anzahl Gebrauchtwagen
+
+
+
+    Marktgleichgewicht ist bei P=600 und Q=15.
+    Alle Autos, die am Markt angeboten werden, sind Lemons, da bei P=600 kein
+    Besitzer eines guten Autos bereit ist, sein Auto zu verkaufen.
+    Die Erwartung, dass alle 20 Autos zum Verkauf angeboten werden, zeigt sich als
+    nicht selbsbestätigend. Das geht zu Lasten der Käufer, da sie nur Lemons
+    kaufen werden. Lemons haben einen Wert von 400 für Käufer, aber sie bezahlen
+    600 dafür ⇒ Käufer müssen ihre Erwartungen revidieren.
+                                                                                      12/23
+                                                   Lemons-Markt
+
+
+
+Pessimistische Erwartungen
+
+Wenn Nachfrager erwarten, dass nur Lemons am Markt angeboten werden:
+
+                                               12
+                                                                              S
+
+
+
+
+                           Preis in 100 Euro
+                                               10
+
+                                               8
+                                               6
+
+                                               4
+                                                                                   D
+                                               2
+
+
+                                                    0    5     10   15   20   25
+
+                                                             Anzahl Gebrauchtwagen
+
+
+
+    Marktgleichgewicht ist bei P=400 und Q=15.
+    Alle Autos, die am Markt angeboten werden, sind Lemons.
+    Die Erwartung, dass alle Autos, die zum Verkauf angeboten werden, Lemons
+    sind, zeigt sich als selbsbestätigend.
+    Das Marktergebnis ist konsistent mit den Erwartungen.
+                                                                                       13/23
+                                Lemons-Markt
+
+
+
+Multiple Gleichgewichte
+
+
+
+   Es ist möglich, dass zwei verschiedene Erwartungen selbstbestätigend sein
+   können, wenn die Leute diesen Erwartungen entsprechend handeln.
+   Die Möglichkeit multipler Gleichgewichte tritt häufig in ökonomischen Modellen
+   auf, insbesondere mit asymmetrischer Information.
+   Dies zeigt, dass unterschiedliche Erwartungen (beliefs) zu völlig
+   verschiedenen selbstbestätigenden Ergebnissen führen können.
+   In verschiedenen Umgebungen (Regionen, Systemen) können unterschiedliche
+   ökonomische Ergebnisse entstehen.
+   Beispiel: ökonomische Depression kann Ergebnis einer Wirtschaft sein, die in
+   einem Gleichgewicht mit pessimistischen Beliefs ist. Mit mehr Zuversicht kann ein
+   anderes Gleichgewicht mit optimistischen Beliefs erreicht werden.
+
+
+
+
+                                                                                    14/23
+                                   Lemons-Markt
+
+
+
+Lösumgsmechanismen für Adverse Selektion
+
+
+
+Wichtigste Methoden, um Probleme der adversen Selektion und zu lösen und
+opportunistisches Verhalten einzudämmen:
+    Bündeln des Risikos:
+        universeller Versicherungsschutz: eine Versicherung für alle Angestellten einer Firma
+        anbieten, so dass sowohl gesunde Leute als auch Risikofälle abgedeckt sind;
+        Firma kann Krankenversicherung zu besserem Preis pro Person anbieten, als jeder
+        Einzelne bezahlen müsste (weil sich relativ mehr Risikofälle als Gesunde sich dann
+        versichern würden)
+
+    Ausgleich von Information durch
+        Screening
+        Signaling
+
+
+
+
+                                                                                                15/23
+                               Lemons-Markt
+
+
+
+Informationsausgleich
+
+
+   Screening
+   Handlung einer uninformierten Person, um an Information der besser informierten
+   Seite heranzukommen.
+   Beispiel: Potentieller Käufer macht Testfahrten mit Gebrauchtwagen, um dessen
+   Qualität besser zu beurteilen
+   Oder es werden mehrere Verträge werden angeboten, zwischen denen sich die
+   informierte Partei entscheiden muss. Vertragswahl lässt Rückschlüsse auf private
+   Information der informierten Seite zu.
+   Beispiel: Handy-Verträge, Versicherungen, Kredite.
+   Signaling
+   Handlung einer informierten Person, um glaubwürdig Information an die
+   uninformierte Seite zu senden.
+   Beispiel: Ergebnis von Stiftung Warentest auf dem Produkt darstellen, wenn
+   dieses gut ist. Damit wird eine hohe Produktqualität signalisiert.
+
+
+                                                                                  16/23
+                                  Lemons-Markt
+
+
+
+Adverse Selektion und Bildung als Signal
+
+
+Neueinstellung im Arbeitsmarkt:
+
+    Asymmetrische Information verursacht Probleme im Arbeitsmarkt, weil
+    Unternehmen die Qualität der Bewerber nicht kennt.
+    Arbeiter können signalisieren, Unternehmen können Screening machen.
+    Cheap talk: nicht nachprüfbare Behauptungen. Leute können cheap talk
+    verwenden, um sich anderen gegenüber herauszustellen oder ihre Fähigkeiten
+    besser darzustellen, es kostet wenig, ist aber auch wenig glaubwürdig.
+    Hochschulstudium könnte sich auszahlen, weil es wertvolle Vorbereitung bietet,
+    oder es könnte lediglich als Signal über Fähigkeiten des Bewerbers für
+    Arbeitgeber dienen.
+    Angenommen, Ausbildung bietet keine Vorbereitung für Job, sondern ist nur ein
+    Signal für Fähigkeiten (Spence Signaling Model)
+
+
+
+                                                                                     17/23
+                                 Lemons-Markt
+
+
+
+Signaling bei Bewerberauswahl
+
+
+   Angenommen, es gibt mehrere Bewerber für einen gut bezahlten Manager-Job.
+   Jeder Bewerber ist einer von zwei möglichen Typen bezüglich seiner Fähigkeiten
+   für den Job:
+       F für fähig
+       U für unfähig
+
+   Es gibt 20% von Typ F im Bewerberpool und 80% von Typ U. Dies sind
+   a-priori-Wahrscheinlichkeiten auf Seiten eines Arbeitgebers, jedem dieser Typen
+   gegenüberzustehen.
+   Der Arbeitgeber bezahlt Löhne wie im vollständigen Wettbewerb, d.h. das
+   Grenzprodukt des Outputs:
+       150.000 Euro für einen F-Typen
+       100.000 Euro für einen U-Typen
+
+   Unvollständige Information: Arbeitgeber kann Qualität des Bewerbers (Typ) nicht
+   direkt beobachten Typ U möchte vortäuschen, dass er Typ F ist, um einen
+   höheren Lohn zu erhalten.
+
+                                                                                     18/23
+                                 Lemons-Markt
+
+
+
+Separation der Typen
+
+
+
+   Signaling ist hilfreich: der F-Typ will mehr Information an die uninformierte Seite
+   (Arbeitgeber) liefern, damit er glaubhaft vermitteln kann, dass er Typ F ist.
+   Wie kann man das tun? Indem man Mittel einsetzt, die der andere Typ nicht
+   verwenden würde. Im Beispiel: das Niveau der Ausbildung betrachten.
+   Typ F kann schwierige Kurse leichter bestehen, d.h. er benötigt weniger Zeit als
+   Typ U, d.h. seine Kosten sind geringer.
+       Opportunitätskosten eines schwierigen Kurses für Typ F: 6,000 Euro
+       Opportunitätskosten eines schwierigen Kurses für Typ U: 9,000 Euro
+
+   Arbeitgeber interpretiert das so, dass jeder, der n oder mehr schwierige Kurse
+   belegt hat, als Typ F betrachtet wird und 150,000 Euro erhält
+   Wer weniger als n schwierige Kurse belegt hat, erhält 100,000 Euro
+   Kein Bewerber will mehr Kurse als nötig belegen.
+
+
+
+                                                                                         19/23
+                                 Lemons-Markt
+
+
+
+Separation der Typen
+
+
+
+   Frage für jeden Typen der Bewerber: Lohnt es sich für mich, n schwierige Kurse
+   zu belegen, damit ich als Typ F gesehen werde?
+   Frage für Arbeitgeber: Wie finde ich den Wert für n, so dass
+       Bewerber vom Typ U keinen Anreiz haben, n Kurse zu belegen, damit sie als Typ F
+       gesehen werden,
+       Bewerber vom Typ F einen Anreiz haben, diese n Kurse zu belegen, und sich nicht mit
+       dem Gehalt für Typ U zufrieden geben.
+
+   Aus Sicht des Arbeitgebers suchen wir nach einem Screening-Mittel, das beiden
+   Typen von Bewerbern einen Anreiz bietet, ihren wahren Typ offenzulegen.
+   Aus Sicht der Bewerber wird die Belegung von n schwierigen Uni-Kursen als
+   Signal verwendet, dass man Typ F ist.
+
+
+
+
+                                                                                             20/23
+                                Lemons-Markt
+
+
+
+Anreizkompatibilität
+
+    Wie findet man die Anzahl der Kurse n, damit sich die Typen separieren?
+    1. Bedingung: Typ U zieht es vor, seinen wahren Typ offenzulegen, und nicht die
+    zusätzlichen Kosten zu bezahlen (schwierige Kurse belegen), wenn er Typ F
+    imitieren will:
+                     100, 000 > 150, 000 − 9, 000n, somit n > 5.56
+    Es muss also n ≥ 6 sein, damit Typ U keinen Anreiz hat vorzutäuschen, dass er
+    Typ F ist. Typ U macht diese Kurse nicht, weil es sich für ihn nicht lohnt.
+    2. Bedingung: Typ F zieht es vor, das Signal der schwierigen Kurse zu zeigen,
+    und gibt sich nicht mit dem niederigeren Gehalt von Typ U zufrieden:
+
+                     150, 000 − 6, 000n > 100, 000, somit n < 8.33
+
+    Es muss also n ≤ 8 sein, damit für Typ F nicht zu hohe Kosten entstehen, wenn er
+    die schwierigen Kurse macht.
+    Diese Bedingungen bestimmen, welche Zahl n∗ von schwierigen Kursen
+    anreizkompatibel ist, so dass jeder Teilnehmer sich gemäß seines wahren Typs
+    verhält: 6 ≤ n∗ ≤ 8
+                                                                                    21/23
+                                Lemons-Markt
+
+
+
+Separierendes Gleichgewicht
+
+   Ein Bewerber, der 6 oder mehr schwierige Kurse an der Uni belegt hat, wird als
+   Typ F betrachtet, und erhält 150,000 Euro Lohn.
+   Ein Bewerber, der weniger als 6 schwierige Kurse belegt hat, wird als Typ U
+   betrachtet, und erhält 100,000 Euro Lohn.
+   Alle F-Typen belegen 6 schwierige Kurse, weil es sich für sie trotz der Kosten
+   lohnt.
+   Alle U-Typen belegen keine schwierigen Kurse, weil es sich für sie wegen der
+   Kosten nicht lohnt.
+   Wir nennen dies ein separierendes Gleichgewicht, weil man die beiden Typen
+   im Gleichgewicht (bei gegenseitig besten Antworten) unterscheiden kann.
+   In diesem separierenden Gleichgewicht weiss der Arbeitgeber mit Sicherheit, dass
+   ein Kandidat ein Typ F ist, wenn er 6 schwierige Kurse belegt hat. Die
+   Wahrscheinlichkeit, dass dieser Kandidat ein Typ U ist, ist gleich Null.
+   Für den Arbeitgeber sind die Kurse ein Screening-Mittel, für die Kandidaten sind
+   sie ein Mittel, um ihre Fähigkeiten zu signalisieren.
+                                                                                      22/23
+                                Lemons-Markt
+
+
+
+Kosten der Informationsasymmetrie
+
+
+   Die Separation der Typen hat aber Kosten (im Vergleich zur Situation mit
+   vollständiger Information).
+   Typ F muss die n∗ schwierigen Kurse belegen, um seinen wahren Typen zu
+   signalisieren.
+   Kosten der Informationsasymmetrie: Kosten = n∗ · 6, 000
+   Diese Kosten werden vollständig von Typ F getragen.
+   Warum ist Typ F bereit, diese Kosten zu tragen? - Weil die Separation der Typen
+   ihm Vorteile bringt:
+
+                      150, 000 − 6 · 6, 000 = 114, 000 > 100, 000
+
+   Das Gleichgewicht bei asymmetrischer Information nennt man “Second-best”, weil
+   es im Vergleich zur Situation mit vollsändiger Information eine Reduktion der
+   Wohlfahrt mit sich bringt, d.h. nicht Pareto-optimal ist.
+
+
+                                                                                     23/23
+

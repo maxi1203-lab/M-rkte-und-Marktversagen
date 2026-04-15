@@ -1,0 +1,739 @@
+ Märkte und Marktversagen
+    Dynamische Spiele
+
+
+                Anita Gantner
+
+Institut für Wirtschaftstheorie, -politik und -geschichte
+                  Universität Innsbruck
+
+
+                IWW-Bachelor
+
+
+
+
+                                                            1/26
+                                    Einführung
+
+
+
+Sequentielle Entscheidungen
+
+
+   Ein Unternehmen entscheidet zuerst, der Konkurrent beobachtet dies und trifft
+   dann seine Entscheidung.
+   Wie sollen die Unternehmen sich dann entscheiden?
+   Die Entscheidung des ersten hat einen Einfluss auf jene des zweiten, das sollte
+   der erste antizipieren.
+   Sequentielle (dynamische) Spiele bilden dies ab.
+   Wir nennen die Spieler First Mover (FM) und Second Mover (SM).
+   Die beste Entscheidung des FM hängt von der Antwort des SM ab.
+   Darstellung in extensiver Form: Spielbaum mit Information über
+       Anzahl der Spieler;
+       wann jeder Spieler entscheiden kann;
+       welche Aktionen bei einer Entscheidung möglich sind;
+       Auszahlungen für alle möglichen Spielausgänge.
+
+
+
+                                                                                     2/26
+                                           Einführung
+
+
+
+Beispiel: Pizza-Preise
+
+
+
+
+   Zwei Spieler: Pizzeria Amalfi und Pizzeria Napoli
+   Zuerst wählt Amalfi seinen Preis: 10 Euro oder 6 Euro.
+   Napoli sieht Amalfis Entscheidung und wählt dann 11 Euro oder 7 Euro
+   Auszahlungen: siehe Spielbaum
+
+                                               Napoli
+                                                        11 €   1000,1000
+                                    10 €
+                           Amalfi                              500,1200
+                                                         7€
+
+                                                        11 €   1200, 300
+                                    6€
+                                              Napoli
+                                                         7€     400, 400
+
+
+SA = {10, 6}
+SN = {(11|10, 11|6), (11|10, 7|6), (7|10, 11|6), (7|10, 7|6)}
+
+                                                                           3/26
+                                     Einführung
+
+
+
+Spielbäume
+
+   Ein Spielbaum ist eine Menge von geordneten und miteinander verbundenen
+   Knoten.
+   Das Spiel beginnt mit genau einem Anfangsknoten.
+   Endknoten: Hier endet das Spiel und die Auszahlungen werden realisiert.
+   Die Äste stellen die möglichen Aktionen der Spieler dar.
+   Entscheidungsknoten: Hier wählt genau ein Spieler eine Aktion. Jede Aktion
+   führt genau zu einem Entscheidungs- oder Endknoten.
+   Teilspiel: beginnt an einem Entscheidungsknoten des Spiels und enthält alle
+   weiteren Entscheidungsknoten und Aktionen, die im weiteren Spielverlauf aus
+   diesem Knoten folgen.
+                                                  Napoli
+                                                           11 €   1000,1000
+                                         10 €
+                                Amalfi                             500,1200
+                                                           7€
+
+                                                           11 €   1200, 300
+                                         6€
+
+                                                  Napoli
+                                                            7€     400, 400
+
+
+
+
+                                                                                 4/26
+                                  Einführung
+
+
+
+Strategien im dynamischen Spiel
+
+
+
+
+   Alle Spieler, die nach der ersten Entscheidung des ersten Spielers eine
+   Entscheidung treffen, können diese auf den bisherigen Spielverlauf konditionieren.
+   Daher ist eine Strategie im dynamischen Spiel komplexer als im statischen Spiel.
+   Eine Strategie ist ein vollständiger Verhaltensplan, der angibt, wie sich ein
+   Spieler an jedem für ihn möglichen Entscheidungsknoten verhalten wird.
+   Napoli hat dann 4 mögliche Strategien, da es zwei Entscheidungsmöglichkeiten
+   am obenen Knoten gibt, und zwei Entscheidungsmöglichkeiten am unteren
+   Knoten. Alle Kombinationsmöglichkeiten am oberen und unteren Knoten ergeben
+   sämtliche möglichen Strategien.
+
+
+
+
+                                                                                      5/26
+                                                       Einführung
+
+
+
+Pizza-Preise: Strategien
+
+                BEISPIEL: PIZZA-PREISE
+                                Napoli           11 €      Napoli
+                                                            1000,1000
+                                                                    11 €       1000,1000
+                       10 €                                               • Sequentielles Spiel
+                                                10 €
+              Amalfi              Amalfi                                  • Zwei Spieler: Amalfi und Napoli
+                                                7€            500,12007 €       500,1200
+                                                                          • Zuerst wählt Amalfi Preis: entweder 10
+                                            11 €                            € oder 6 €
+                                                            1200, 300
+                                                                    11 €       1200,   300
+                        6€                   6€                           • Napoli sieht Amalfis Entscheidung
+                                                                            und wählt dann 10 € oder 6 €
+                               Napoli                     Napoli          • Auszahlungen siehe Spielbaum
+                                                7€           400, 400 7 €       400, 400
+
+              mögliche Strategien:
+ SA = {10, 6}
+           SA = {10, 6}             zwei Strategien
+ SN = {(11|10,
+           SN =11|6),
+               {(11|10,(11|10,    7|6),7|6),
+                        11|6), (11|10,   (7|10,
+                                             (7|10,11|6),   (7|10,
+                                                    11|6), (7|10,    7|6)}
+                                                                  7|6)}                     vier Strategien
+                          s1               s2                s3            s4
+ (11|10,11|6)(11|10,11|6)
+               heisst: Napoli      wähltwählt
+                          heisst: Napoli 11, 11,
+                                              wenn
+                                                 wennAmalfi   10gewählt
+                                                      Amalfi 10   gewählt    hatauch
+                                                                        hat und  und11,auch
+                                                                                        wenn11, wenn
+                                                                                             Amalfi 6 Amalfi 6 gew
+          gewählt hat.
+ Napolis Strategie     ist eine Funktion: was wählen, wenn Amalfi niedrigen Preis geset
+              Napolis Strategie ist eine Funktion: was wählen, wenn Amalfi niedrigen Preis
+            gesetzt
+Man kann Napolis    hat, wasauch
+                 Strategien  wenn  hoher Preis?
+                                 beschreiben als (Aktion am oberen Knoten, Aktion am unteren Knoten):
+
+
+
+
+                                                                                                                 1
+SA = {10, 6}Managerial Economics, Dynamische Spiele
+SN = {(11, 11), (11, 7), (7, 11), (7, 7)}
+
+                                                                                                                     6/26
+                                        Einführung
+
+
+
+Rückwärtsinduktion
+
+Lösung durch Rückwärtsinduktion:
+                                            Napoli      11€   1000,1000
+                                   10 €
+                          Amalfi                       7€     500,1200
+
+                                   6€                11 €     1200, 300
+
+                                            Napoli
+                                                       7€      400, 400
+
+
+
+    Am letzten Entscheidungsknoten (kleinstes Teilspiel) anfangen, beste Antwort
+    bestimmen: oben 7, unten 7;
+    Dieses Teilspiel durch jeweilige Auszahlung ersetzen: oben (500, 1200), unten
+    (400,400);
+    Zum nächsten Teilspiel vorrücken (Richtung Anfang): was ist die beste Antwort
+    des Spielers? Prozedur bis zum Anfang des Spiels wiederholen.
+    Man erhält so das teilspielperfekte Gleichgewicht (Selten 1965): beste Antwort
+    in jedem möglichen Teilspiel.
+
+                                                                                     7/26
+                                   Einführung
+
+
+
+Simultane vs. Sequentielle Spiele
+
+
+
+   First-Mover-Vorteil: Derjenige, der zuerst handeln kann, hat einen Vorteil.
+   Second-Mover-Vorteil: Wenn die Reaktion auf eine bereits getroffene
+   Entscheidung des Gegners vorteilhaft ist.
+   Beispiel: Technologie-Entscheidung: digitale oder analoge Funkgeräte?
+   Im simultanen Spiel: 2 Gleichgewichte
+
+                                                    Motorola
+                                           Analog         Digital
+                            Analog       10, 13.75          8, 9
+                   Sony
+                            Digital       9.5, 11      11.875, 11.25
+
+
+
+
+                                                                                 8/26
+                                                       Einführung
+
+
+
+First-Mover Advantage
+             FIRST-MOVER-VORTEIL
+Sequentielles Sequentielles Spiel: Motorola
+              Spiel: Angenommen,            kann sich kann
+                                         Motorola     den First-Mover-Vorteil
+                                                             sich als erstessichern
+                                                                              festlegen:
+                                                                        Motorola, Sony
+
+                                                                       $11.25, $11.875
+
+
+                                                                        $8, $9
+
+
+
+                                                                       $11, $9.5
+
+
+                                                                       $13.75, $10
+
+
+Motorola kann sich einen First-Mover-Advantage sichern.
+
+
+
+
+                                                                                           6
+             Managerial Economics, Dynamische Spiele
+
+
+
+
+                                                                                               9/26
+                                     Einführung
+
+
+
+Markteintrittsspiel
+
+
+
+    Zwei Firmen: Monopolist M and potentieller Eintrittskandidat E
+    M muss entscheiden, ob er eine Werbekampagne startet, um E abzuschrecken
+    E muss entscheiden, ob er in den Markt eintritt
+
+                          Mögliche Ergebnisse                Auszahlung
+                  M macht keine Werbung; E tritt nicht ein     M:100
+                              (No Ads, Out)                     E: 0
+                    M macht Werbung; E tritt nicht ein         M: 80
+                                (Ads, Out)                      E: 0
+                    M macht keine Werbung; E tritt ein         M: 50,
+                             (No Ads, Enter)                   E: 50
+                      M macht Werbung; E tritt ein             M: 40
+                               (Ads, Enter)                    E: -10
+
+
+
+
+                                                                               10/26
+                                    Einführung
+
+
+
+Markteintritt: Simultanes Spiel
+
+
+    Angenommen, das Spiel wird simultan gespielt.
+    Bestmögliches Ergebnis für M: (Out, No Ads)
+    Bestmögliches Ergebnis für E: (Enter, No Ads)
+                                                          E
+                                                  Enter        Out
+                                   Ads           40, −10       80, 0
+                             M
+                                  No Ads          50, 50      100, 0
+
+    Gleichgewicht im simultanen Spiel:
+        M hat eine dominante Strategie: No Ads
+        M wählt No Ads, daher wählt E dann Enter.
+
+    (Enter, No Ads) ist das Gleichgewicht mit Auszahlungen (50,50) im simultanen
+    Spiel.
+    Monopolist kann Markteintritt nicht erfolgreich abwehren.
+
+                                                                                   11/26
+                                        Einführung
+
+
+
+Markteintritt: Sequentielles Spiel
+
+
+    Nun nehmen wir an, das Spiel wird sequentiell gespielt
+    Zuerst entscheidet M, ob er eine Werbekampagne macht.
+    Dann entscheidet E, ob er in den Markt eintritt (wobei er M’s Entscheidung kennt).
+
+                                                     Enter    40,-10
+                                               E
+                               Ads
+                                                     Out      80, 0
+                           M
+
+
+                                               E      Enter   50, 50
+                               No Ads
+
+                                                      Out
+                                                              100, 0
+
+
+
+    Rückwärtsinduktion: teilspielperfektes GGW ist {Ads, (Out, Enter )}.
+    M hat First-Mover-Vorteil, weil er E durch Festlegung auf Ads dazu bringt, nicht in
+    den Markt einzutreten.
+
+
+                                                                                          12/26
+                                  Einführung
+
+
+
+Unglaubwürdige Drohungen
+
+   Rückwärtsinduktion erfordert, dass Strategien glaubwürdig sind.
+   E’s Drohung, in jedem Fall den Markt einzutreten, würde bedeuten, dass No Ads
+   besser für M ist.
+   Aber dadurch, dass M sich als erster festlegen kann, wählt er Ads, weil er dann
+   weiss, dass E nicht eintritt.
+   E’s Drohung, in jedem Fall einzutreten, ist daher im sequentiellen Spiel
+   unglaubwürdig, weil er nie eintreten würde, wenn M die Werbekampagne gestartet
+   hat.
+   Rückwärtsinduktion schliesst solche unglaubwürdigen Drohungen aus.
+   Teilspielperfektes Gleichgewicht erfordert überall beste Antworten, auch in
+   Teilspielen, die auf dem Gleichgewichtspfad nicht erreicht werden.
+   Damit ist jedes teilspielperfekte Gleichgewicht auch ein Nash-Gleichgewicht
+   (weil es auf gegenseitig besten Antworten beruht); umgekehrt ist aber nicht jedes
+   Nash-Gleichgewicht auch teilspielperfekt.
+
+                                                                                       13/26
+                                      Einführung
+
+
+
+Dynamisches Spiel in strategischer (Normal)Form
+
+
+   Das simultane Spiel und das sequentielle Spiel beschreiben unterschiedliche
+   Situationen.
+   Wir haben durch Rückwärtsinduktion ein teilspielperfektes Gleichgewicht
+   gefunden. Gibt es für das sequentielle Spiel noch weitere
+   Nash-Gleichgewichte?
+   Dazu wandeln wir das Spiel in extensiver Form (Spielbaum) um in die Normalform
+   (Matrix).
+   Zu beachten: Wie viele Strategien hat jeder Spieler im sequentiellen Spiel?
+                                                            E
+                                Enter, Enter       Enter, Out   Out, Enter   Out, Out
+                     Ads          40, −10           40, −10        80, 0       80, 0
+               M
+                    No Ads         50, 50            100, 0       50, 50      100, 0
+
+   2 Nash-Gleichgewichte in Normalform:
+   {No Ads, (Enter , Enter )} und {Ads, (Out, Enter )}
+
+
+                                                                                        14/26
+                                          Einführung
+
+
+
+Nash-Gleichgewicht vs. teilspielperfektes Gleichgewicht
+
+   Warum 2 Nash-Gleichgewichte in Normalform, wenn wir in extensiver Form nur ein
+   teilspielperfektes Gleichgewicht haben?
+   Nash-Gleichgewicht {No Ads, (Enter , Enter )} erfüllt Rückwärtsinduktion nicht.
+                      Enter       40,-10
+                  E
+        Ads
+                      Out         80, 0
+    M
+
+
+                  E    Enter      50, 50
+        No Ads
+
+                       Out
+                                  100, 0
+
+
+   Die Aktion Enter im oberen Teilspiel ist eine unglaubwürdige Drohung: wenn M wirklich
+   Werbung macht (Ads wählt), dann zieht E vor, nicht einzutreten (Out).
+   Das Nash-Gleichgewicht ignoriert die dynamische Struktur eines Spiels. Dadurch kann es
+   zu Gleichgewichten kommen, die auf unglaubwürdigen Drohungen basieren.
+   Ein Nash-Gleichgewicht ist dann teilspielperfekt, wenn die Strategien der Spieler in
+   jedem Teilspiel (d.h., nach jeder möglichen Geschichte des Spiels) ein Nash
+   Gleichgewicht bilden.
+                                                                                            15/26
+                                            Einführung
+
+
+
+Informationsmengen
+
+Wie würde man das folgende simultane Spiel in extensiver Form darstellen?
+
+                                                                   E
+                                                          Enter         Out
+                                     Ads                 40, −10       80, 0
+                               M
+                                    No Ads                50, 50       100, 0
+
+Simultane Entscheidungen werden als Spiel mit imperfekter Information dargestellt:
+     M’s Entscheidung kann von E nicht beobachtet werden.
+     E’s Informationsmenge enthält 2 Entscheidungsknoten.
+
+                                                         Enter           40,-10
+
+
+                                   Ads
+                                                          Out            80, 0
+                              M
+                                                    E
+                                                          Enter          50, 50
+                                   No ads
+
+                                                           Out
+                                                                         100, 0
+
+
+
+                                                                                     16/26
+                                      Einführung
+
+
+
+Informationsmengen
+
+   Dasselbe Spiel kann auch wie folgt dargestellt werden:
+
+                                                   Ads      -10,40
+
+
+                              Enter
+                                                   No Ads   50,50
+                          E
+                                             M
+                                                    Ads     0,80
+                              Out
+
+
+                                                   No Ads
+                                                            0,100
+
+
+
+   No Ads ist dominant, d.h. unabhängig davon, was E wählt, ist NoAds für M immer
+   besser.
+   Wir kennen M’s beste Antwort, auch wenn M nicht weiss, an welchem Knoten er
+   sich befindet.
+   (Enter, No Ads) is das Nash-Gleichgewicht im simultanen Spiel (das hier als
+   Spielbaum dargestellt wurde).
+
+                                                                                 17/26
+                                  Stackelberg-Modell
+
+
+
+Diskrete vs. stetige Strategien
+
+    Wie schon bei simultanen Spielen können wir auch in sequentiellen Spielen stetige
+    Strategien zur Auswahl haben.
+    Jetzt entscheidet ein Spieler zuerst; der zweite Spieler beobachtet dessen Entscheidung und
+    wählt dann eine Aktion aus.
+    Wir wollen immer noch die beste Antwort jedes Spielers auf die möglichen Strategien des
+    anderen Spielers finden, wie in vorhergehenden Spielen.
+    Vorgangsweise: Rückwärtsinduktion.
+         Wir maximieren zuerst die Auszahlungsfunktion von Spieler 2:
+                                                   max π2 (s̄1 , s2 )
+                                                       s2
+         .
+         Spieler 2 nimmt s1 als gegeben an (daher: s̄1 fix)
+         Wir suchen zunächst das optimale s2 , in Abhängigkeit von s1 : Reaktionsfunktion s2∗ (s1 )
+         Spieler 1 antizipiert, dass Spieler 2 seine beste Antwort geben wird.
+         Also maximiert Spieler 1 dann seine Auszahlung, indem er die beste Antwort s2∗ (s1 )
+         von Spieler 2 in seine Auszahlungsfunktion einsetzt:
+                                               max π1 (s1 , s2∗ (s1 ))
+                                                 s1
+         .
+                                                                                                  18/26
+                            Stackelberg-Wettbewerb
+
+
+
+Situation im Oligopol: sequentieller Mengenwettbewerb
+
+Ein dynamisches (zweistufiges) Spiel, in dem
+
+    in Stufe 1 ein Unternehmen sich auf eine Aktion festlegen kann (der
+    Stackelberg-Führer, Marktführer)
+    das andere Unternehmen diese Aktion beobachtet und dann in Stufe 2 seine
+    Aktion wählt (Stackelberg-Folger, Marktfolger).
+    Man kann sowohl Mengenwettbewerb als auch Preiswettbewerb mit dem
+    Stackelberg-Modell kombinieren.
+
+Wir betrachten die Stackelberg-Mengenführerschaft (Stackelberg-Cournot), in der
+    Firma 1 ihren Output zuerst wählt;
+    Firma 2 Output von Firma 1 beobachtet, dann eigenen Output wählt.
+    Auf dem Markt ergibt sich der Preis P (q1 + q2 ).
+    Auszahlungen: Gewinne π1 (q1 , q2 ) und π2 (q1 , q2 )
+    Lösungsprozedur: Rückwärtsinduktion führt zum teilspielperfekten Gleichgewicht.
+
+                                                                                  19/26
+                                  Stackelberg-Wettbewerb
+
+
+
+Stackelberg-Modell
+
+
+
+Lösung:
+
+Mit Stufe 2 beginnen (Anwendung der Rückwärtsinduktion):
+Stufe 2:
+
+    Die Gewinnfunktion des Marktfolgers nach q2 maximieren, wobei q1 als gegeben
+    betrachtet wird :
+
+                            max π2 (q̄1 , q2 ) = P (q̄1 + q2 ) · q2 − C (q2 )
+                             q2
+
+    Maximierung ergibt die FOC:
+    P (q̄1 + q2 ) + P 0 (q̄1 + q2 ) · q2 − C 0 (q2 ) = 0.
+    Daraus erhalten wir die Reaktionsfunktion q2∗ (q1 ) für Firma 2, genau wie im
+    Cournot-Modell.
+
+
+
+
+                                                                                    20/26
+                             Stackelberg-Wettbewerb
+
+
+
+Stackelberg-Modell
+
+
+Stufe 1:
+
+    Firma 1 weiss, dass Firma 2 die Menge q2∗ (q1 ) produzieren wird.
+    Also kann q2∗ (q1 ) in die Gewinnfunktion des Marktführers (Firma 1) einfügt
+    werden:
+                     max π1 (q1 , q2∗ (q1 )) = P (q1 + q2∗ (q1 )) · q1 − C (q1 )
+                     q1
+
+    Diese Gewinnfunktion des Marktführers nach q1 maximieren, und seine FOC
+    aufstellen :
+    Nach q1 auflösen, somit wird der optimale Output q1∗ des Marktführers
+    gefunden.
+    Einsetzen von q1∗ in q2∗ (q1 ) ergibt den optimalen Output q2∗ des Marktfolgers.
+    Gleichgewichtsstrategien: (q1∗ , q2∗ (q1 )).
+
+
+
+
+                                                                                       21/26
+                           Stackelberg-Wettbewerb
+
+
+
+Beispiel für Stackelberg-Modell
+
+
+
+   Um diese Interaktion besser zu verstehen, betrachten wir ein Beispiel mit linearer
+   Nachfrage,
+                            P (q1 + q2 ) = a − b (q1 + q2 )
+
+   und konstanten Grenzkosten, c1 (q ) = c2 (q ) = cq, wobei c < a.
+   Die Gewinnfunktion des Folgers ist also
+
+                             π2 = [a − b (q1 + q2 )] q2 − cq2 .
+
+   Daraus erhalten wir die Reaktionsfunktion des Folgers
+                                                    a−c  q
+                                    q2∗ (q1 ) =         − 1.
+                                                     2b   2
+   (genau wie im simultanen Cournot-Modell; hier aber nur für Spieler 2.)
+
+
+
+
+                                                                                        22/26
+                           Stackelberg-Wettbewerb
+
+
+
+Mengenführerschaft
+
+   Das Maximierungsproblem des Marktführers ist folglich
+
+                 max π1     =      [a − b (q1 + q2∗ (q1 ))] q1 − cq1
+                  q1
+                                                             a−c
+                                                                      
+                                                                     q
+                            =      (a − c )q1 − bq12 − b           − 1 q1
+                                                               2b    2
+                                                            a−c     bq 2
+                            =      (a − c )q1 − bq12 −          q1 + 1
+                                                             2       2
+                                   a−c     b
+                            =          q1 − q12 .
+                                    2      2
+   Die Bedingung erster Ordnung für ein Optimum (FOC) ist
+                                         a−c
+                                             − bq1 = 0.
+                                          2
+   Damit erhalten wir im Gleichgewicht
+
+                       a−c         a−c                     3(a − c ) ∗  a + 3c
+              q1∗ =        , q2∗ =     ,            Q∗ =            P =        .
+                        2b          4b                        4b          4
+
+                                                                                   23/26
+                         Stackelberg-Wettbewerb
+
+
+
+Vergleich Stackelberg-Cournot
+            3.3. Stackelberg Model
+   Cournot-Nash Gleichgewicht: Schnittpunkt der Reaktionsfunktionen
+   Stackelberg-Mengenführerschaft Gleichgewicht: Tangentialpunkt von
+     Graphically(cont):           theIsoprofit-Kurve
+   Reaktionsfunktion des Folgers und   optimum ofdes theFührers
+                                                         leader (firm 1) is in a
+                       tangency point (S) of the isoprofit curve with the
+        q2             reaction curve of the follower (firm 2). (C) would be
+                       the Cournot equilibrium, where the reaction curves
+                       cross and where dq2/dq1=0
+
+
+                                                                       q1S>q1N
+       qM
+                        C                                              q2S<q2N
+                               S
+
+
+
+
+                                   qM                                 q1
+                                                                                   24/26
+                          Stackelberg-Wettbewerb
+
+
+
+Mengenführerschaft
+
+
+
+
+   Wir vergleichen dieses Ergebnis mit dem Monopolfall und dem Wettbewerbsmarkt
+   bei vollkommener Konkurrenz.
+   Monopolmenge und -preis sind
+                                           a−c        a+c
+                                xM =           , pM =     .
+                                            2b         2
+   Damit ist die Gleichgewichtsmenge des Stackelbergführers gleich der optimalen
+   Menge des Monopolisten. Der Stackelberg-Folger produziert halb so viel
+   Bei vollkommener Konkurrenz sind Menge und Preis
+                                              a − c comp
+                               x comp =            , p   = c.
+                                                b
+
+
+
+
+                                                                                   25/26
+                          Stackelberg-Wettbewerb
+
+
+
+Mengenführerschaft
+
+
+
+
+   Die gesamte Menge ist bei Mengenführerschaft größer als im Monopol, aber
+   niedriger als bei vollkommener Konkurrenz (zeigen Sie dies mit Hilfe der obigen
+   Resultate).
+   Der Gewinn des Marktführers ist höher als der des Anpassers (begründen Sie
+   dies intuitiv). Die Summe der Gewinne ist allerdings kleiner als der
+   Monopolgewinn (auch das können Sie mit Hilfe der obigen Resultate zeigen).
+   Das Ergebnis ist ineffizient (Warum?).
+
+
+
+
+                                                                                     26/26
+

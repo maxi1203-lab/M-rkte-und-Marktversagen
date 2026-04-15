@@ -1,0 +1,70 @@
+                      PS Märkte und Marktversagen
+  Hausübung 12: Asymmetrische Information und öffentliche Güter
+
+
+1. In Roststadt stehen 200 Gebrauchtwagen zum verkauf. Die Hälfte davon sind gute
+   Autos und die andere Hälfte sind schlechte Autos. Besitzer von schlechten Autos
+   sind bereit, ihr Auto für 300 Euro zu verkaufen. Besitzer von guten Autos verlan-
+   gen mindestens 1100 Euro für ihr Auto. Es gibt 300 potentielle Käufer, die alle
+   bereit sind, 400 für ein schlechtes Auto und 2100 für ein gutes Auto zu bezahlen.
+   Käufer können gute und schlechte Autos nicht unterscheiden, aber Autobesitzer
+   kennen die Qualität ihres Autos.
+  Welche der folgenden Antworten ist richtig und warum?
+  a) Es gibt ein Gleichgewicht, in dem schlechte Autos für 300 Euro verkauft werden
+  und gute Autos für 1100.
+  b) Es gibt ein Gleichgewicht, in dem alle Gebrauchtwagen für 700 Euro verkauft
+  werden.
+  c) Das einzige Gleichgewicht ist eines, in dem alle Gebrauchtwagen, die auf dem
+  Markt angeboten werden, schlechte Autos sind, und sie werden für 400 Euro
+  verkauft.
+  d) Es gibt ein Gleichgewicht, in dem alle Gebrauchtwagen für 1250 Euro verkauft
+  werden.
+  e) Es gibt ein Gleichgewicht, in dem schlechte Autos für 400 Euro verkauft werden
+  und gute Autos für 2100.
+
+2. Wir betrachten das Spence-Modell für Bildung als Signal, mit dem man gute und
+   schlechte Jobkandidaten separieren kann. Angenommen, ein Arbeitgeber ist bereit,
+   ein Gehalt von 70,000 Euro für einen guten Jobkandidaten zu bezahlen und 50,000
+   Euro für einen schlechten. Es sind insgesamt 100 Kandidaten, wovon 30 gut sind,
+   und 70 schlecht. Der Arbeitgeber kann aber die Qualität der Kandidaten nicht
+   sehen.
+
+   (a) Was wäre er bereit, einem beliebigen Kandidaten zu bezahlen, wenn er genau
+       einen Kandidaten aus dem Pool der Bewerber zufällig auswählt und keine
+       weiteren Informationen erhält?
+   (b) Der Arbeitgeber kann sich nun auch die Zeugnisse der Kandidaten ansehen.
+       Er weiss, das gute Kandidaten weniger Zeit brauchen, um schwierige Kurse
+       zu absolvieren, als schlechte Kandidaten. Ein schwieriger Kurs hat Oppor-
+       tunitätskosten von 2000 Euro für einen guten Kandidaten und 3000 Euro
+
+
+                                        1
+       für einen schlechten. Der Arbeitgeber beschliesst nun, ein Gehalt von 70,000
+       zu bezahlen, wenn ein Kandidat mindestens 5 schwierige Kurse während der
+       Ausbildung belegt hat. Wenn er weniger als 5 schwierige Kurse belegt hat,
+       erhält er nur 50,000. Kann der Arbeitgeber so sicherstellen, dass er einen
+       beliebigen Kandidaten, den er auswählt, nicht über- oder unterbezahlt?
+
+3. Angenommen, Alice und Ben leben jeder auf seinem Grundstück an einem Seeufer.
+   Dort werden sie von Mücken geplagt, aber es ist möglich, die Mücken durch
+   regelmäßiges Sprühen zu bekämpfen. Die Wirkung des Mückensprays kann nicht
+   auf das Grundstück einer der beiden Personen beschränkt werden: Jedes eingeset-
+   zte Spray wirkt sich gleichermaßen auf das gesamte Seeufer aus. Nehmen wir an,
+   die Präferenzen von Alice werden beschrieben durch UA (Y, xA ) = xA − (15 − Y )2
+   und die Präferenzen von Ben sind gegeben durch UB (Y, xB ) = xB − 21 (6 − Y )2 ,
+   wobei Y die Anzahl der Spraydosen bezeichnet, die jede Woche gesprüht werden,
+   undxA und xB die wöchentlichen Ausgaben für andere Güter von Alice und Ben
+   sind.
+
+   (a) Wenn das Spray 24 Euro pro Dose kostet, und jeder sich nach seiner individu-
+       ellen Nutzenmaximierung richtet, wieviele Spraydosen würde Alice kaufen,
+       und wieviele Ben?
+   (b) Wie lautet die Samuelson-Bedingung für die effiziente Menge des öffentlichen
+       Guts, bei welcher der sozialen Grenznutzen den Grenzkosten gleichgesetzt
+       werden? Wie ist der Vergleich zum Ergebnis in (a)?
+
+
+
+
+                                       2
+

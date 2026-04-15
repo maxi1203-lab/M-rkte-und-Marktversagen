@@ -1,0 +1,43 @@
+                  PS Märkte und Marktversagen
+         Hausübung 1: Vollständige Konkurrenz und Monopol
+
+Bitte laden Sie Ihre Lösungen im jeweiligen PS auf OLAT bis Montag 13 Uhr hoch.
+
+  1. Zum Aufwärmen eine Frage zum vollständigen Wettbewerb: Unternehmen
+     Alpha ist auf einem Markt mit volltändigem Wettbewerb aktiv und hat die
+     folgende Kostenfunktion: c(x) = x3 − 8x2 + 30x + 5.
+
+      (a) Was sind Alphas Grenzkosten?
+      (b) Was sind Alphas durchschnittliche variablen Kosten?
+      (c) Stellen Sie die Grenzkosten und die durchschnittlichen variablen Kosten
+          in einem Graphen dar.
+      (d) Was ist die kleinste positive Menge, die Alpha (kurzfristig) überhaupt
+          anbieten wird? Für welche Preise wird Alpha nichts produzieren?
+      (e) Zu welchem Preis würde Alpha genau 6 Einheiten produzieren?
+
+  2. Presto Products hat eine neue Maschine für Smoothies erfunden und ist der
+     einzige Anbieter. Die Nachfragefunktion ist P = 60 − 0.005Q und die Kosten-
+     funktion ist T C = 1000 000 + 5Q + 0.0005Q2 . Somit ist der Grenzerlös M R =
+     dT R/dQ = 60−0.01Q und die Grenzkosten sind M C = dT C/dQ = 5+0.001Q.
+
+      (a) Stellen Sie eine Tabelle auf (per Hand oder auch mit Hilfe eines spread-
+          sheets, z.B. Excel), die folgende Information enthält: Output Q, Preis
+          P, Gesamterlös TR, Grenzerlös MR, Gesamtkosten TC, Grenzkosten MC
+          und Gewinn Π. Berechnen Sie alle Werte für den Output Q von 0 bis
+          100 000 in 10 000er-Schritten (d.h. Q = 0, 10 000, 20 000, ..., 100 000).
+      (b) Stellen Sie mit Hilfe der Werte in der Tabelle einen Graphen mit TR, TC
+          und Π als abhängige Variablen und Q (von 0 bis 100 000) als unabhängige
+          Variable dar. Bei welcher Preis-Mengen-Kombination wird der Gewinn
+          maximiert? Bei welcher Preis-Mengen-Kombination wird der Erlös max-
+          imiert?
+      (c) Der Gewinn ist maximal, wenn der Grenzerlös (also der zusätzliche Er-
+          lös einer weiteren verkauften Einheit) gleich den Grenzkosten (also den
+          zusätzlichen Kosten einer weiteren produzierten Einheit) ist : M R =
+          M C. Bestimmen Sie diese gewinnmaximierenden und erlösmaximieren-
+          den Preis-Mengen-Kombination rechnerisch. Warum sind die beiden Kom-
+          binationen nicht gleich?
+
+
+
+                                        1
+

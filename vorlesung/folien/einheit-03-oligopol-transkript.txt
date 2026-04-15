@@ -1,0 +1,656 @@
+ Märkte und Marktversagen
+         Oligopol
+
+
+                Anita Gantner
+
+Institut für Wirtschaftstheorie, -politik und -geschichte
+                  Universität Innsbruck
+
+
+                IWW-Bachelor
+
+
+
+
+                                                            1/24
+                                      Einführung
+
+
+
+Diskrete vs. stetige Strategien
+
+
+    Mit der Auszahlungsmatrix können beste Antworten gefunden werden, wenn der
+    Strategienraum diskret ist und nur einige wenige Möglichkeiten zur Auswahl
+    stehen.
+    Wenn wir aber z.B. zwei Unternehmen betrachten, die jede beliebige
+    Produktionsmenge zwischen 0 und 10,000 wählen können, ist der Strategienraum
+    sehr gross. Dann betrachten wir den Strategienraum der Spieler als stetig.
+    Wir wollen immer noch die beste Antwort jedes Spielers auf die möglichen
+    Strategien des anderen Spielers finden, wie in vorhergehenden Spielen.
+    Vorgangsweise: Wir maximieren die Auszahlungsfunktion eines Spielers, gegeben
+    die Strategie des anderen Spielers: maxs1 Π1 (s1 , s̄2 ), wobei
+        s1 (Strategie von Spieler 1) wird als Variable betrachtet;
+        Spieler 1 nimmt s2 als gegeben an (daher: s̄2 fix)
+        Wir suchen das optimale s1 , in Abhängigkeit von s2 (beste Antwort von Spieler 1,
+        gegeben die Strategie von Spieler 2)
+
+
+                                                                                            2/24
+                            Cournot-Wettbewerb
+
+
+
+Situation im Oligopol: Mengenwettbewerb
+
+
+   In einem Duopol gibt es zwei Unternehmen.
+   Jedes muss eine Output-(Mengen-) Entscheidung treffen.
+   Der Marktpreis wird durch die Nachfrage und die angebotene Menge bestimmt.
+   Weil es nur zwei Anbieter gibt, weiss jeder, dass die angebotenen Mengen den
+   Marktpreis beeinflussen werden.
+   Grössere Mengen insgesamt führen zu niedrigeren Marktpreisen, aber wenn der
+   Konkurrent weniger produziert und die eigene verkaufte Menge grösser ist, steigt
+   auch der Gewinn.
+   Beide Firmen wissen das, und beide verstehen, dass die eigene
+   Mengenentscheidung die des anderen beeinflusst.
+   Spieltheorie bietet das Instrumentarium, um hier ein Ergebnis vorherzusagen:
+   Nash-Gleichgewicht.
+
+
+
+                                                                                      3/24
+                                 Cournot-Wettbewerb
+
+
+
+Cournot-Duopol
+
+
+Zur Vereinfachung betrachten wir einen Markt mit nur zwei Anbietern.
+Folgende Situation wird als Cournot-Wettbewerb beschrieben:
+    Beide Anbieter legen gleichzeitig ihre Produktionsmengen fest.
+    Keiner der beiden weiss, welche Mengen der Konkurrent wählen.
+    Die Unternehmen müssen folglich Erwartungen über die Handlung des
+    Konkurrenten bilden.
+    Wenn jeder seine “beste Antwort” auf die Strategie des anderen gibt, und keiner
+    einen Anreiz hat, von seiner Strategie abzuweichen, dann haben wir ein
+    Nash-Gleichgewicht.
+Vorgangsweise: Wir maximieren die Auszahlungsfunktion Πi (z.B. dem Gewinn) jedes
+Spielers i, gegeben die Strategie des anderen Spielers:
+
+    Für Spieler 1: maxs1 Π1 (s1 , s̄2 )
+    Für Spieler 2: maxs2 Π2 (s̄1 , s2 ).
+
+
+                                                                                      4/24
+                               Cournot-Wettbewerb
+
+
+
+Cournot-Duopol
+
+
+   In einem Duopolmarkt wählt Unternehmen 1 seine Produktionsmenge q1 , und
+   Unternehmen 2 wählt q2 .
+   Die inverse Nachfragekurve ist P (Q ) = 7 − Q, wobei Q = q1 + q2 .
+   Kostenfunktionen sind identisch: Ci (qi ) = qi + F (Grenzkosten MC = dC
+                                                                        dqi = 1)
+                                                                           i
+
+
+   Welchen Output sollen die beiden Firmen wählen, so dass keiner der beiden
+   einen Anreiz hat, von seiner Wahl abzuweichen?
+   Beste Antwort für Firma 1 finden:
+       Profitmaximierung: optimales q1 finden, für jedes beliebige (gegebene) q2 :
+                              max Π1 = (7 − q1 − q2 ) · q1 − 1 · q1 − F
+                               q1
+
+       Nach q1 ableiten, FOC: ∂Π
+                              ∂qi
+                                 i= −q1 + (7 − q1 − q2 ) − 1 = 0
+       Nach q1 auflösen: Beste Antwort für 1 ist q1∗ (q2 ) = 3 − 0.5q2 (Reaktionsfunktion RF1 )
+
+   Analog für Firma 2:
+       maxq2 Π2 → Beste Antwort für 2 ist q2∗ (q1 ) = 3 − 0.5q1 (Reaktionsfunktion RF2 )
+
+
+                                                                                              5/24
+                             Cournot-Wettbewerb
+
+
+
+Cournot-Nash-Gleichgewicht
+
+
+   Die Reaktionsfunktion jedes Spielers beschreibt, was seine beste Antwort auf jede
+   mögliche Strategie des anderen Spielers ist.
+   Ein Nash-Gleichgewicht im Cournot-Spiel ist eine Mengenkombination (q1∗ , q2∗ ),
+   so dass q1∗ = RF1 (q2∗ ) und q2∗ = RF2 (q1∗ ) gilt (gegenseitig beste Antworten).
+   Das Nash-Gleichgewicht beschreibt nicht, wie man zum Gleichgewicht kommt,
+   sondern es beschreibt den Zustand, in dem keiner einen Anreiz hat, von der
+   gewählten Strategie abzuweichen, weil die Gleichgewichtsstrategien gegenseitige
+   beste Antworten sind.
+   Die besten Antworten findet man durch die notwendige Bedingung für ein
+   Gewinnmaximum (FOC):
+                           ∂Π1 (q1 ,q2 )            (q1 ,q2 )
+                              ∂q1        = 0 und ∂Π2∂q2
+                                                              = 0.
+   Die beiden Gleichungen der FOC können simultan nach q1 und q2 gelöst
+   werden, somit findet man die Gleichgewichtsstrategien.
+
+                                                                                       6/24
+                                  Cournot-Wettbewerb
+
+
+
+Nash-Gleichgewicht berechnen:
+
+
+   Da wir gegenseitig beste Antworten suchen, muss gelten:
+
+                             q1∗ = RF1 (q2∗ ) und q2∗ = RF2 (q1∗ )
+
+   Aus der FOC (notwendige Bedingung für Gewinnmaximierung):
+
+                                          q1∗ = 3 − 0.5q2∗ (1)
+
+                                          q2∗ = 3 − 0.5q1∗ (2)
+
+   (2) in (1) einsetzen ergibt:
+
+                       q1∗ = 3 − 0.5(3 − 0.5q1∗ ) = 3 − 1.5 + 0.25q1∗
+
+   Also ist 0.75q1∗ = 1.5 oder q1∗ = 2.
+   Und daher ist q2∗ = 3 − 0.5q1∗ = 2
+   Wir haben das Nash-GGW bei (q1∗ , q2∗ ) = (2, 2) gefunden.
+
+
+                                                                        7/24
+                            Cournot-Wettbewerb
+
+
+
+Nash-GGW: Reaktionsfunktionen
+
+   Wir können die Graphen der beiden Beste-Antwort-Funktionen zeichnen: q1 auf
+   der horizontalen und q2 auf der vertikalen Achse.
+   Nash-Gleichgewicht ist im Schnittpunkt der beiden Reaktionsfunktionen, d.h. man
+   findet gegenseitig beste Antworten an diesem Punkt.
+
+                   q2
+
+                                       RF1 = q1*(q2) =3-0.5q2
+                                       RF2 = q2*(q1) =3-0.5q1
+
+                   6
+                         RF1= q1*(q2)
+
+                   4
+                                  Cournot-Nash-Gleichgewicht
+
+                   2
+                                                 RF2 = q2*(q1)
+
+                                                                 q1
+                              2           4         6
+                                                                                     8/24
+                            Cournot-Wettbewerb
+
+
+
+Cournot-Wettbewerb mit linearer Nachfrage
+
+   Für eine allgemeine lineare Nachfrage P = a − bQ, mit Q = q1 + q2
+   Zwei Firmen mit Kostenfunktion Ci (qi ) = cqi , d.h. konstante Grenzkosten MC = c
+   Gewinnfunktion von Firma 1:
+
+                            Π1 = [a − b (q1 + q2 )]q1 − cq1
+
+   Daraus erhalten wir die Reaktionsfunktion
+                                                  a−c   qj
+                                   qi∗ (qj ) =        −
+                                                   2b   2
+   und die Cournot-Nash-Gleichgewichtsmengen sind
+                                                  a−c
+                                          qi∗ =
+                                                   3b
+   und der Gleichgewichtspreis ist
+                                                  a + 2c
+                                         p∗ =
+                                                    3
+   .
+                                                                                   9/24
+                              Cournot-Wettbewerb
+
+
+
+Gewinne im Cournot-Gleichgewicht
+
+   Isoprofitkurve: alle Punkte auf q1 , q2 -Ebene (d.h. alle Kombinaitonen von (q1 , q2 ),
+   die denselben Profit ergeben.
+   Wenn Firma 2 die Menge q2 wählt, wo findet Firma 1 den optimalen
+   (gewinnmaximierenden) Output? – Bei jenem q1 , das die höchstmögliche
+   Isoprofitkurve erreicht.
+   Cournot-Reaktionsfunktion q1∗ (q2 ) muss durch die höchsten Punkte der
+   Isoprofitkurve von 1 gehen.
+   Isoprofit-Kurven für Firma 1:
+                                     q2
+
+
+                                           q1*(q2)
+
+
+
+                                                     Π’=fix
+
+                                                        Π’’ = fix und Π’’ >Π’
+
+
+
+                                                                          q1
+
+
+                                                                                         10/24
+                                      Cournot-Wettbewerb
+
+
+
+Gewinne im Cournot-Gleichgewicht
+
+   Im Cournot-Nash- Gleichgewicht werden nicht die höchstmöglichen Gewinne für beide
+   Unternehmen erreicht.
+   Beide Unternehmen könnten sich besserstellen, indem sie weniger produzieren, aber diese
+   Situationen sind keine Gleichgewichte.
+
+                         q2                                      Bei (q1’,q2’) sind die Gewinne
+                                                                 für beide Unternehmen höher als
+                                                                 im Cournot-Nash-GGW.
+                               höherer Π2
+
+                                                         Cournot-Nash-GGW
+                        q 2*
+                 q 2’
+
+
+                                                              höherer Π1               qb
+                                                                                       q2*(q
+                                                                                          2(x1)
+
+
+                                                                  q1*(q2)
+                                                       q 1*                                       q1
+                                                q 1’
+
+                                                                                                       11/24
+                               Cournot-Wettbewerb
+
+
+
+Kollusion im Duopol
+
+   Wir verwenden das vorherige Beispiel mit Reaktionsfunktionen
+   q1∗ (q2 ) = 3 − 0.5q2 und q2∗ (q2 ) = 3 − 0.5q1
+   Wenn die Unternehmen sich wie ein einziger Monopolist verhalten, gibt die
+                KOLLUSION
+   Reaktionsfunktion die beste Antwort auf q2 = 0.
+   Dann ist q M = 3 − 0.5 · 0, d.h. zusammen produzieren die beiden diese Menge.
+                  • Ist ein solches Kartell stabil?
+   Dann ist die Kollusionsmenge jedes einzelnen Unternehmens qiK = 12 q M = 1.5.
+                  • Hat ein  Unternehmen einen Anreiz abzuweichen und nicht die
+   Beste Antwort    auf qiK =   1.5 ist aber größer als 1.5, daher kein Gleichgewicht.
+                   Kartellmenge zu produzieren?
+                        q2
+
+
+                               q1*(q2) = b1(q2) (Reaktionsfunktion für 1)
+
+
+
+
+                    b2(q1K)                 q2*(q1) = b2(q1) (Reaktionsfunktion für 2)
+                     q2C=2
+                     q2K=1.5
+
+
+                               q1K=1.5                              q1
+                                         q1C=2
+
+
+
+
+                                                                                         4
+                                                                                         12/24
+                             Cournot-Wettbewerb
+
+
+
+Ergebnisse im Cournot-Gleichgewicht
+
+   Das Cournot-Gleichgewicht ist eine stabile Situation: Kein Unternehmen hat einen
+   Anreiz, seine Menge zu ändern, nachdem es die tatsächlich gewählte Menge des
+   Konkurrenten erfährt.
+   Der Gesamtoutput ist grösser als im Monopol, aber kleiner als bei vollkommener
+   Konkurrenz.
+   Die Summe der Gewinne ist kleiner als im Monopol, aber grösser als bei
+   vollkommener Konkurrenz.
+   Bei symmetrischer Kostenstruktur ist das Ergebnis symmetrisch: Die Firmen
+   wählen identische Mengen. Was aber passiert bei asymmetrischen Grenzkosten?
+   Cournot-Gleichgewicht mit mehr als zwei Unternehmen: Mit steigender Anzahl
+   von Konkurrenten
+       konvergiert der Gleichgewichtspreis gegen die Grenzkosten,
+       konvergiert die produzierte Menge gegen die Menge bei vollkommener Konkurrenz,
+       konvergiert die Summe der Gewinne gegen 0.
+
+   Das Modell der vollkommenen Konkurrenz kann als Grenzwert des
+   Cournot-Modells angesehen werden, wenn die Zahl der Anbieter n → ∞.
+                                                                                        13/24
+                            Bertrand-Wettbewerb
+
+
+
+Andere Wettbewerbsform: Simultane Festlegung der Preise
+
+
+
+
+   Wettbewerbsform: Preiswettbewerb, in dem alle Konkurrenten ihre Preise
+   gleichzeitig (simultan) festlegen.
+   Jedes Unternehmen i wählt einen Preis pi und bedient alle Käufer zu diesem
+   Preis. Da es sich um ein homogenes Gut handelt, kaufen alle Konsumenten
+   vom billigsten Anbieter. Wir nennen diese Form von Wettbewerb auch
+   Bertrand-Wettbewerb.
+   Jedes Unternehmen kann den gesamten Markt bedienen.
+   Wenn beide Unternehmen denselben Preis setzten, p1 = p2 , teilen sie sich den
+   Markt.
+   Die Grenzkosten sind konstant bei c.
+
+
+
+
+                                                                                   14/24
+                            Bertrand-Wettbewerb
+
+
+
+Gleichgewicht im Bertrand-Wettbewerb
+
+
+
+
+   Wir zeigen nun: Es existiert ein einziges Nash-Gleichgewicht.
+   In diesem Gleichgewicht setzen beide Unternehmen ihren Preis gleich den
+   Grenzkosten (P = MC):
+       Es muss gelten: Jedes Unternehmen i maximiert seinen Gewinn, gegeben den Preis
+       des Konkurrenten j.
+       Kann es ein Gleichgewicht sein, dass pi < c?
+       Kann es ein Gleichgewicht sein, dass pi > pj > c?
+       Kann es ein Gleichgewicht sein, dass pi > pj = c?
+       Kann es ein Gleichgewicht sein, dass pi = pj > c?
+
+   Was bleibt als Kandidat für ein Gleichgewicht?
+
+
+
+
+                                                                                        15/24
+                        Bertrand-Wettbewerb
+
+
+
+
+Das Marktergebnis ist dasselbe wie bei vollkommener Konkurrenz: Preis gleich
+Grenzkosten.
+Man nennt dies auch das Bertrand-Paradox: obwohl es nur zwei Anbieter gibt,
+besitzen diese keine Marktmacht.
+Es gibt eine Reihe von Märkten, die sich gut durch Bertrand-Wettbewerb
+beschreiben lassen, z.B. benachbarte Tankstellen, Bieterwettbewerb bei
+Auktionen, etc.
+Im Bertrand-Wettbewerb gibt es starke Anreize, Preisabsprachen zu treffen um
+Gewinne zu steigern.
+
+
+
+
+                                                                               16/24
+                             Produktdifferenzierung
+
+
+
+Substitute und Komplemente
+
+
+
+
+   In den meisten Märkten sind die Güter, die von verschiedenen Unternehmen
+   angeboten werden, nicht identisch, sondern imperfekte Substitute.
+       Zwei Güter i und j sind Substitute, wenn die Nachfrage für Gut i bei steigendem Preis
+       von Gut j ansteigt.
+       Zwei Güter i und j sind Komplemente, wenn die Nachfrage für Gut i bei fallendem Preis
+       von Gut j ansteigt.
+
+   Wenn Firmen Güter anbieten, die imperfekte Substitute zueinander sind, hat jede
+   Firma zu einem gewissen Grad Marktmacht, da ihr Produkt einzigartig ist, selbst
+   wenn sie im Preiswettbewerb mit anderen Firmen steht.
+   Produktdifferenzierung funktioniert, weil die Präferenzen der Konsumenten
+   unterschiedlich sind.
+
+
+
+
+                                                                                           17/24
+                               Produktdifferenzierung
+
+
+
+Preiselastizität der Nachfrage
+
+
+
+    Wenn die Nachfrage nach Gut i Qi (p1 , p2 , ..., pn ) ist, heisst dies, das die Preise
+    der Güter 1...n für die Nachfrage von Gut i relevant sind.
+    Wir haben eine Preiselastizität der Nachfrage nach Gut i:
+
+                                                %∆Q     ∆Q/Q
+                                      ε=−            =−
+                                                %∆pi    ∆pi /pi
+    ε i misst den Rückgang der Nachfrage für Gut i, der von einem 1%-Anstieg des
+    Preises von Gut i stammt, wenn alle anderen Preise unverändert bleiben.
+    Bei einer stetigen Nachfragefunktion können wir die Ableitung nach P verwenden:
+
+                                                ∂Qi (p1 , ..., pn )         pi
+                      ε i (p1 , ..., pn ) = −                       ·
+                                                      ∂pi             Qi (p1 , ..., pn )
+    ε i ist positiv, wenn die Nachfrage nach Gut i mit steigendem Preis pi fällt.
+
+
+
+                                                                                             18/24
+                                Produktdifferenzierung
+
+
+
+Preiselastizität der Nachfrage: Beispiel
+
+
+
+    Angenommen, die Nachfrage nach Gut 1 ist gegeben durch
+
+                                 Q1 = 1000 − 5p1 + 10p2 − 2p3
+
+    Dann ist D1 eine Funktion des eigenen Preises p1 , aber auch des Preises p2 von
+    Gut 2, und des Preises p3 von Gut 3.
+    Was ist die (Eigen)Preiselastizität von Gut 1?
+
+                                       ∂Q1 (p1 , p2 , p3 )         p1              (−5)p1
+             ε 1 (p1 , ..., pn ) = −                       ·                    =−
+                                             ∂p1             Q1 (p1 , p2 , p3 )      Q1
+    Für gegebene Preise p1 = 80, p2 = 50 und p3 = 150 haben wir
+
+                                       (−5)(80)                 400
+                  ε1 = −                                      =     = 0.5
+                            1000 − 5 · 80 + 10 · 50 − 2 · 150   800
+
+
+
+                                                                                            19/24
+                                Produktdifferenzierung
+
+
+
+Kreuzpreiselastizität
+
+
+
+
+    Die Kreuzpreiselastizität ηij misst den Rückgang der Nachfrage für Gut i, der von
+    einem 1%-Anstieg des Preises von Gut j stammt, wobei alle anderen Preise
+    unverändert bleiben:
+
+                                                ∂Qi (p1 , ..., pn )         pj
+                       ηij (p1 , ..., pn ) =                        ·
+                                                      ∂pj             Qi (p1 , ..., pn )
+    ηij ist positiv, wenn Güter i und j (imperfekte) Substitute sind;
+    ηij ist negativ, wenn Güter i und j (imperfekte) Komplemente sind;
+
+
+
+
+                                                                                           20/24
+                                Produktdifferenzierung
+
+
+
+Kreuzpreiselastizität der Nachfrage: Beispiel
+
+    Wir verwenden das vorherige Beispiel, in dem die Nachfrage nach Gut 1 gegeben
+    ist durch
+                           Q1 = 1000 − 5p1 + 10p2 − 2p3
+
+    Was ist die Kreuzpreiselastizität η12 ? Sie besagt, wie die Nachfrage nach Gut 1
+    auf eine 1%-Änderung des Preises von Gut 2 reagiert:
+
+                                         ∂Q1 (p1 , p2 , p3 )         p2             10p2
+                 η12 (p1 , ..., pn ) =                       ·                    =
+                                               ∂p2             Q1 (p1 , p2 , p3 )    Q1
+    Für gegebene Preise p1 = 80, p2 = 50 und p3 = 150 haben wir
+
+                                   (10)(50)                500
+                  η12 =                                  =     = 0.625
+                       1000 − 5 · 80 + 10 · 50 − 2 · 150   800
+    Auf analoge Weise finden wir η13 = −0.375.
+    Gut 2 ist daher ein Substitut für Gut 1 (positive Kreuzpreiselastizität mit Gut 1),
+    während Gut 3 ein Komplement für Gut 1 ist (negative Kreuzpreiselastizität mit
+    Gut 1).
+
+                                                                                           21/24
+                           Produktdifferenzierung
+
+
+
+Produktdifferenzierung im Preiswettbewerb
+
+
+
+   Im Preiswettbewerb mit homogenen Gütern (Bertrand-Wettbewerb) haben wir
+   gesehen, dass die Anwesenheit von zwei Wettbewerbern genügt, um alle
+   Gewinne für die Unternehmen durch den Wettbewerb zu zerstören.
+   In der Realität sehen wir aber trotzdem, dass Unternehmen meist Gewinne
+   machen.
+   Wir heben die Annahme von homogenen Gütern auf und betrachten heterogene
+   Güter.
+   Heterogenen Güter, in dem die Unternehmen ihre Produkte differenzieren,
+   werden angeboten, um so (höhere) Gewinne zu machen.
+   An einem Beispiel wird nun gezeigt, welchen Effekt dies auf den
+   Bertrand-Wettbewerb hat.
+
+
+
+
+                                                                              22/24
+                            Produktdifferenzierung
+
+
+
+Produktdifferenzierung im Preiswettbewerb
+
+
+   Angenommen, es gibt zwei Firmen auf dem Markt.
+   Beide haben sehr kleine variable Kosten, die wir der Einfachheit halber gleich Null
+   setzen (MC=0), und ihre Fixkosten sind FC=20.
+   Die Nachfrage jeder Firma sei gegeben durch
+
+                                      Q1 = 12 − 2p1 + p2
+
+                                      Q2 = 12 − 2p2 + p1
+
+       Wenn eine Firma den Preis des eigenen Produkts anhebt, verringert sich die
+       nachgefragte Menge.
+       Die nachgefragte Menge einer Firma steigt jedoch, wenn der Konkurrent den Preis
+       seines Produkts anhebt.
+
+   Die Firmen setzen simultan ihre Preise und sehen den Preis des anderen als
+   gegeben an.
+   Wir bestimmen das Nash-Gleichgewicht in diesem simultanen Spiel.
+
+                                                                                         23/24
+                                Produktdifferenzierung
+
+
+
+Nash Gleichgewicht
+
+   Profitmaximierung für Firma i = 1, 2:
+
+                       Πi = pi qi − 20 = 12pi − 2pi2 + pi pj − 20
+           ∂Πi
+   FOC:    ∂pi = 12 − 4p1 + p2 = 0
+
+   Reaktionsfunktion für Firma 1:                p1 = 3 + 41 p2
+   Reaktionsfunktion für Firma 2:                p2 = 3 + 41 p1
+                          p2
+                                               RF1(p2)
+                                                           Kollusion
+
+                          p2col                                        RF2(q1)
+
+                         p 2*
+
+
+                                                          Cournot-Nash-GGW
+
+
+
+
+                                                   p 1*     p1col            p1
+
+
+                                                                                  24/24
+                            Produktdifferenzierung
+
+
+
+Kollusion im Bertrand-Wettbewerb
+
+   Preise im Gleichgewicht: p1∗ = 4, p2∗ = 4
+   Gewinne im Gleichgewicht: Π1∗ = Π2∗ = 12
+   Wenn beide Firmen sich zu Kooperation entschliessen, anstatt im Wettbewerb
+   miteinander zu stehen, könnten sie sich zusammen wie ein Monopolist verhalten,
+   der den optimalen Preis festlegt.
+   Bei diesem kollusiven Verhalten würden beide denselben Preis verlangen, und
+   zwar den Preis, der ihre gemeinsamen Gewinne maximiert:
+
+              Πcol = Π1 + Π2 = 24p − 4p2 + 2p2 − 40 = 24p − 2p2 − 40
+           ∂Πcol
+   FOC:     ∂p = 24 − 4p = 0
+   Gewinnmaximierender Preis bei Kollusion: p ∗ = 6.
+   Maximale Gewinne bei Kollusion: Πcol
+                                    1 = Π2 = 12p − p − 20 = 16.
+                                         col        2
+
+   Die Preise bei Kollusion liegen jedoch nicht auf den Reaktionsfunktionen, d.h. sie
+   sind keine gegenseitig beste Antworten. Daher ist Kollusion kein Gleichgewicht.
+
+                                                                                    25/24
+

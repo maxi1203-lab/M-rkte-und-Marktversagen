@@ -1,0 +1,522 @@
+ Märkte und Marktversagen
+Entscheidungen unter Risiko
+
+
+                Anita Gantner
+
+Institut für Wirtschaftstheorie, -politik und -geschichte
+                  Universität Innsbruck
+
+
+                IWW-Bachelor
+
+
+
+
+                                                            1/20
+                                    Einführung
+
+
+
+Einführung
+
+
+
+
+   Bei vielen ökonomischen Entscheidungen hängt das Ergebnis nicht nur von Aktion
+   des Entscheidungsträgers ab, sondern auch von zufälligen Ereignissen.
+   Beispiele:
+       Gewinn aus einer Investition hängt von der Entwicklung der Input- und Outputpreise ab.
+       Ein Prüfungsresultat hängt (bei nicht perfekter Vorbereitung) von den zufällig
+       ausgewählten Aufgaben in der Klausur ab.
+
+   Wie können wir Entscheidungen unter Unsicherheit analysieren?
+   Welche Implikationen ergeben sich aus diesen Entscheidungen?
+
+
+
+
+                                                                                            2/20
+                                    Einführung
+
+
+
+Lotterien
+
+
+    Eine Situation (z.B. eine Investition) ist deterministisch, wenn es nur ein
+    mögliches Ergebnis gibt (die Eigenschaften der Situation / des Objekts sind
+    gegeben).
+    Eine Situation ist eine Lotterie, wenn es mehrere mögliche Ergebnisse gibt
+    (mehrere Eigenschaften der Situation/des Objekts), von denen eines zufällig
+    gezogen wird.
+    Wenn die Wahrscheinlichkeiten der möglichen Ergebnisse dem Entscheider
+    bekannt sind, bezeichnen wir diese als objektiv.
+    Wenn der Entscheider nur eine Meinung über diese Wahrscheinlichkeiten hat,
+    bezeichnen wir diese als subjektiv (die “Beliefs” des Entscheiders).
+    Im Folgenden verwenden wir objektive Wahrscheinlichkeiten.
+    Wenn ein Entscheider in einer Situation ist, die eine Lotterie involviert, bezeichnen
+    wir das als Entscheidung unter Risiko.
+
+
+                                                                                        3/20
+                                     Einführung
+
+
+
+Lotterien
+
+
+    Unterschiedliche Personen können unterschiedliche Einstellungen zu Risiko
+    haben.
+    Um Risikopräferenzen eines Entscheidungsträgers darstellen zu können, führen
+    wir einige Definitionen ein.
+    Es sei X = {x1 , x2 , ..., xn } die Menge der möglichen Auszahlungen einer Lotterie.
+    Eine Lotterie Lp ist eine Wahrscheinlichkeitsverteilung p = (p1 , p2 , ..., pn ) über
+    X . Interpretation: Die Auszahlung xi tritt mit Wahrscheinlichkeit pi ein.
+    Es muss gelten:
+                                                            n
+                         pi ≥ 0 für alle i ∈ {1, ..., n} und ∑ pi = 1.
+                                                          i =1
+
+    Auch ein sichere Auszahlung x kann auch Lotterie genannt werden. Für die
+    sichere Auszahlung x gilt: px = 1.
+
+
+                                                                                            4/20
+                                    Einführung
+
+
+
+Experiment: Präferenzen über Lotterien
+
+
+1. Umfrage: Angenommen, Sie stehen vor folgender Alternative:
+
+    Alternative A: 3 Euro Gewinn (mit Sicherheit)
+    Alternative B: Lotterie mit Münzwurf
+         Kopf: 5 Euro Gewinn
+         Zahl: 0 Euro Gewinn
+
+    Wie würden Sie entscheiden?
+
+2. Wir wählen jemanden aus, der vor einer ähnlichen Lotterie steht. Nun wird die
+Entscheidung tatsächlich implementiert:
+
+    Alternative A: 3 Schokoriegel (mit Sicherheit)
+    Alternative B: Lotterie mit Münzwurf
+         Kopf: 5 Schokoriegel
+         Zahl: 0 Schokoriegel
+
+
+
+
+                                                                                   5/20
+                                      Einführung
+
+
+
+Präferenzen über Lotterien
+
+
+   Der Entscheidungsträger hat Präferenzen % über Lotterien Lp , Lq .
+   Schwache Präferenzrelation:
+                                              Lp % Lq .
+
+   Der Entscheidungsträger findet Lp mindestens so gut wie Lq .
+   Indifferenzrelation:
+                                              Lp ∼ Lq .
+
+   Der Entscheidungsträger ist indifferent zwischen Lp und Lq (Lp und Lq sind für ihn
+   gleich gut).
+   Starke Präferenzrelation:
+
+                          Lp % Lq und nicht Lq % Lp bedeutet Lp  Lq .
+
+   Der Entscheidungsträger findet Lp strikt besser als Lq .
+
+
+                                                                                        6/20
+                                       Einführung
+
+
+
+Nutzenfunktionen und Erwartungsnutzenhypothese
+
+
+
+Um Vorhersagen über die Wahl von Entscheidungsträgern machen zu können,
+nehmen wir an, dass der Entscheidungsträger rationale Präferenzen hat.
+Das bedeutet, seine Präferenzen über die Menge L aller Lotterien weisen zwei
+Eigenschaften auf:
+
+    Vollständigkeit: Für jedes Paar Lp , Lq ∈ L gilt
+
+                              Lp % Lq oder Lq % Lp oder beides.
+
+    Transitivität: Für beliebige Lp , Lq , Lr ∈ L gilt
+
+                           Lp % Lq und Lq % Lr implizieren Lp % Lr .
+
+
+
+
+                                                                               7/20
+                                   Einführung
+
+
+
+Stetige Präferenzen
+
+Angenommen, ein Entscheider hat folgenden Präferenzen über Lotterien La , Lb , Lc :
+
+                                    La % Lb % Lc
+
+Dann besagt das Stetigkeitsaxiom, dass es genau eine Wahrscheinlichkeit p gibt, so
+dass der Entscheider indifferent sind zwischen der Lotterie Lb und einer
+zusammengesetzen Lotterie, die mit Wahrscheinlichkeit p zu Lotterie La führt und mit
+1 − p zu Lc .
+
+    Präferenzen sind stetig wenn für beliebige Lotterien La , Lb , Lc folgendes gilt:
+    Wenn La  Lb , dann bleibt diese Präferenz bestehen, wenn genügend kleine
+    Änderungen in den Wahrscheinlichkeiten der Ergebnisse vorgenommen werden.
+    Das heisst, kleine Unterschiede in den Wahrscheinlichkeiten sollen keine großen
+    Änderungen in der Rangfolge der Lotterien hervorrufen.
+    Dies ist ähnlich der Idee für stetige Präferenzen über Güter: Präferenzen sind
+    stetig, wenn genügend kleine Änderungen in den Mengen der Güter keine
+    Änderung der strikten Präferenz hervorrufen.
+
+                                                                                        8/20
+                                 Einführung
+
+
+
+Unabhängigkeit
+
+
+
+
+   Präferenzen erfüllen das Unabhängigkeitsaxiom, wenn für beliebige Lotterien
+   Lp , Lq , Lr und α ∈ (0, 1) gilt, dass
+
+                                          Lp % Lq
+
+                                äquivalent ist zu
+
+                          αLp + (1 − α)r % αLq + (1 − α)Lr
+
+   Das bedeutet, dass sich die Rangfolge zwischen zwei Lotterien nicht verändert,
+   wenn beide mit einer dritten Lotterie gemischt werden.
+
+
+
+
+                                                                                    9/20
+                                     Einführung
+
+
+
+Erwartungsnutzenfunktion
+
+   Nehmen Sie an, dass die Präferenzen eines Entscheidungsträgers über seine
+   Lotterien rational und stetig sind, und zudem das Unabhängigkeitsaxiom erfüllen.
+   Dann können die Präferenzen durch die sogenannte Erwartungsnutzenfunktion
+   u : X → R beschrieben werden, so dass für beliebige Lotterien Lp , Lq ∈ L gilt:
+                                                   n               n
+                  Lp % Lq ist äquivalent zu ∑ pi u (xi ) ≥ ∑ qi u (xi ).
+                                                  i =1          i =1
+
+   Das heisst, wenn der Entscheider Lotterie Lp der Lotterie Lq (schwach) vorzieht,
+   dann ist sein Erwartungsnutzen für Lotterie Lp mindestens so gross wie der für
+   Lotterie Lq .
+   Nach der Erwartungsnutzenhypothese maximiert ein rationaler
+   Entscheidungsträger den Erwartungswert des Nutzens, und nicht den Nutzen des
+   Erwartungswerts:
+                               n                          n
+                              ∑ pi u (xi ), nicht u ( ∑ pi xi ).
+                              i =1                       i =1
+   Warum ist das plausibel?
+                                                                                      10/20
+                                Einführung
+
+
+
+Nutzenfunktionen und Erwartungsnutzenhypothese
+
+
+
+
+   Nutzenfunktionen u : X → R und die Erwartungsnutzenhypothese in Kombination
+   erlauben nur für einen linearen Zusammenhang zwischen der Bewertung der
+   Ereignisse und der Bewertung der Wahrscheinlichkeiten.
+   Wenn wir die Nutzenfunktion u : X → R eines Entscheidungsträgers kennen,
+   dann können wir dessen Präferenzen über beliebige Lotterien vorhersagen.
+   John von Neumann und Oskar Morgenstern haben gezeigt, dass ein rationaler
+   Entscheidungsträger der Erwartungsnutzenhypothese genügen muss. Darum
+   heißen Nutzenfunktionen, die auf X definiert sind, auch von
+   Neumann-Morgenstern (vNM)-Nutzenfunktionen.
+
+
+
+
+                                                                               11/20
+                                       Einführung
+
+
+
+Risikoaversion
+
+
+
+
+   Mit Nutzenfunktionen können wir die Einstellung des Entscheidungsträgers zu
+   Risiko beschreiben, und mit der eines anderen Entscheidungsträgers vergleichen.
+   Im Folgenden verwenden wir diese Notation:
+       L ist eine Lotterie über eine endliche Teilmenge von R,
+       E [L] ist der Erwartungswert dieser Lotterie,
+       und E [u (L)] ist der Erwartungsnutzen.
+
+   Ein Individuum ist
+       risikoavers, wenn E [u (L)] < u (E [L]) für alle L gilt,
+       risikoneutral, wenn E [u (L)] = u (E [L]) für alle L gilt,
+       risikofreudig, wenn E [u (L)] > u (E [L]) für alle L gilt.
+
+
+
+
+                                                                                 12/20
+                                                    Einführung
+
+
+
+SIKOAVERSION
+  Risikoaversion
+
+aversion:   Der erwartete
+      Ein Individuum         Nutzen
+                     ist genau        E[U(w)] aus
+                               dann risikoavers,   derseine
+                                                 wenn   Auszahlung
+                                                            vNM-Nutzenfunktion
+einer als der  Nutzen
+      streng konkav ist. U aus der erwarteten    Auszahlung   E(w).
+U(w1) + p2 U(w2) < U(p1 w1 + p2 w2)
+                          Nutzen U                                             U(w)
+
+e Auszahlung:
+ .5*150 = 100
+  40                             37.5
+
+
+gsnutzen:
+) +0.5*U(150)
++0.5*50
+
+
+
+                                                                                    Auszahlung w
+    Lotterie L : mit 50% Auszahlung w = 50, mit 50% Auszahlung w = 150
+    Erwartete Auszahlung der Lotterie: E [L] = 0.5 · 50 + 0.5 · 150 = 100;
+    Nutzen des Erwartungswerts: u (E [L]) = u (100) = 40
+
+
+
+
+                                                                                                   11
+    Erwartungsnutzen: E [u (L)] = 0.5 · u (50) + 0.5 · u (150) = 0.5 · 25 + 0.5 · 50 = 37.5
+conomics, Risikoanalyse                                                                                 13/20
+                                                         Einführung
+
+
+
+
+ISIKOFREUDE
+    Risikofreude
+
+sikofruede:   Der erwartete
+        Ein Individuum        Nutzen
+                       ist genau dann E[U(w)]  aus der
+                                      risikofreudig,   Auszahlung
+                                                     wenn seine vNM-Nutzenfunktion
+st größer  als der  Nutzen
+        streng konvex ist.  U aus der  erwarteten Auszahlung    E(w).
+  p1 U(w1) + p2 U(w2) > U(p1 w1 + p2 w2 )
+                              Nutzen U                                                U(w)
+
+ rtete Auszahlung:
+50+0.5*150 = 100
+ 0) = 20
+
+ rtungsnutzen:                          25
+U(50) +0.5*U(150)
+ *10+0.5*40
+
+
+
+                                                                                           Auszahlung w
+
+      Erwartete Auszahlung: E [L] = 0.5 · 50 + 0.5 · 150 = 100;
+      Nutzen des Erwartungswerts: u (E [L]) = u (100) = 20
+
+
+
+
+                                                                                                          12
+      Economics, Risikoanalyse E [u (L)] = 0.5 · u (50) + 0.5 · u (150) = 0.5 · 10 + 0.5 · 40 = 25
+ erialErwartungsnutzen:
+
+                                                                                                               14/20
+                                   Einführung
+
+
+
+Risikoaversion
+
+
+
+Übung: Zeigen Sie an einem graphischen Beispiel (entsprechend der vorherigen
+Graphen), dass ein Individuum risikoneutral ist, wenn seine vnM-Nutzenfunktion
+linear ist.
+
+
+    Wie können wir den Grad der Risikoaversion eines Entscheidungsträgers mit
+    vNM-Nutzenfunktion u messen?
+    Es gibt verschiedene Möglichkeiten.
+    Wir könnten den Entscheidungsträger fragen, wie viel er zu zahlen bereit wäre,
+    um die Lotterie x̃ zu vermeiden und stattdessen als sichere Auszahlung den
+    Erwartungswert der Lotterie zu erhalten.
+    Dies motiviert die Konzepte des Sicherheitsäquivalents und der Risikoprämie.
+
+
+
+
+                                                                                     15/20
+                                      Einführung
+
+
+
+Risikoaversion
+
+Sicherheitsäquivalent. Das Sicherheitsäquivalent S(L) einer Lotterie L, , ist die
+sichere Zahlung, die ein Individuum erhalten muss, damit es gerade indifferent ist
+zwischen der Lotterie L und der sicheren Zahlung S.
+
+                                   u (S (L)) = E [u (L)].
+
+     Nutzen U
+                                                   U(w)
+  U(150) = 50
+
+   U(E[L] = 40
+ E[U(L)] = 37.5
+
+    U(50) = 25
+
+
+
+
+                         S(L)                         Auszahlung w
+                                E(L)=100
+                                                                                     16/20
+                                      Einführung
+
+
+
+
+Risikoprämie. Die Risikoprämie ρ(L) für eine Lotterie L ist der Betrag, den ein
+Individuum aufzugeben bereit ist, um statt der Lotterie die sichere Auszahlung des
+Erwartungswerts der Lotterie zu erhalten:
+
+                                   ρ (L) = E [L] − S (L).
+
+     Nutzen U
+                                                   U(w)
+  U(150) = 50
+
+   U(E[L] = 40
+ E[U(L)] = 37.5
+
+    U(50) = 25
+
+
+
+
+                         S(L)                         Auszahlung w
+                                E(L)=100
+
+
+                                                                                     17/20
+                                   Einführung
+
+
+
+Beispiel: Risikoeinstellung
+                                                               1
+    Angenommen, Herr Müller hat die Nutzenfunktion u = w 2 .
+    Nun wird ihm die Wahl zwischen zwei Alternativen angeboten:
+    Alternative 1: eine sichere Auszahlung von 1 Euro.
+    Alternative 2: eine Lotterie L, bei der er mit 50% (p = 0.5) 2 Euro gewinnt, und
+    mit 50% (1 − p = 0.5) 0 Euro gewinnt.
+    Der Erwartungswert E [L] dieser Lotterie ist dann 1 Euro.
+    Herrn Müllers Erwartungsnutzen dieser Lotterie ist
+
+                                                1        1
+                           E [U (L)] = 0.5 · 2 2 + 0.5 · 0 2 = 0.7
+    Herrn Müllers Nutzen der sicheren Auszahlung w = 1 ist
+
+                                                    1
+                                      U (1) = 1 2 = 1
+    Herr Müller hat also einen höheren Nutzen von Alternative 1, die ihm eine sichere
+    Auzahlung von 1 Euro gibt, als aus der Lotterie, die ihm eine erwartete
+    Auszahlung von 1 Euro gibt. Daher ist er risikoavers.
+                                                                                        18/20
+                                 Einführung
+
+
+
+Beispiel: Sicherheitsäquivalent und Risikoprämie
+
+   Die Risikoprämie ist der Wert, den eine risikoaverse Person bezahlen würde, um
+   das Risko einer Alternative zu vermeiden.
+   Im vorherigen Beispiel hat die Lottere einen Erwartungsnutzen von 0.7 für Herrn
+   Müller.
+   Um die Risikoprämie zu finden, müssen wir herausfinden, wieviel Geld Herr Müller
+   bereit wäre zu bezahlen, um das Risiko zu eliminieren.
+   Die Lotterie hat einen Erwartungswert von 1 Euro. Wieviel davon würde Herr
+   Müller aufgeben, um es zu einer sicheren Auszahlung zu machen?
+        1
+   (x ) 2 = 0.7
+   x = 0.49
+   Herr Müller ist indifferent zwischen der Lotterie mit dem Erwartungswert von 1
+   Euro und einer sicheren Auszahlung von 0.49 Euro. Das Sicherheitsäquivalent zur
+   Lotterie ist also S (L) = 0.49 Euro aus Sicht von Herrn Müller.
+   Die Risikoprämie ist dann ρ(L) = 0.51 Euro für Herrn Müller. Er würde 0.51 Euro
+   aufgeben, um die sichere Auszahlung des Erwartungswerts der Lotterie (E [L] = 1
+   Euro) anstatt der Lotterie zu erhalten.
+                                                                                     19/20
+                                   Einführung
+
+
+
+Risikoaversion
+
+
+
+
+   Ein alternativer Ansatz, um die Risikoaversion eines Entscheiders festzustellen, ist
+   die Krümmung der Nutzenfunktion.
+   Ein Mass für diese Krümmung ist das Arrow-Pratt-Mass der Risikoaversion:
+
+                                                d 2 U (w )/dw 2
+                                ρ (W ) = −
+                                                dU (w )/d (w )
+   Der Zähler ist die zweite Ableitung der Nutzenfunktion.
+   Wenn die Nutzenfunktion konkav ist, ist der Ausdruck negativ.
+   ρ ist positiv für risikoaverse Entscheider (Minuszeichen beachten!) und negativ für
+   risikofreudige Enstscheider.
+
+
+
+
+                                                                                      20/20
+

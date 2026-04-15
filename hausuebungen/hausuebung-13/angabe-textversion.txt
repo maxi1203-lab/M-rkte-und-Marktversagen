@@ -1,0 +1,47 @@
+                      PS Märkte und Marktversagen
+
+                     Hausübung 13: Öffentliche Güter
+
+1. Zwei Personen i = A, B (Anna and Bastian) haben jeweils ein Einkommen von
+   w = 100. Sie können jeweils einen beliebigen Betrag zi mit 0 ≤ zi ≤ w in ein
+   öffentliches Gut Z investieren und den verbleibenden Betrag für den privaten Kon-
+   sum xi verwenden. Wenn Z = zA + zB der in das öffentliche Gut investierte
+   Gesamtbetrag ist, sind die Nutzenfunktionen der Individuen i = A, B gegeben
+   durch ui = ln xi + ln Z. Die soziale Wohlfahrt W ist gleich dem Gesamtnutzen der
+   beiden Individuen.
+
+   (a) Bestimmen Sie für beide Personen die jeweils individuell optimale Investition
+       zi∗ in das öffentliche Gut.
+   (b) Was ist die sozial optimale Investition in das öffentliche Gut? Was bedeutet
+       das dann für mögliches staatliches Handeln in diesem Fall?
+
+2. In einer kleinen finnischen Stadt leben 500 Menschen. Es gibt ein öffentliches
+   Gut, die Eishalle, und ein privates Gut, Bier. Die Einwohner haben alle dieselbe
+   Nutzenfunktion: Ui (Bi , Y ) = Bi − 64
+                                        Y
+                                          , wobei Bi die Flaschen Bier bezeichnet,
+   die Einwohner i konsumiert, und Y die Grösse der Eishalle in Quadratmetern.
+   Der Preis von Bier is 1 Euro pro Flasche, und die Eishalle kostet 5 Euro pro
+   Quadratmeter. Jeder Einwohner hat 5000 Euro zur Verfügung.
+
+   (a) Was ist die Bedinung für die individuelle Nutzenmaximierung jedes Einwoh-
+       ners, und wieviel Quadratmeter der Eishalle würden nachgefragt werden,
+       wenn das öffentliche Gut privat bereitgestellt würde?
+   (b) Was ist die Samuelson-Regel für die sozial effiziente Menge des öffentlichen
+       Gutes? Was ist demnach die effiziente Grösse der Eishalle?
+
+3. Wir betrachten das Beispiel wie auf S. 15 der VO-Slides beschrieben: Es gibt zwei
+   Individuen, deren individueller Nutzen aus Cookies (x) und Feuerwerk (F ) gegeben
+   ist durch Ui = 2 ln xi + ln F . F = F1 + F2 ist die Gesamtmenge an Feuerwerk,
+   wobei Fi der Beitrag von Individuum i = 1, 2 zum öffentlichen Gut Feuerwerk
+   ist. Jedes Individuum hat 100 Euro zur Verfügung, und die Preise sind px =
+   pF = 1. Angenommen, der Staat zwingt nun jedes Individuum dazu, 5 Einheiten
+   von F bereitzustellen, damit insgesamt mehr vom öffentlichen Gut F bereitgestellt
+   wird. Stellen Sie dafür die beiden individuellen Nutzenmaximierungsprobleme
+   unter dieser neuen Nebenbedingung auf (siehe S. 22), und zeigen Sie, dass die
+   optimalen individuellen Mengen F1 = F2 = 15 sind (wie auf S.22 behauptet).
+
+
+
+                                        1
+

@@ -1,0 +1,90 @@
+                                                                     PS Märkte und Marktversagen
+                                                                    Hausübung 7: Dynamische Spiele
+         5.1   Perfect-information extensive-form games                                                               109
+
+
+                      1. Gegeben sie das folgende1 sequentielle Spiel:
+                               0–2                                     10,
+                                                                        1–12                         2–0
+                                                            a
+                                        Spieler 2
+                                                                b
+                                                                        8, 5
+                           2             en                     c
+                                                                           2                              2
+                                       ob
+                                                                       9, 2
+                    no                  un
+                           Spieler 1yes ten                 no                   yes         no                yes
+                                                        d              7, 7
+                                                        d
+                                                                e
+                   (0,0)          (2,0) Spieler 2 (0,0)               2, 2     (1,1)        (0,0)             (0,2)
+                                                                                                                            Backward Induction
+                                              Figure 5.1 The Sharing game.
+                               a) Benennen Sie die Strategien jedes Spielers.
+   the Example         b) Verwenden Sie die Rückwärtsinduktion, um das teilspielperfekte Gleichgewicht
+       Notice that the definition contains a subtlety. An agent’s strategy requires a decision
+                                  in diesem Spiel zu finden.
+         at each choice node, regardless of whether or not it is possible to reach that node given
+         the other choice nodes. In the Sharing game above the situation is straightforward—
+                      2. Betrachten Sie das unten stehende dynamische Spiel. Was ist das teilspielperfekte
+         player 1 has three pure strategies, and player 2 has eight (why?). But now consider the
+                         Gleichgewicht
+         game shown in Figure   5.2.       in diesem Spiel?
+
+                                                                       1
+                                                    A                             B
+                                         2                                              2
+
+                                 C                   D                           E           F
+                                                                                                 1
+                               (3,8)                (8,3)                      (5,5)
+                                                                                        G            H
+
+                                                                                       (2,10)     (1,0)
+
+                           Figure 5.2         A perfect-information game in extensive form.
+
+           In order to define a complete strategy for this game, each of the players must choose
+Whichan equilibria         from
+        action at each of his        thenodes.
+                              two choice   example
+                                               Thus we can are  subgame
+                                                           enumerate               perfect?
+                                                                     the pure strategies
+         of the players as follows.
+   I (A,SG),      (C, F ) is subgame perfect
+            1 = {(A, G), (A, H), (B, G), (B, H)}
+   I (B, H) is an non-credible threat, so (B, H), (C, E) is not
+          S2 = {(C, E), (C, F ), (D, E), (D, F )}
+     subgame
+      It is important perfect
+                      to note that we have to include the strategies (A, G) and (A, H), even
+   I (A, H) is is
+      though  once A  also
+                         chosennon-credible,
+                                 the G-versus-H choiceeven
+                                                        is moot.though H is “o↵-path”
+         The definition of best response and Nash equilibria in this
+                                                                   1 game are exactly as they
+         are in for normal form games. Indeed, this example illustrates how every perfect-
+         information game can be converted to an equivalent normal form game. For example,
+         the perfect-information game of Figure 5.2 can be converted into the normal form im-
+         age of the game, shown in Figure 5.3. Clearly, the strategy spaces of the two games are
+3. Betrachten Sie das folgende sequentielle Spiel: Zuerst wählt Spieler 1 zwischen
+   “Oben” und “Unten”.
+     - Wenn Spieler 1 “Oben” gewählt hat, kann Spieler 2 zwischen “a” und “b”
+       wählen. Falls 2 “a” wählt, erhalten beide Spieler die Auszahlung 0, Falls 2 “b”
+       wählt, erhält Spieler 1 die Auszahlung 1 und Spieler 2 erhält −1.
+     - Wenn Spieler 1 “Unten” gewählt hat, ist das Spiel zu Ende und Spieler 1
+       erhält die Auszahlung 3, während Spieler 2 die Auszahlung −3 erhält.
+  Repräsentieren Sie dieses Spiel in extensiver Form und in Normalform (d.h. mit
+  Hilfe einer Auszahlungsmatrix). Finden Sie alle Nash-Gleichgewichte in reinen
+  Strategien, und finden Sie alle teilspielperfekten Gleichgewichte.
+
+
+
+
+                                        2
+

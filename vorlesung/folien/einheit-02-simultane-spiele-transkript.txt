@@ -1,0 +1,620 @@
+ Märkte und Marktversagen
+     Simultane Spiele
+
+
+                Anita Gantner
+
+Institut für Wirtschaftstheorie, -politik und -geschichte
+                  Universität Innsbruck
+
+
+                IWW-Bachelor
+
+
+
+
+                                                            1/23
+                                   Einführung
+
+
+
+Einführung
+
+
+
+   Bisher: zwei Formen der Marktstruktur
+       vollständige Konkurrenz
+       Monopol
+
+   Weitere (häufige) Form ist das Oligopol:
+       mehrere Konkurrenten
+       nicht so viele Konkurrenten, dass jeder von ihnen eine vernachlässigbare Wirkung auf
+       Preis hat
+       das heisst, Preis/ Mengen-Entscheidung jedes Unternehmens beeinflusst Bedingungen
+       der anderen Firmen auf dem Markt
+
+   Situationen mit strategischer Interaktion: Marktteilnehmer wissen, dass ihre
+   Entscheidungen die der anderen beeinflussen.
+   Wir betrachten ein Duopol, d.h. einen Markt mit zwei Anbietern.
+
+
+
+
+                                                                                          2/23
+                                   Einführung
+
+
+
+Strategische Entscheidungen
+
+   Strategisches Verhalten: Entscheidung des einen Unternehmens sind wichtig für
+   die Entscheidung des anderen Unternehmens
+   Alle Teilnehmer haben substantiellen Marktanteil, alle verstehen die gegenseitige
+   Abhängigkeit ihrer Entscheidungen.
+   Preiswettbewerb oder Mengenwettbewerb?
+   Simultane oder sequentielle Entscheidungen?
+       Gibt es ein Unternehmen, das seine Entscheidung vor der des anderen festsetzt?
+       Entscheiden beide, ohne die jeweilige Entscheidung des anderen zu kennen?
+   Kooperative oder nicht-kooperative Situation?
+       Können sie sich absprechen und gemeinsam Preis oder Mengen festsetzen?
+
+   Spieltheorie bietet nützliches Instrumentarium für solche Situationen mit
+   strategischer Interaktion
+   Wir fragen nicht, wer gewinnt, sondern wollen eine Vorhersage über das Ergebnis
+   machen (“Gleichgewicht”), bei dem kein Spieler einen Anreiz hat, von seiner
+   Entscheidung abzuweichen.
+                                                                                        3/23
+                                         Einführung
+
+
+
+Spiele: Beschreibung
+
+
+   Spiel: eine Entscheidungssituation mit gegebenen Regeln, in der jeder
+   Teilnehmer versucht, das beste Ergebnis für sich zu erzielen. Alle kennen die
+   Struktur des Spiels.
+   Spieler: Teilnehmer i = 1, ..., N (z.B. N = 2 im Duopol)
+   Strategien: Entscheidungsmöglichkeiten der Spieler.
+       Spieler i wählt eine Strategie si aus der Menge Si seiner möglichen Strategien.
+       s = (s1 , s2 , ..., sn ) ist ein Strategienprofil, das zu einem Ergebnis des Spiels führt.
+       s−i = (s1 , ..., si −1 , si +1 , ..., sn ) beinhaltet die Strategien aller Spieler ausser jener von
+       Spieler i.
+
+   Auszahlungen: ui (si , s−i ) ist die Bewertung des Ergebnisses für Spieler i
+   gegeben seine Strategie si und die der anderen s−i (z.B. Gewinn jedes
+   Unternehmens im Duopol)
+   Informationsmenge: Information eines Spielers zu gegebenem Zeitpunkt (z.B.
+   kann er Entscheidung eines anderen beobachten?)
+
+
+                                                                                                             4/23
+                                     Einführung
+
+
+
+Simultane Entscheidungen
+
+
+
+   Simultanes Spiel, wenn Spieler
+       ihre Strategien gleichzeitig wählen, oder
+       nicht darüber informiert sind, was andere Spieler tun.
+   Beispiel:
+       Output-Entscheidungen von Firma A und B, wenn die Output-Menge des jeweils
+       anderen unbekannt ist.
+       Elfmeter: Schütze gegen Torwart; Torwart wählt eine Ecke oder die Mitte, kann nicht
+       warten, bis der Schütze schießt .
+
+   Solche Spiele werden mit Hilfe einer Matrix (Strategische Form, Normalform)
+   dargestellt.
+   Auszahlungsmatrix: stellt für jede mögliche Kombination von Entscheidungen
+   der Spieler die dazugehörigen Auszahlungen (Payoffs) für jeden Spieler dar.
+   Spiel mit 2 Spielern → 2-dimensionale Matrix (Zeile, Spalte).
+
+
+
+                                                                                             5/23
+                            Einführung
+
+
+
+Let’s play:
+
+
+
+
+                                                 Spieler 2
+                                                 (Spalte)
+
+
+                                         Links               Rechts
+
+
+                          Oben           2, 2                 0, 4
+              Spieler 1
+               (Zeile)
+                          Unten          4, 0                 1, 1
+
+
+
+
+                                                                      6/23
+                                Gefangenendilemma
+
+
+
+Gefangenendilemma
+
+
+   Zwei Verdächtige einer Straftat (Anton und Ben) werden separat von der Polizei befragt,
+   beide erhalten folgendes Angebot:
+        wenn einer die gemeinsam begangene Straftat gesteht, wird sein Strafmaß auf 1 Jahr
+        reduziert (Kronzeugenregelung), der andere bekommt Höchststrafe von 12 Jahren
+        wenn beide gestehen, bekommt jeder 6 Jahre Strafe
+        wenn keiner gesteht, kriegen beide eine kleine Strafe von 2 Jahren
+   Strafmass hängt von der eigenen Entscheidung und von der des anderen ab.
+
+                                                    Ben
+                                       nicht gestehen           gestehen
+                                  A                       B
+                       nicht
+                                   2 Jahre, 2 Jahre        12 Jahre, 1 Jahr
+                     gestehen
+           Anton
+                                  C                       D
+                     gestehen      1 Jahr, 12 Jahre        6 Jahre, 6 Jahre
+
+
+
+
+                                                                                             7/23
+                                Gefangenendilemma
+
+
+
+Dominante Strategien
+
+
+                                                    Ben
+                                     nicht gestehen             gestehen
+
+                       nicht
+                                  2 Jahre, 2 Jahre        12 Jahre, 1 Jahr
+                     gestehen
+            Anton
+
+                     gestehen     1 Jahr, 12 Jahre        6 Jahre, 6 Jahre
+
+
+
+   Dominante Strategie: “gestehen”
+   Unabhängig davon, was der Gegner entscheidet, “gestehen” führt immer zu einer
+   kleineren Strafe als “nicht gestehen”.
+   Jeder Spieler wählt “gestehen”.
+   (gestehen, gestehen) ist das Gleichgewicht in dominanten Strategien.
+   Keiner hat einen Anreiz, davon abzuweichen, wenn der andere diese Strategie wählt.
+
+
+                                                                                        8/23
+                                   Gefangenendilemma
+
+
+
+Dominante Strategien
+Umwandlung der Bewertung der Ergebnisse: Höhere Zahlen → besseres Ergebnis.
+
+                                                        Ben
+                                           nicht gestehen                gestehen
+
+                            nicht
+                          gestehen                 3,3                        0, 4
+               Anton
+                          gestehen
+                                                   4,0                        1, 1
+
+
+    Eine dominante Strategie ist eine Strategie, die zum bestmöglichen Ergebnis führt,
+    unabhängig davon, wie sich die Mitspieler (Gegner) entscheiden:
+    Eine Strategie si ist dominant, wenn gilt:
+                          ui (si , s−i ) > ui (si0 , s−i ) für alle si0 und für alle s−i
+
+    wobei ui (·) der Nutzen des Spielers i für das Ergebnis ist, und si0 jede andere beliebige
+    Strategie von i bezeichnet.
+    Wenn es eine dominante Strategie gibt, wird ein rationaler Entscheider immer diese
+    dominante Strategie wählen.
+                                                                                                 9/23
+                              Gefangenendilemma
+
+
+
+Dominante Strategien
+
+
+
+   Wo ist das Dilemma im Gefangenendilemma?
+       vollkommen rationales Verhalten führt zu einem (sozial) ineffizienten Ergebnis
+       für beide Spieler wäre es besser, nicht zu gestehen, da so beider besser gestellt wären
+       Warum klappt das nicht?
+
+   Wenn jeder Spieler eine dominante Strategie hat, ist das Ergebnis ein
+   Gleichgewicht in dominanten Strategien.
+    Gefangenendilemma beschreibt eine Situation, in der alle Spieler eine
+   dominante Strategie haben; das Gleichgewicht in dominanten Strategien aber
+   führt für alle zu einem schlechteren Ergebnis als wenn die Spieler kooperiert
+   hätten.
+   Es gibt auch Gefangenendilemma-Situationen mit mehreren Spielern.
+
+
+
+
+                                                                                             10/23
+                              Gefangenendilemma
+
+
+
+Gefangenendilemma: Mehrere Spieler
+
+
+   Während einer Dürreperiode muss jeder der Betroffenen eine Entscheidung
+   treffen:
+       seinen Garten bewässern und so im Eigeninteresse handeln, oder
+       sich bei der Wasserverwendung zurückhalten, damit alle mehr Wasser haben.
+
+                                                  Alle anderen
+                 Einzelner                         bewässern     zurückhalten
+                             bewässern                1, 1           3, 0
+                             zurückhalten             0, 3           2, 2
+
+   Wenn nur einer sich individuell rational verhält, hat das kaum Auswirkung auf die
+   Wasserversorgung.
+   Wenn alle individuell rational argumentieren, gibt es zu wenig Wasser für alle.
+   Kooperation (jeder hält sich zurück) wäre für alle besser im
+   N-Personen-Gefangenendilemma, aber jeder Einzelne hat einen Anreiz, davon
+   abzuweichen.
+
+                                                                                       11/23
+                            Gefangenendilemma
+
+
+
+Ökonomische Anwendungen
+
+
+
+
+   N-Personen-Gefangenendilemma kann auf viele Situationen übertragen werden;
+   Tragedy of the Commons (Allmendeproblem): gemeinsames Weideland einer
+   Gemeinde wird zu stark abgegrast;
+   Überfischung, weil individuelle Fangmengen nicht reduziert werden;
+   Starker Verkehr auf den Straßen, weil Einzelner im Eigeninteresse handelt;
+   Klimaschutz: Gefangenendilemma der Länder (lieber billige Kohle verbrennen und
+   den Klimaschutz den anderen überlassen);
+   Viele Umweltprobleme sind soziale Dilemmata;
+   Man braucht bindende Verträge (z.B. Staat), um Kooperation zu erwirken.
+
+
+
+
+                                                                                12/23
+                                     Dominierte Strategien
+
+
+
+Dominierte Strategien
+
+   Manchmal gibt es bei mehreren Strategien im paarweisen Vergleich eine
+   Strategie, die von einer anderen dominiert wird, d.h. immer zu einem
+   schlechteren Ergebnis führt als diese andere Strategie.
+   Eine dominierte Strategie würde nie gewählt werden. Daher sollte sie
+   eliminiert werden.
+   Vorgehensweise: Sukzessives Eliminieren dominierter Strategien, bis es keine
+   weitere dominierte Strategie mehr gibt.
+
+                                                                     Spieler B
+
+                                                             Links         Mitte   Rechts
+
+                  Spieler A            Oben                   1,0           1,2     0,1
+
+                                       Unten                  0,3           0,1     2,0
+
+
+   Gibt es eine dominante Strategie?
+   Welche Strategie ist dominiert? Würde man diese Strategie jemals wählen?
+   Was bedeutet das für Spieler A?
+
+                                                                                            13/23
+                                Dominierte Strategien
+
+
+
+Sukzessives Eliminieren
+
+   Spieler B würde nie Rechts wählen, wenn er rational ist.
+   Spieler A antizipiert das, er ignoriert Rechts und hat dann eine dominierte Strategie im
+   reduzierten Spiel (Unten).
+   Spieler B ignoriert Unten, wählt daher selber Mitte, weil dies die beste Antwort auf Oben ist.
+   Sukzessives (iteriertes) Eliminieren von dominierten Strategien führt also zu (Oben, Mitte)
+   als Ergebnis.
+
+                                                                Spieler B
+
+                                                        Links         Mitte    Rechts
+
+                 Spieler A        Oben                   1,0           1,2      0,1
+
+                                  Unten                  0,3           0,1      2,0
+
+
+                                                        Spieler B
+
+                                                        Links          Mitte
+
+                 Spieler A         Oben                  1,0            1,2
+
+                                   Unten                 0,3            0,1
+
+                                                                                                    14/23
+                                 Dominierte Strategien
+
+
+
+Starke und schwache Dominanz
+
+   Wenn eine Strategie für jede Möglichkeit des Gegenspielers immer schlechter ist,
+   nennt man sie stark dominiert (Beispiel vorheriges Spiel).
+   Wenn eine Strategie für manche Möglichkeiten des Gegenspielers schlechter ist,
+   für andere aber gleich gut, nennt man sie schwach dominiert.
+
+                            Column              c1        c2     c3
+                      Row
+                            r1                2,12       1,10   1,12
+                            r2                0,12       0,10   0,11
+                            r3                0,12       1,10   0,13
+
+
+   r3 wird von r1 schwach dominiert. Es kann von der Reihenfolge der Eliminierung
+   abhängen, welche Strategien am Ende übrigbleiben.
+   (r1 , c1 ) und (r1 , c3 ) sind beides Gleichgewichte durch sukzessives Eliminieren.
+   Vorhergesagtes Gleichgewicht kann von Reihenfolge der Eliminierung
+   abhängen, wenn schwach dominierte Strategien dabei sind.
+
+                                                                                         15/23
+                         Dominierte Strategien
+
+
+
+Sukzessives Eliminieren Reihenfolge 1
+
+
+                              Column       c1     c2     c3
+                        Row
+                              r1         2,12    1,10   1,12
+                              r2         0,12    0,10   0,11
+
+                   1          r3         0,12    1,10   0,13
+
+
+
+                              Column       c1     c2     c3
+                        Row
+                              r1         2,12    1,10   1,12
+                              r2         0,12    0,10   0,11
+                   1          r3         0,12    1,10   0,13
+
+
+
+                                                        2
+                              Column       c1     c2     c3
+                        Row
+                              r1          2,12   1,10   1,12
+                              r2          0,12   0,10   0,11
+
+                    1         r3          0,12   1,10   0,13
+
+
+                                                 3      2
+
+                                                               16/23
+                        Dominierte Strategien
+
+
+
+Sukzessives Eliminieren Reihenfolge 2
+
+
+                              Column       c1     c2     c3
+                        Row
+                              r1          2,12   1,10   1,12
+
+                    1         r2          0,12   0,10   0,11
+                              r3          0,12   1,10   0,13
+
+
+
+                              Column       c1     c2     c3
+                        Row
+                              r1          2,12   1,10   1,12
+
+                    1         r2          0,12   0,10   0,11
+                              r3          0,12   1,10   0,13
+
+
+                                                 2
+
+                              Column       c1     c2     c3
+                        Row
+                              r1          2,12   1,10   1,12
+                    1         r2          0,12   0,10   0,11
+                              r3          0,12   1,10   0,13
+
+
+                                           3      2
+
+                                                               17/23
+                                   Nash-Gleichgewicht
+
+
+
+Nash-Gleichgewicht
+
+
+Es gibt nicht immer dominante oder dominierte Strategien. Beispiel:
+
+    Werbung im US-Superbowl wird von vielen Millionen Menschen gesehen, aber
+    30 Sekunden kosten 7 Mio USD. Wie viel soll man insgesamt dafür ausgeben?
+    Effekt der Werbung hält 6 Monate an. Hier die geschätzten Gewinne:
+
+                                                        Pepsi’s Budget
+                                           Low            Medium           High
+
+
+                            Low         $60, $45         $57, $50        $45, $35
+
+
+               Coke’s
+                          Medium        $50, $35         $65, $30        $30, $25
+               Budget
+
+
+                            High        $45, $10         $60, $20        $50, $40
+
+
+                        (Auszahlungen: halbjährliche Gewinne in Mio US-Dollar)
+
+
+
+                                                                                    18/23
+                             Nash-Gleichgewicht
+
+
+
+Nash-Gleichgewicht: Vorgehensweise
+
+
+
+
+   Für jede Strategie von Spieler 2 markieren, was die beste Antwort von Spieler 1
+   auf diese Strategie ist. (Unterstreichen Sie die höchste Auszahlung von Spieler 1
+   in jeder Spalte der Matrix.)
+   Für jede Strategie von Spieler 1 markieren, was die beste Antwort von Spieler 2
+   auf diese Strategie ist. (Unterstreichen Sie die höchste Auszahlung von Spieler 2
+   in jeder Zeile der Matrix.)
+   Sollte es mehrere maximale Auszahlungen in einer Spalte (Zeile) geben, müssen
+   alle diese Auszahlungen markiert werden.
+   Wir haben ein Nash Gleichgewicht gefunden, wenn es eine Zelle in der Matrix
+   gibt, in der beide Auszahlungen unterstrichen sind.
+
+
+
+
+                                                                                       19/23
+                                    Nash-Gleichgewicht
+
+
+
+Nash-Gleichgewicht: Definition
+
+   Eine Strategie si ist eine beste Antwort auf eine Strategie s−i des Gegners, wenn gilt:
+                                   ui (si , s−i ) ≥ ui (si0 , s−i ) für alle si0
+
+   wobei ui (·) der Nutzen des Spielers i für das Ergebnis ist, und si0 jede andere beliebige
+   Strategie von i bezeichnet.
+   Im Nash-Gleichgewicht gilt die Bedingung der gegenseitig besten Antworten: gegeben
+   die beste Antwort der anderen gibt jeder Spieler darauf seine beste Antwort.
+   Ein Strategieprofil (s1∗ , ..., sn∗ ) ist ein Nash-Gleichgewicht, wenn jeder
+   Spieler i seine beste Antwort si∗ auf s−
+                                          ∗ gibt, d.h., für jeden Spieler i gilt:
+                                            i
+
+                                ui (si∗ , s−
+                                           ∗                 ∗
+                                             i ) ≥ ui (si , s−i ) für alle si ∈ Si
+
+   .Im Nash-Gleichgewicht hat kein Spieler einen Anreiz, von seiner gewählten Strategie
+    abzuweichen, wenn alle anderen Spieler bei ihrer gewählten Strategie bleiben.
+   John Nash (1950): in jedem endlichen Spiel gibt es mindestens ein Gleichgewicht (kann
+   aber auch in gemischten Strategien sein, d.h. Strategien werden mit gewissen
+   Wahrscheinlichkeiten gewählt).
+   Was passiert, wenn es mehrere Gleichgewichte gibt? Können wir dann eines davon
+   auswählen? (Selektionsproblem)
+                                                                                                20/23
+                           Multiple Gleichgewichte
+
+
+
+Battle of the Sexes
+
+Multiple Gleichgewichte im “Kampf der Geschlechter”:
+
+                                                             Eva
+                                                     Boxen     Theater
+                                    Boxen             2, 1       0, 0
+                       Adam
+                                   Theater            0, 0       1, 2
+
+    Zwei GGW: (Boxen, Boxen) und (Theater, Theater). Woher wissen wir, welches
+    gewählt wird?
+    Man könnte sich vorhergehende Kommunikation vorstellen, um eines der beiden
+    GGW zu erreichen.
+    Oder durch Wiederholung auf ein GGW koordinieren.
+    Angenommen, Adam hat Tickets für den Boxkampf gekauft. “Verpflichtung”
+    veranlasst Eva zum Boxen zu gehen.
+    Manchmal können GGW geordnet werden (z.B. nach Höhe der Auszahlungen:
+    Pareto-Dominanz
+                                                                                  21/23
+                            Multiple Gleichgewichte
+
+
+
+Stag Hunt Game
+
+
+Multiple Gleichgewichte im “Stag Hunt Gamer” (Hirschjagd).
+
+    Konflikt zwischen individueller Sicherheit und sozialer Kooperation.
+    Zwei Jäger können wählen: Hirsch oder Hase jagen.
+    Um den Hirschen zu jagen braucht man den anderen; Hase kann allein erlegt
+    werden, ist aber weniger wert.
+
+                                                         Spieler 2
+                                                      Hirsch Hase
+                                          Hirsch      10, 10   0, 7
+                        Spieler 1
+                                          Hase         7, 0    7, 7
+
+Zwei Nash-GGW. Woher wissen wir, welches davon gewählt wird?
+    (Hirsch, Hirsch) ist auszahlungsdominant: höhere Auszahlungen für beide Spieler
+    (Hase, Hase) ist risikodominant: weniger riskant
+
+
+                                                                                  22/23
+                              Multiple Gleichgewichte
+
+
+
+Gemischte Strategien
+
+   In einigen Spielen gibt es kein Nash Gleichgewicht in reinen Strategien.
+   Elfmeterspiel: Schütze gegen Torwart
+
+                                                             Torwart
+                                                         Links   Rechts
+                                             q Links      -1,1    1,-1
+                          Schütze
+                                          1 − q Rechts    1,-1    -1,1
+
+   Eine gemischte Strategie für Spieler i ordnet jeder seiner reinen Strategien eine
+   Wahrscheinlichkeit zu (z.B. 13 für Links, 32 für Rechts).
+   Im gemischten Gleichgewicht macht jeder Spieler den Gegenspieler indifferent
+   zwischen dessen reinen Strategien.
+   In diesem Spiel gibt ein Gleichgewicht in gemischten Strategien: Jeder Spieler wählt mit
+   Wahrscheinlichkeit 12 Links und mit Wahrscheinlichkeit 21 Rechts.
+   Wenn der Schütze mit Prob = q Links wählt und mit Prob = 1 − q Rechts, dann ist die
+   erwartete Auszahlung für den Torwart bei Links q · 1 + (1 − q ) · (−1) = 2q − 1, und bei
+   Rechts q · (−1) + (1 − q ) · 1 = 1 − 2q, also ist er indifferent, wenn 2q − 1 = 1 − 2q oder
+   q = 21 .
+
+                                                                                                 23/23
+

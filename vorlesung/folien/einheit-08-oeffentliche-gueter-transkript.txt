@@ -1,0 +1,665 @@
+ Märkte und Marktversagen
+     Öffentliche Güter
+
+
+                Anita Gantner
+
+Institut für Wirtschaftstheorie, -politik und -geschichte
+                  Universität Innsbruck
+
+
+                IWW-Bachelor
+
+
+
+
+                                                            1/24
+                                  Einführung
+
+
+
+Öffentliche Güter: Einführung
+
+
+
+
+   Bisher haben wir unter Gütern immer “private Güter” verstanden
+   Der Konsum eines privaten Gutes wirkt sich nur auf den einzelnen Konsumenten
+   aus.
+   Ausschliessbarkeit im Konsum: Wenn Akteur i eine Einheit eines bestimmten
+   Gutes konsumiert, dann kann Akteur j nicht auch dieselbe Einheit des Gutes
+   konsumieren.
+   Rivalität im Konsum: Wenn Akteur i eine Einheit eines bestimmten Gutes
+   konsumiert, dann gibt es weniger von diesem Gut, das Akteur j konsumieren kann.
+   Nicht alle Güter haben diese Eigenschaften der Ausschliessbarkeit und Rivalität.
+
+
+
+
+                                                                                      2/24
+                                   Einführung
+
+
+
+Öffentliche Güter: Definition
+
+
+
+Beispiel: Strassenbeleuchtung in einem bestimmten Bereich.
+
+    Die Menge an Beleuchtung, die Person 1 nutzt (“konsumiert”), hat keinen Einfluss
+    auf die Menge an Beleuchtung, die für Person 2 zur Verfügung steht →
+    Nicht-Rivalität.
+    Die Nutzung der Strassenbeleuchtung von Person 1 schliesst Person 2 nicht von
+    der Nutzung derselben Menge an Beleuchtung aus → Nicht-Ausschliessbarkeit.
+    Güter mit den beiden Charakteristika von Nicht-Rivalität und
+    Nicht-Ausschliessbarkeit nennt man öffentliche Güter.
+    Weitere Beispiele für öffentliche Güter: Verteidigung eines Landes, Parkanlagen,
+    Lawinenschutz, saubere Luft.
+
+
+
+
+                                                                                       3/24
+                                     Einführung
+
+
+
+Öffentliche Güter: Klassifizierung
+
+
+
+
+    Es gibt auch Güter, die keine reinen öffentlichen Güter sind, weil sie nur eines der
+    beiden Charakteristika vorweisen:
+        Ausschliessbare, aber nicht rivale Güter: Klubgüter
+        Beispiel: Streaming-Dienste
+        Nicht-ausschliessbare, aber rivale Güter: Gemeinschaftsgüter
+        Beispiel: gesellschaftliche Ressourcen (Allmende-Güter)
+
+                                                     Rivalität im Konsum?
+                                                     Ja                 Nein
+                                    Ja          Private Güter              Klubgüter
+        Ausschliessbarkeit?
+                                   Nein       Gemeinschaftsgüter       Öffentliche Güter
+
+
+
+
+                                                                                           4/24
+                        Bereitstellung öffentlicher Güter
+
+
+
+Bereitstellung Öffentliche Güter
+
+
+
+
+    Welche Menge des öffentlichen Guts soll bereitgestellt werden?
+    Durch den Marktmechanismus wird nicht die optimale Menge bereitstellen.
+
+Um das zu zeigen, betrachten wir zum Vergleich einen Markt für ein privates Gut und
+dessen optimale Bereitstellung.
+
+    Ben und Jerry haben unterschiedliche Präferenzen für Eiscreme (ic) relativ zu
+    einem anderen Gut.
+    Wir nehmen an, das andere Gut is Geld (m), dessen Preis pro Einheit ist dann
+    pm = 1. Dieses Gut heisst Numeraire.
+    Wie werden diese Präferenzen vom Markt aggregiert?
+
+
+
+
+                                                                                      5/24
+                      Bereitstellung öffentlicher Güter
+
+
+
+Private Güter: Optimale Bereitstellung
+
+
+   Ben und Jerry fragen unterschiedliche Mengen xic von Eiscreme zu jedem
+   möglichen Preis nach.
+   Aus der individuellen Nutzenmaximierung des Konsumenten wissen wir:
+   Grenzrate der Substitution (marginal rate of substitution) ist gleich dem
+   Preisverhältnis: MRSxy = Preisverhältnisxy
+   Grenzrate der Substitution von Eiscreme ic zu Geld m ist das Verhältnis der
+   beiden Grenznutzen:
+
+                                i                         MUici        ∂U i /∂xic
+                             MRSic,m =−                     i
+                                                                  =−
+                                                          MUm          ∂U i /∂xm
+
+   D.h. die Optimalitätsbedingung für die individuelle Nachfrage von Konsument i bei
+   privaten Gütern ist
+                                                  p
+                                          i
+                                    MRSic,m    = ic
+                                                  pm
+                                                i
+   Weil der Preis von Geld pm = 1, haben wir MRSic,m = pic .
+
+                                                                                       6/24
+                      Bereitstellung öffentlicher Güter
+
+
+
+Private Güter: Optimale Bereitstellung
+
+
+
+
+                          B
+   Es muss also gelten MRSic,m      J , weil ja p für alle gleich sein muss.
+                               = MRSic,m         ic
+
+   Für alle Nachfrager gilt derselbe Marktpreis, aber die Nachfrager können
+   unterschiedliche Mengen xic zu jedem gegebenen Preis nachfragen. Sie fragen
+   genau die Menge nach, bei der ihre individuelle MRS gleich dem Preisverhältnis.
+   Auf der Angebotsseite gilt im vollständigen Wettbewerb: pic = MCic
+                                            i
+   Also haben wir im Gleichgewicht pic = MRSic,m = MCic für i = J, B. Die
+   Grenzkosten der Produktion von Eiscreme sind gleich dem Grenznutzen des
+   Individuums für dieses Gut.
+
+
+
+
+                                                                                     7/24
+                                   Bereitstellung öffentlicher Güter
+
+      Private Güter: Horizontales Aufsummieren
+Nachfrage Private Güter: Horizontales Aufsummieren
+
+
+
+
+          Source: Gruber (2019), p.190
+
+
+
+
+   Der Marktpreis ist für alle gleich, und jede Einheit kann nur von einem Nachfrager
+   konsumiert werden, daher werden für jeden möglichen Preis die individuell nachgefragten
+   Mengen addiert:     horizontales Aufsummieren.
+             Morath / Struwe                2.
+                                             () Marktversagen           Sommer 2023 32 / 54
+
+
+   SMB (social marginal benefit) ist der soziale Grenznutzen. Beim privaten Gut gilt
+               B
+   SMB = MRSic,m          J .
+                   = MRSic,m
+   S = SMC heisst, dass der angebotene Preis jeder Menge deren sozialen Grenzkosten
+   entspricht.
+
+                                                                                              8/24
+                       Bereitstellung öffentlicher Güter
+
+
+
+Nachfrage Private Güter: Horizontales Aufsummieren
+
+Wieso ist bei privaten Gütern der soziale Grenznutzen gleich der horizontalen Summe
+der individuellen Nachfragemengen?
+
+    Zwei private Güter: Eiscreme ic mit Preis pic und Geld m mit pm = 1.
+    Jede Einheit von Gut X kann nur von einem Individuum konsumiert werden (weil X
+    ein privates Gut ist).
+    Die Marktnachfrage für Eiscreme ist die horizontale Summe der individuellen
+    Nachfragemengen. Jeder Konsument fragt das Gut ic solange nach, bis
+         i
+    MRSic,m = pic für alle i (Bedingung für individuelle Nutzenmaximierung).
+    Dann zeigt die (inverse) Marktnachfrage die individuelle MRS, die zu jeder
+    Marktmenge (Summe der individuell Nachgefragten Mengen) gehört.
+    Also ist individuelle MRS i = SMB, dem sozialen Grenznutzen für eine gegebene
+    Menge.
+    Bei privaten Gütern ist der Preis für alle Individuen gleich, daher ist die MRS
+    für alle dieselbe, aber Individuen konsumieren unterschiedliche Mengen.
+
+                                                                                      9/24
+                      Bereitstellung öffentlicher Güter
+
+
+
+Öffentliche Güter: Optimale Bereitstellung
+
+   Bei öffentlichen Gütern reduziert Bens Konsum einer Einheit des öffentlichen Guts
+   nicht Jerrys Konsum derselben Einheit.
+   Nehmen wir Raketen (r) als öffentliches Gut. (Raketen stehen für Verteidigung)
+   MRSrB,m ist die Geldmenge m, die Ben bereit ist aufzugeben für eine Rakete.
+   MRSrJ,m ist die Geldmenge m, die Jerry bereit ist aufzugeben für eine Rakete.
+   Insgesamt ist die Gesellschaft (bestehend nur aus Ben und Jerry) bereit,
+   MRSrB,m + MRSrJ,m Einheiten Geld für eine Rakete auszugeben.
+   Der soziale Grenznutzen SMB für Raketen ergibt sich also aus der Summe der
+   einzelnen MRS bei gegebenem Preis:
+
+                                    SMB = MRSrB,m + MRSrJ,m
+
+   Samuelson-Regel: Soziale Effizienz wird erreicht, wenn die Grenzkosten des
+   öffentlichen Guts MCm gleich dem sozialen Grenznutzen, also
+
+                           MCm = SMBm = MRSrB,m + MRSrJ,m
+
+                                                                                    10/24
+                                Bereitstellung öffentlicher Güter
+
+
+                                                                                                 CHAPTER 7 ■ PUBLIC GOODS
+Nachfrage Öffentliche
+              7.1     Güter: Vertikales Aufsummieren
+                     Vertical Summation in the Public Goods Market
+                  Price of                           Ben’s marginal benefit
+                  missiles
+                         $2
+                         1
+                                                                                      DB
+                          0        1                                5                        Quantity of missiles
+                   Price of
+                   missiles                         Jerry’s marginal benefit
+                         $4
+
+                          2
+                                                                                        DJ
+                         0         1                                5                        Quantity of missiles
+                  Price of
+                  missiles
+                         $6
+                                                Social marginal benefit and cost
+                                                                                         S = SMC
+
+                          3
+
+                                                                                        DB&J = SMB
+                          0        1                                5                        Quantity of missiles
+                 Public Finance and Public Policy Jonathan Gruber Fourth Edition Copyright © 2012 Worth Publishers   10 of 28
+
+
+
+Samuelson-Regel: Die sozial effiziente Menge des öffentlichen Guts leitet sich aus der Bedingung
+MC gleich Summe der MRS ab: MC = SMB = ∑N      i =1 MRS
+                                                         i
+
+                                                                                                                                11/24
+                        Bereitstellung öffentlicher Güter
+
+
+
+Nachfrage Öffentliche Güter: Vertikales Aufsummieren
+
+
+
+Wieso ist bei öffentlichen Gütern der soziale Grenznutzen gleich der vertikalen Summe
+der individuellen Nachfragemengen?
+    Wir betrachten zwei Güter: öffentliches Gut Y mit pY und Geld m, mit pm = 1.
+    Die individuelle Nachfragekurve zeigt die individuelle MRS.
+    Aber jede Menge Y wird von allen Individuen konsumiert (weil Y ein öffentlichen
+    Gut ist).
+    Daher ist der soziale Grenznutzen = Summe aller MRS.
+    Dann ist die soziale Grenznutzenkurve gleich der vertikalen Summe der
+    individuellen Nachfragekurven.
+    Bei öffentlichen Gütern ist die konsumierte Menge für alle Individuen gleich,
+    aber die MRS ist unterschiedlich zwischen den Konsumenten.
+
+
+
+
+                                                                                      12/24
+     public goods; if air and waterBereitstellung
+                                    resources were     privateGüter
+                                                  öffentlicher goods, they could be traded
+     efficiently in a market. We will now show why inefficiencies can arise in the provision of
+     public goods.
+Optimale Bereitstellung von Gütern
+     Heterogeneity, Non-Rivalry and Market Failure
+   Erstes Wohlfartstheorem: Der vollständige Wettbewerb sorgt für eine
+    Consider Two Goods with Identical Aggregate Demand:
+   Pareto-effiziente Allokation von privaten Gütern.
+             • The first good is a private good, (i.e., Chicken Sandwiches)
+   Der Marktpreis     ist isalso
+        • The second good         eingood,
+                             a public  effizienter      Mechanismus
+                                           (i.e., Water Quality at Mono Lake)bei privaten Gütern.
+
+   Bei öffentlichen Gütern istFigure Marktpreis kein effizienter Mechanismus.
+                                der7.3
+   Marktmechanismus:
+         PRIVATE GOOD:
+                       privates Gut (links) vs. öffentliches Gut (rechts)
+                                         PUBLIC GOOD:
+      $
+    Price                                       $
+                                             Price
+                                                          D
+                                                          Dtaggreg
+
+
+
+
+                        DDtaggreg                     D2
+             D1   D2
+                                P=MC                                          MC
+
+
+                                              P2*    D1
+
+
+                                              P1*
+
+
+            Q1*   Q2*    Q*=Q1*+Q2*                          Q2        Q*
+                                          Quantity                                   Quantity
+
+
+   rechts:   Bei P=MC
+    Private Good: Notice thatwürde
+                             the marketKonsument           1 mechanism.
+                                        price is an efficient nichts nachfragen, und Konsument 2 nur
+   die Menge Q2, und Q2 < Q ∗ → Unterbereitstellung des öffentlichen Guts.
+                                                                                                       13/24
+                        Bereitstellung öffentlicher Güter
+
+
+
+Private Bereitstellung öffentlicher Güter
+
+    Private Bereitstellung eines öffentlichen Guts Y würde unter der Bedingung
+                                                                  pY
+    privater Grenznutzen = Grenzkosten (also MRSYXi = MC  MCX = pX für jedes
+                                                             Y
+
+
+    Individuum erfolgen.
+    Die effiziente Menge des öffentlichen Guts ist aber ∑i MRSYi ,xi > pY , d.h. das
+    Ergebnis ist dann nicht effizient, da der Nutzen jedes Einzelnen verbessert
+    werden könnte durch mehr Y.
+    Der soziale Grenznutzen des öffentlichen Guts ist höher als die Grenzkosten, d.h.
+    es wird zu wenig davon bereitgestellt. Individuelle Beiträge lassen sozialen Nutzen
+    unberücksichtigt. Die Wohlfahrt könnte gesteigert werden, indem mehr Raketen
+    bereitgestellt würden, und die Konsumenten dafür mehr vom privaten Gut (Geld)
+    aufgeben würden.
+    Trittbrettfahrerproblem (Free-rider Problem): Wenn eine Investition persönliche
+    Kosten hat, aber einen gemeinsamen Nutzen, dann investieren Individuen zu
+    wenig.
+    Durch das Trittbrettfahrerproblem stellt der (private) Markt eine ungenügende
+    Menge des öffentlichen Guts bereit.
+                                                                                       14/24
+                        Bereitstellung öffentlicher Güter
+
+
+
+Private Bereitstellung öffentlicher Güter: Beispiel
+
+    2 Individuen mit identischen Nutzenfunktionen über ein privates Gut X (cookies)
+    und ein öffentliches Gut F (Feuerwerk): Ui = 2 ln xi + ln F
+    Die Gesamtmenge an Feuerwerk F = F1 + F2 , wobei Fi der Beitrag von
+    Individuum i zum öffentlichen Gut ist.
+    pF /px = 1, also ist die Budgetrestriktion eines Individuums: xi + Fi = 100.
+    Individuum 1 maximiert seinen Nutzen, wobei F2 als gegeben betrachtet wird:
+
+                           max U1 = 2 ln(100 − F1 ) + ln(F1 + F2 )
+                             F1
+
+    FOC (notw. Bedingung für Nutzenmaximierung):            (Kettenregel!)
+                ∂U1       2          1                100 − 2F2
+                    =−          +         = 0 =⇒ F1 =
+                ∂F1    100 − F1   F1 + F2                 3
+    Reaktionsfunktion (Beste-Antwort-Funktion): Das optimale F1 sinkt mit
+    steigendem F2 aufgrund des Free-Rider-Problems.
+    Wegen Symmetrie gilt für Individuum 2: F2 = (100 − 2F1 )/3
+                                                                                      15/24
+                     Bereitstellung öffentlicher Güter
+
+
+
+Private Bereitstellung öffentlicher Güter: Beispiel
+                                          Private Provision of Public Good
+
+                          F2
+                                                 F1 best response
+
+                                                 F1 = (100 – 2*F2)/3
+                               50
+
+
+
+
+                                    0
+                                         Private100/3
+                                                  Provision of Public Good F1
+
+                         F2
+                                                 F1 best response
+                                                F1 = (100 – 2*F2)/3
+                              50
+
+
+                         100/3
+                                                                    F2 best response
+                                                                    F2 = (100 – 2*F1)/3
+
+
+                                    0          100/3      50                     F1
+
+
+                                                                                          16/24
+                       Bereitstellung öffentlicher Güter
+
+
+
+Private Bereitstellung öffentlicher Güter: Beispiel
+
+
+    Dann finden wir ein Nash-Gleichgewicht, wo die beiden Reaktionsfunktionen sich
+    schneiden:
+    F1 = 100− 3
+                2F2
+                    und F2 = 100− 2F1
+                                      , also haben wir
+                             3
+          100     2 100    2
+    F1 = 3 − 3 3 − 3 F1
+     =⇒ F1 = 20, F2 = 20, F = F1 + F2 = 40
+    und die individuell optimalen Mengen für das öffentliche Gut sind
+    F1 = F2 = 20. Es werden also F1 + F2 = 40 Einheiten Feuerwerk produziert.
+                                           Private Provision of Public Good
+
+                           F2
+                                                   F1 best response
+                                                   F1 = (100 – 2*F2)/3
+                                50
+
+                                                     Nash Equilibrium
+                           100/3
+
+                                20                                    F2 best response
+                                                                      F2 = (100 – 2*F1)/3
+
+
+                                     0     20    100/3      50                     F1
+
+
+                                                                                            17/24
+                       Bereitstellung öffentlicher Güter
+
+
+
+Private Bereitstellung öffentlicher Güter: Beispiel
+
+    Die Pareto-optimale Menge des öffentlichen Guts ist durch die
+    Samuelson-Bedingung ∑i MRSFi ,xi = pF /px gegeben.
+    Für Nutzenfunktion Ui = 2 ln xi + ln F haben wir
+                                    1         1                 2
+                          MUFi =       =             , MUxi i =
+                                    F     (F1 + F2 )            xi
+
+                                                    1/FMUFix
+                                MRSFi ,xi =     =        = i
+                                         MUxi i     2/xi  2F
+    Aus Budgetrestriktion ist xi = 100 − Fi , somit:
+
+                        x1 + x2   (100 − F1 ) + (100 − F2 )   200 − (F1 + F2 )
+         ⇒ ∑ MRS i =            =                           =
+             i
+                          2F                 2F                     2F
+    Pareto-optimale Menge: ⇒ ∑i MRS i = ppFx = 1:
+                          200 − F
+                                   = 1 ⇒ F = 200/3 = 66.6 > 40
+                            2F
+    Das heisst, die effiziente (Pareto-optimale) Menge von F ∗ = 66.6 ist höher als
+    die durch den Markt bereitgestellte Menge von F = 40 Einheiten des
+    öffentlichen Guts.
+                                                                                      18/24
+                       Bereitstellung öffentlicher Güter
+
+
+
+Kann das Free-Rider Problem gelöst werden?
+
+
+
+
+   Das Free-Rider Problem führt nicht dazu, dass überhaupt keine öffentlichen Güter
+   durch private Bereitstellung produziert werden. Es wird aber zu wenig davon
+   bereitgestellt.
+   Private Bereitstellung funktioniert besser, wenn
+       Manche Individuen eine besonders hohe Nachfrage nach dem öffentlichen Gut haben;
+       Wenn Individuen altruistisch sind, d.h. wenn sie das Wohlergehen der anderen bei ihrer
+       eigenen Entscheidung berücksichtigen;
+       Wenn Individuen nicht nur aus der Gesamtmenge des bereitgestellten öffentlichen Guts
+       einen Nutzen ziehen, sondern auch auch aus ihrem eigenen Beitrag dazu (warm glow).
+
+
+
+
+                                                                                            19/24
+                        Bereitstellung öffentlicher Güter
+
+
+
+Experimentelle Evidenz
+
+
+   Laborexperimente sind eine gute Möglichkeit, um ökonomische Theorien zu
+   testen.
+   Teilnehmer sitzen im Computerlab und spielen ein ökonomisches Spiel, wobei sie
+   am Ende im Verhältnis zu ihrem Erfolg in den Spielen bezahlt werden.
+   Es gibt eine sehr grosse Anzahl von Experimenten zu öffentlichen Gütern.
+   Beispiel (Marwell and Ames 1981):
+       10 Wiederholungen pro Spiel
+       In jedem Spiel: Gruppe von 5 Spielern, jeder mit 10 Tokens, die beliebig in privates Gut
+       und öffentliches Gut investiert werden.
+       Investition: 1 Token in privates Gut entspricht 1 Euro für den Teilnehmer. 1 Token in
+       öffentliches Gut entspricht 50 Cent für jedes der 5 Gruppenmitglieder.
+       N-Personen-Gefangenendilemma: dominante Strategie ist Investition aller 10 Token in
+       privates Gut, daher Nash-Gleichgewicht: kein Spieler investiert in öffentliches Gut.
+       Sozial effizient wäre es aber, wenn alle Gruppenmitglieder ihre 10 Token in das
+       öffentliche Gut investieren: dann erhält jeder 25 Euro (anstatt 10 Euro vom privaten
+       Gut).
+
+                                                                                              20/24
+                       Bereitstellung öffentlicher Güter
+
+
+
+Experimentelle Evidenz: Ergebnisse
+
+
+
+   Es werden im Durchschnitt 50% der Token in das öffentliche Gut investiert
+       Warum kooperieren Leute? In der Standardtheorie wird das nicht erwartet, da würden
+       alle das Nash-Gleichgeicht spielen und keine Kooperation stattfinden.
+       Menschen haben Kooperation durch die Evolution gelernt; Interaktion und
+       Kooperation auf vielen Ebenen (Familie, Freunde, Gemeinschaft...), es gibt
+       Fairness-Normen für Kooperation und die Bereitschaft, Nicht-Kooperierende zu
+       bestrafen (“altruistische Bestrafung”).
+       Fairness, relatives Standing (im Vergleich zu anderen), Altruismus etc. können die
+       Entscheidungen eines Individuums beeinflussen., d.h. Nutzenfunktion sollte solche
+       “sozialen Präferenzen” abbilden.
+       Neuere Ansätze siehe Fehr und Schmidt (1999), Bolton und Ockenfels (2000).
+
+   Investitionen in das öffentliche Gut fallen über die Zeit (Wiederholungen).
+   Erklärung: Viele Leute sind am Anfang zur Kooperation bereit, aber sie üben
+   Vergeltung, wenn andere dies ausnutzen. Kooperation bricht dann zusammen.
+
+
+
+                                                                                            21/24
+                        Bereitstellung öffentlicher Güter
+
+
+
+Private vs. Staatliche Bereitstellung öffentlicher Güter
+
+
+Problem der Unterbereitstellung: Was passiert, wenn der Staat die privat
+bereitgestellten Mengen des öffentlichen Guts erhöht?
+
+    Angenommen, der Staat zwingt jedes Individuum dazu, 5 Einheiten von F
+    bereitzustellen.
+    Dann ist F = F1 + F2 + 10, wobei Fi die freiwillige Bereitstellung von i ist.
+    Individuelles Nutzenmaximierungsproblem
+
+                   max Ui = 2 ln xi + ln(F1 + F2 + 10) s.t. xi + Fi = 95
+
+    .
+    Substitution der Budgetrestriktion für xi und Maximierung über Fi ergibt die
+    optimalen individuellen Mengen F1 = F2 = 15.
+    Das heisst, die erzwungenen Beiträge von 5 verdrängen genau dieselbe Menge
+    aus den optimalen privaten Beiträgen im vorherigen Modell mit ausschliesslich
+    freiwilligen Beiträgen.
+
+
+                                                                                    22/24
+                       Bereitstellung öffentlicher Güter
+
+
+
+Crowding out
+
+   Die Verdrängung privater Beiträge nennt man “crowding out” .
+   Wieso 1:1 Verdrängung? - Weil man das Problem umformulieren kann:
+   Fineu = Fi + 5. Dann ist das Optimierungsproblem für Fineu und das für Fi
+   äquivalent:
+
+         Ui = 2 ln xi + ln(F1neu + F2neu ) mit Budgetrestriktion xi + Fineu = 100
+
+   .
+   Steuerzahlung “ersetzt” freiwilligen privaten Betrag, also kein Effekt auf die
+   Gesamtmenge des öffentlichen Guts.
+   Staatliche Beiträge haben aber einen Effekt, wenn die optimale private
+   Bereitstellung Null beträgt (da keine negativen Mengen möglich sind, bleibt die
+   staatlich erzwungene Menge bestehen, und der Effekt insgesamt ist positiv).
+   In der Realität findet man meist ein “partial crowding out”, d.h. eine teilweise
+   Verdrängung, weil die Steuerfinanzierung auch Nicht-Beitragende einschliesst.
+   Eine vollständige staatliche Bereitstellung durch Steuerfinanzierung kann die
+   effiziente Menge ermöglichen und steigert insgesamt die Wohlfahrt der Individuen.
+                                                                                      23/24
+                        Bereitstellung öffentlicher Güter
+
+
+
+Schlussfolgerungen
+
+
+
+   Eine wichige Funktion von Regierungen auf allen Ebenen ist die Bereitstellung
+   öffentlicher Güter.
+   In manchen Fällen kann der private Sektor öffentliche Güter bereitstellen, aber im
+   allgemeinen wird durch private Bereitstellung nicht die optimale (Pareto-effiziente)
+   Menge erreicht.
+   Bei der privaten Unterbereitstellung kann durch Intervention des Staates
+   (öffentlicher Sektor) die Effizienz verbessert werden.
+   Ob am Ende die optimale Menge des öffenltichen Guts bereitgestellt wird, hängt
+   davon ab,
+       ob der Staat in der Lage ist, Kosten und Nutzen des öffentlichen Guts richtig
+       einzuschätzen;
+       ob der Staat die sozial effiziente Entscheidung auch durchführen kann.
+
+
+
+
+                                                                                       24/24
+
