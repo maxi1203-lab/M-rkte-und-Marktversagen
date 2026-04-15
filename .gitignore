@@ -1,0 +1,35 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# Office temp
+~$*
+.~lock.*
+
+# Python (falls mal Notebook/Scripts)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets / privat
+*.local
+.env
